@@ -26,22 +26,32 @@ class AzureContentAnalyzer:
         self.known_categories = self._load_category_mapping()
 
     def _load_category_mapping(self) -> Set[str]:
-        """Load existing category mapping or create new one"""
+        """Load existing category mapping and flatten it into a set of categories"""
         if self.categories_file.exists():
             with open(self.categories_file, 'r') as f:
-                return set(json.load(f))
+                mapping = json.load(f)
+                categories = set()
+                
+                # Process each main category and its subcategories
+                for category, subcategories in mapping.items():
+                    categories.add(category)  # Add main category
+                    
+                    # Add subcategories if they exist
+                    if isinstance(subcategories, list):
+                        # Skip 'General' subcategory as we'll use the parent category instead
+                        categories.update(subcat for subcat in subcategories if subcat != "General")
+                
+                return categories
         return set()
-
-    def _save_category_mapping(self):
-        """Save updated category mapping"""
-        self.categories_file.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.categories_file, 'w') as f:
-            json.dump(list(self.known_categories), f, indent=2)
 
     def analyze_content_batch(self, descriptions: List[Dict[str, str]]) -> List[Dict[str, any]]:
         """Extract speakers and categories from multiple video descriptions using Azure OpenAI."""
         batch_num = getattr(self, '_batch_counter', 0) + 1
         setattr(self, '_batch_counter', batch_num)
+        
+        if not self.known_categories:
+            self.logger.error("No categories available in mapping file. Cannot process videos.")
+            return [{'video_id': desc['video_id'], 'speakers': [], 'categories': []} for desc in descriptions]
         
         self.logger.info(f"Processing batch {batch_num}: {len(descriptions)} descriptions...")
         
@@ -52,13 +62,14 @@ class AzureContentAnalyzer:
                 response = self._get_ai_response(formatted_descriptions)
                 results = json.loads(response.choices[0].message.content)
                 
-                # Convert numbered results to list
+                # Convert numbered results to list and validate categories
                 numbered_results = []
                 for i in range(1, len(descriptions) + 1):
                     result = results.get(str(i), {'speakers': [], 'categories': []})
+                    # Filter out any categories not in the known set
+                    result['categories'] = [cat for cat in result['categories'] if cat in self.known_categories]
                     numbered_results.append(result)
                 
-                self._update_categories(numbered_results)
                 final_results = self._create_final_results(descriptions, numbered_results)
                 
                 self.logger.info(f"Successfully processed batch {batch_num}")
@@ -77,12 +88,20 @@ class AzureContentAnalyzer:
 
     def _create_analysis_prompt(self) -> str:
         """Create the prompt for content analysis"""
-        return """For each numbered YouTube video description below:
+        categories_list = sorted(list(self.known_categories))
+        if not categories_list:
+            self.logger.warning("No categories found in mapping file!")
+            return ""
+        
+        return """For each numbered YouTube video below:
         1. Identify the main speakers or participants (excluding moderators, hosts, or interviewers)
-        2. Assign 1-3 relevant categories from this evolving list (or suggest new ones if needed):
+        2. Assign 1-2 relevant categories ONLY from this fixed list:
         {known_categories}
 
-        Return the results as a JSON object with numbered keys matching the descriptions:
+        DO NOT create new categories - only use categories from the list above.
+        If no category fits, use "Other".
+
+        Return the results as a JSON object with numbered keys matching the videos:
         {{
             "1": {{
                 "speakers": ["name1", "name2"],
@@ -95,28 +114,31 @@ class AzureContentAnalyzer:
         }}
 
         Example:
+        Title 1: "Interview about Quantum Physics"
         Description 1: "In this episode, host John Smith interviews Dr. Jane Doe about quantum physics"
+        
+        Title 2: "Climate Change Discussion"
         Description 2: "Moderator Alice Brown leads a discussion with experts Bob Wilson and Carol Davis about climate change"
 
         Result:
         {{
             "1": {{
                 "speakers": ["Jane Doe"],
-                "categories": ["Science", "Physics"]
+                "categories": ["Science"]
             }},
             "2": {{
                 "speakers": ["Bob Wilson", "Carol Davis"],
-                "categories": ["Environment", "Climate Change"]
+                "categories": ["Environment"]
             }}
         }}
 
-        Here are the descriptions to analyze:
+        Here are the videos to analyze:
         {descriptions}"""
 
     def _format_descriptions(self, descriptions: List[Dict[str, str]]) -> str:
         """Format descriptions for the prompt"""
         return "\n\n".join(
-            f"{i+1}. {desc['description']}" 
+            f"{i+1}. Title: {desc['title']}\nDescription: {desc['description']}" 
             for i, desc in enumerate(descriptions)
         )
 
@@ -138,12 +160,6 @@ class AzureContentAnalyzer:
             max_tokens=1000,
             response_format={"type": "json_object"}
         )
-
-    def _update_categories(self, results: List[Dict]):
-        """Update and save known categories"""
-        for item in results:
-            self.known_categories.update(item['categories'])
-        self._save_category_mapping()
 
     def _create_final_results(self, descriptions: List[Dict[str, str]], results: List[Dict]) -> List[Dict]:
         """Create final results with video IDs"""

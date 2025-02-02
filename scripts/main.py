@@ -12,6 +12,7 @@ sys.path.append(project_root)
 
 from src.youtube.analyzer import YouTubeAnalyzer
 from src.utils.config import API_KEY
+from src.utils.markmap_generator import MarkmapGenerator
 
 def setup_logging():
     """Configure logging for both console and file output"""
@@ -105,6 +106,11 @@ def main():
         video_data = prepare_video_data(videos)
         speaker_stats = prepare_speaker_stats(videos)
         
+        # Generate and save markmap data
+        markmap_generator = MarkmapGenerator()
+        markmap_content = markmap_generator.generate_markmap(video_data)
+        markmap_generator.save_markmap(markmap_content, 'videos_markmap.md', data_dir)
+        
         save_json_data(video_data, 'videos.json', data_dir)
         save_json_data(speaker_stats, 'speaker_stats.json', data_dir)
         
@@ -114,7 +120,7 @@ def main():
         elapsed_time = time.time() - start_time
         logger.info(f"Analysis completed in {elapsed_time:.2f} seconds")
         logger.info(f"Total videos processed: {len(videos)}")
-        logger.info(f"Results saved to videos.json and speaker_stats.json")
+        logger.info(f"Results saved to videos.json, speaker_stats.json, and videos_markmap.md")
 
 if __name__ == "__main__":
     main() 

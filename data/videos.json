@@ -1,15 +1,14 @@
 [
   {
     "title": "Replicating Business Central data to Microsoft Dataverse (former CDS)",
-    "views": 6671,
+    "views": 6672,
     "url": "https://youtube.com/watch?v=mNgx1d7TAXQ",
     "speakers": [
       "Andrey Baludin"
     ],
     "categories": [
-      "Business Central",
-      "Dataverse",
-      "Integration"
+      "Power Platform",
+      "Dataverse"
     ]
   },
   {
@@ -20,9 +19,8 @@
       "Stefano Demiliani"
     ],
     "categories": [
-      "ERP",
-      "Integration",
-      "Cloud"
+      "AL",
+      "Azure"
     ]
   },
   {
@@ -33,9 +31,8 @@
       "Bert Verbeek"
     ],
     "categories": [
-      "Business Central",
-      "Azure",
-      "Power BI"
+      "Fabric",
+      "Data Analysis"
     ]
   },
   {
@@ -46,9 +43,7 @@
       "Arend-Jan Kauffman"
     ],
     "categories": [
-      "AL",
-      "Software Development",
-      "XML"
+      "AL"
     ]
   },
   {
@@ -59,9 +54,7 @@
       "Arend-Jan Kauffmann"
     ],
     "categories": [
-      "API",
-      "Azure",
-      "Business Central"
+      "API"
     ]
   },
   {
@@ -72,9 +65,7 @@
       "Tobias Fenster"
     ],
     "categories": [
-      "Azure",
-      "Business Central",
-      "API"
+      "Azure"
     ]
   },
   {
@@ -85,9 +76,7 @@
       "Stefano Demiliani"
     ],
     "categories": [
-      "Azure",
-      "Business Central",
-      "Cloud"
+      "Azure"
     ]
   },
   {
@@ -98,8 +87,7 @@
       "Arend-Jan Kauffmann"
     ],
     "categories": [
-      "API",
-      "Business Central"
+      "API"
     ]
   },
   {
@@ -110,8 +98,7 @@
       "Tobias Fenster"
     ],
     "categories": [
-      "Azure DevOps",
-      "Functional"
+      "DevOps"
     ]
   },
   {
@@ -122,9 +109,7 @@
       "Josh Anglesea"
     ],
     "categories": [
-      "Power Apps",
-      "Integration",
-      "Business Central"
+      "Power Platform"
     ]
   },
   {
@@ -135,8 +120,7 @@
       "Dmitry Katson"
     ],
     "categories": [
-      "GitHub",
-      "Business Central",
+      "AL",
       "AI"
     ]
   },
@@ -148,9 +132,8 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "Software Testing",
-      "API",
-      "Business Central"
+      "Test Automation",
+      "API"
     ]
   },
   {
@@ -161,9 +144,8 @@
       "Bert Verbeek"
     ],
     "categories": [
-      "Business Central",
-      "Cloud",
-      "Data Integration"
+      "Data Analysis",
+      "Fabric"
     ]
   },
   {
@@ -174,10 +156,8 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "Software Testing",
-      "Automation",
-      "Business Central",
-      "Functional"
+      "Functional",
+      "Test Automation"
     ]
   },
   {
@@ -189,8 +169,7 @@
       "Arend-Jan Kauffmann"
     ],
     "categories": [
-      "Business Central",
-      "Software Development"
+      "Other"
     ]
   },
   {
@@ -199,9 +178,7 @@
     "url": "https://youtube.com/watch?v=VwCfWjimn78",
     "speakers": [],
     "categories": [
-      "DevOps",
-      "Azure DevOps",
-      "Automation"
+      "DevOps"
     ]
   },
   {
@@ -214,9 +191,7 @@
       "David Feldhoff"
     ],
     "categories": [
-      "VSCode",
-      "AL",
-      "Software Development"
+      "VSCode"
     ]
   },
   {
@@ -227,9 +202,7 @@
       "Josh Anglesea"
     ],
     "categories": [
-      "Power Platform",
-      "Business Central",
-      "Low Code"
+      "Power Platform"
     ]
   },
   {
@@ -242,9 +215,7 @@
       "Christoph Krieg"
     ],
     "categories": [
-      "VSCode",
-      "AL",
-      "Business Central"
+      "VSCode"
     ]
   },
   {
@@ -255,8 +226,7 @@
       "Kristen Hosman"
     ],
     "categories": [
-      "Business Central",
-      "ERP"
+      "Functional"
     ]
   },
   {
@@ -267,9 +237,7 @@
       "Krzysztof Bialowas"
     ],
     "categories": [
-      "Telemetry",
-      "Business Central",
-      "Power BI"
+      "Telemetry"
     ]
   },
   {
@@ -280,8 +248,7 @@
       "Dmitry Katson"
     ],
     "categories": [
-      "Business Central",
-      "Software Development"
+      "AL"
     ]
   },
   {
@@ -292,9 +259,7 @@
       "Freddy Kristiansen"
     ],
     "categories": [
-      "GitHub",
-      "Azure DevOps",
-      "AL"
+      "DevOps"
     ]
   },
   {
@@ -306,9 +271,7 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "Business Central",
-      "Software Development",
-      "Automation"
+      "Test Automation"
     ]
   },
   {
@@ -319,9 +282,7 @@
       "Dmitry Katson"
     ],
     "categories": [
-      "AI",
-      "Azure",
-      "User Interface"
+      "AI"
     ]
   },
   {
@@ -332,11 +293,7 @@
       "waldo"
     ],
     "categories": [
-      "Business Central",
-      "VSCode",
-      "Docker",
-      "Telemetry",
-      "DevOps"
+      "VSCode"
     ]
   },
   {
@@ -347,11 +304,7 @@
       "Gabor Faludi"
     ],
     "categories": [
-      "Business Central",
-      "Low Code",
-      "Dataverse",
-      "API",
-      "VSCode"
+      "Power Platform"
     ]
   },
   {
@@ -363,7 +316,7 @@
     ],
     "categories": [
       "AL",
-      "Functional"
+      "Architecture"
     ]
   },
   {
@@ -375,8 +328,7 @@
     ],
     "categories": [
       "DevOps",
-      "Software Development",
-      "Cloud"
+      "Other"
     ]
   },
   {
@@ -389,9 +341,7 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "Cloud Migration",
-      "VSCode",
-      "Business Central"
+      "Migration"
     ]
   },
   {
@@ -402,9 +352,7 @@
       "Christoph Krieg"
     ],
     "categories": [
-      "Docker",
-      "Azure DevOps",
-      "Business Central"
+      "DevOps"
     ]
   },
   {
@@ -415,8 +363,7 @@
       "Michael Nielsen"
     ],
     "categories": [
-      "Business Central",
-      "Source Control"
+      "DevOps"
     ]
   },
   {
@@ -427,9 +374,7 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "Business Central",
-      "Cloud Migration",
-      "AL"
+      "Migration"
     ]
   },
   {
@@ -440,9 +385,8 @@
       "Steven Renders"
     ],
     "categories": [
-      "Power BI",
-      "API",
-      "VSCode"
+      "Data Analysis",
+      "Functional"
     ]
   },
   {
@@ -454,8 +398,7 @@
     ],
     "categories": [
       "Azure",
-      "Docker",
-      "Business Central"
+      "DevOps"
     ]
   },
   {
@@ -467,9 +410,8 @@
       "Renato Fajdiga"
     ],
     "categories": [
-      "Power BI",
-      "Business Central",
-      "Performance"
+      "Data Analysis",
+      "Functional"
     ]
   },
   {
@@ -480,9 +422,7 @@
       "Kamil Sacek"
     ],
     "categories": [
-      "Software Architecture",
-      "SOLID Principles",
-      "Software Development"
+      "Architecture"
     ]
   },
   {
@@ -493,9 +433,8 @@
       "Vjekoslav Babic"
     ],
     "categories": [
-      "Software Testing",
-      "AL",
-      "Software Development"
+      "Test Automation",
+      "Architecture"
     ]
   },
   {
@@ -508,8 +447,7 @@
       "Yuriy Popov"
     ],
     "categories": [
-      "Business Central",
-      "Requirements"
+      "Other"
     ]
   },
   {
@@ -520,8 +458,8 @@
       "Jan Veenendaal"
     ],
     "categories": [
-      "User Interface",
-      "Business Central"
+      "AL",
+      "Functional"
     ]
   },
   {
@@ -532,9 +470,7 @@
       "Arend-Jan Kauffmann"
     ],
     "categories": [
-      "API",
-      "AL",
-      "Software Development"
+      "API"
     ]
   },
   {
@@ -547,9 +483,7 @@
       "Rasmus Aaen"
     ],
     "categories": [
-      "VSCode",
-      "AL",
-      "Business Central"
+      "VSCode"
     ]
   },
   {
@@ -560,8 +494,7 @@
       "waldo"
     ],
     "categories": [
-      "AL",
-      "Requirements"
+      "AL"
     ]
   },
   {
@@ -572,9 +505,8 @@
       "Arend-Jan Kauffmann"
     ],
     "categories": [
-      "VSCode",
       "API",
-      "Software Development"
+      "Test Automation"
     ]
   },
   {
@@ -586,8 +518,7 @@
     ],
     "categories": [
       "AL",
-      "Software Development",
-      "Software Architecture"
+      "Architecture"
     ]
   },
   {
@@ -598,9 +529,7 @@
       "Kennie Pontoppidan"
     ],
     "categories": [
-      "Telemetry",
-      "Power BI",
-      "SaaS"
+      "Telemetry"
     ]
   },
   {
@@ -612,9 +541,7 @@
       "Tobias Fenster"
     ],
     "categories": [
-      "Azure DevOps",
-      "GitHub",
-      "Docker"
+      "DevOps"
     ]
   },
   {
@@ -626,8 +553,7 @@
       "Marton Sagi"
     ],
     "categories": [
-      "VSCode",
-      "AL"
+      "VSCode"
     ]
   },
   {
@@ -638,8 +564,6 @@
       "Krzysztof Bialowas"
     ],
     "categories": [
-      "Business Central",
-      "Azure",
       "AL"
     ]
   },
@@ -651,7 +575,6 @@
       "Steve Endow"
     ],
     "categories": [
-      "Business Central",
       "AL"
     ]
   },
@@ -663,10 +586,7 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "AL",
-      "Software Testing",
-      "Automation",
-      "Software Development"
+      "Test Automation"
     ]
   },
   {
@@ -677,9 +597,7 @@
       "waldo"
     ],
     "categories": [
-      "Telemetry",
-      "Software Testing",
-      "GitHub"
+      "Telemetry"
     ]
   },
   {
@@ -690,8 +608,7 @@
       "Jeremy Vyska"
     ],
     "categories": [
-      "VSCode",
-      "Functional"
+      "VSCode"
     ]
   },
   {
@@ -703,9 +620,7 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "Software Testing",
-      "Automation",
-      "Business Central"
+      "Test Automation"
     ]
   },
   {
@@ -716,9 +631,7 @@
       "Milan Milinčević"
     ],
     "categories": [
-      "Performance",
-      "Software Development",
-      "Business Central"
+      "AL"
     ]
   },
   {
@@ -729,9 +642,8 @@
       "Tobias Fenster"
     ],
     "categories": [
-      "Docker",
-      "Business Central",
-      "Azure"
+      "Azure",
+      "DevOps"
     ]
   },
   {
@@ -742,8 +654,7 @@
       "David Feldhoff"
     ],
     "categories": [
-      "VSCode",
-      "User Interface"
+      "VSCode"
     ]
   },
   {
@@ -754,9 +665,7 @@
       "Tine Starič"
     ],
     "categories": [
-      "Software Development",
-      "Business Central",
-      "Automation"
+      "VSCode"
     ]
   },
   {
@@ -767,9 +676,8 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "AL",
-      "Software Testing",
-      "Requirements"
+      "Requirements",
+      "Test Automation"
     ]
   },
   {
@@ -780,9 +688,7 @@
       "Arend-Jan Kauffmann"
     ],
     "categories": [
-      "AL",
-      "API",
-      "Power Platform"
+      "API"
     ]
   },
   {
@@ -794,8 +700,7 @@
     ],
     "categories": [
       "AL",
-      "GitHub",
-      "Software Testing"
+      "VSCode"
     ]
   },
   {
@@ -806,9 +711,7 @@
       "Andrzej Zwierzchowski"
     ],
     "categories": [
-      "AL",
-      "Software Development",
-      "Software Architecture"
+      "Architecture"
     ]
   },
   {
@@ -819,9 +722,7 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "Software Testing",
-      "AL",
-      "Business Central"
+      "Test Automation"
     ]
   },
   {
@@ -832,8 +733,6 @@
       "Dmitry Katson"
     ],
     "categories": [
-      "Documentation",
-      "GitHub",
       "AI"
     ]
   },
@@ -845,11 +744,7 @@
       "Duilio Tacconi"
     ],
     "categories": [
-      "Azure",
-      "Telemetry",
-      "SQL",
-      "Cloud",
-      "Performance"
+      "Telemetry"
     ]
   },
   {
@@ -860,8 +755,7 @@
       "David Feldhoff"
     ],
     "categories": [
-      "Software Development",
-      "VSCode"
+      "Other"
     ]
   },
   {
@@ -873,9 +767,7 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "Software Testing",
-      "SOLID Principles",
-      "Software Development"
+      "Test Automation"
     ]
   },
   {
@@ -886,9 +778,7 @@
       "David Singleton"
     ],
     "categories": [
-      "Business Central",
-      "SaaS",
-      "Project Management"
+      "Migration"
     ]
   },
   {
@@ -899,8 +789,6 @@
       "Tine Starič"
     ],
     "categories": [
-      "AL",
-      "Functional",
       "API"
     ]
   },
@@ -912,9 +800,8 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "Functional",
-      "Software Testing",
-      "Requirements"
+      "Test Automation",
+      "Functional"
     ]
   },
   {
@@ -926,8 +813,7 @@
     ],
     "categories": [
       "AI",
-      "Cloud",
-      "Software Development"
+      "Other"
     ]
   },
   {
@@ -939,8 +825,7 @@
     ],
     "categories": [
       "AI",
-      "Functional",
-      "Azure"
+      "Functional"
     ]
   },
   {
@@ -952,10 +837,7 @@
     ],
     "categories": [
       "Azure",
-      "Cloud",
-      "Business Central",
-      "Infrastructure as Code",
-      "Docker"
+      "DevOps"
     ]
   },
   {
@@ -966,9 +848,7 @@
       "Kamil Sacek"
     ],
     "categories": [
-      "Functional",
-      "Requirements",
-      "Azure DevOps"
+      "DevOps"
     ]
   },
   {
@@ -980,8 +860,8 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "Software Testing",
-      "Automation"
+      "Test Automation",
+      "Functional"
     ]
   },
   {
@@ -992,8 +872,7 @@
       "Olaf Jorritsma"
     ],
     "categories": [
-      "Software Testing",
-      "Business Central"
+      "Test Automation"
     ]
   },
   {
@@ -1004,9 +883,7 @@
       "Martin Oomen"
     ],
     "categories": [
-      "Business Central",
-      "Software Development",
-      "Events"
+      "Architecture"
     ]
   },
   {
@@ -1017,9 +894,7 @@
       "Stefano Demiliani"
     ],
     "categories": [
-      "Low Code",
-      "Azure",
-      "Business Central"
+      "Azure"
     ]
   },
   {
@@ -1030,9 +905,7 @@
       "Christian Bräunlich"
     ],
     "categories": [
-      "AL",
-      "Software Architecture",
-      "Business Central"
+      "Architecture"
     ]
   },
   {
@@ -1043,8 +916,6 @@
       "Shannon Mullins"
     ],
     "categories": [
-      "Business Central",
-      "Automation",
       "Power Platform"
     ]
   },
@@ -1057,9 +928,7 @@
       "Stefan Maron"
     ],
     "categories": [
-      "AL",
-      "Automation",
-      "DevOps"
+      "VSCode"
     ]
   },
   {
@@ -1070,9 +939,8 @@
       "Stefan Strube"
     ],
     "categories": [
-      "Dataverse",
       "Power Platform",
-      "ERP"
+      "Dataverse"
     ]
   },
   {
@@ -1083,8 +951,7 @@
       "Peter"
     ],
     "categories": [
-      "Software Testing",
-      "AL"
+      "Test Automation"
     ]
   },
   {
@@ -1095,9 +962,7 @@
       "Xavi Ametller Serrat"
     ],
     "categories": [
-      "Software Testing",
-      "Automation",
-      "Software Development"
+      "Test Automation"
     ]
   },
   {
@@ -1109,8 +974,7 @@
       "James Pearson"
     ],
     "categories": [
-      "Business Central",
-      "SaaS"
+      "Functional"
     ]
   },
   {
@@ -1121,20 +985,18 @@
       "Henrik Helgesen"
     ],
     "categories": [
-      "User Interface",
-      "Business Central"
+      "Functional"
     ]
   },
   {
-    "title": "20200414  - Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft",
+    "title": "Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft",
     "views": 183,
     "url": "https://youtube.com/watch?v=aZbxderFq6s",
     "speakers": [
       "Jon Long"
     ],
     "categories": [
-      "Business Central",
-      "Requirements"
+      "Migration"
     ]
   },
   {
@@ -1145,8 +1007,7 @@
       "Luc van Vugt"
     ],
     "categories": [
-      "Software Testing",
-      "SQL"
+      "Test Automation"
     ]
   },
   {
@@ -1157,9 +1018,7 @@
       "Andrzej Zwierzchowski"
     ],
     "categories": [
-      "AI",
-      "Azure",
-      "Software Development"
+      "AI"
     ]
   },
   {
@@ -1170,9 +1029,7 @@
       "Krzysztof Bialowas"
     ],
     "categories": [
-      "Software Development",
-      "Automation",
-      "Business Central"
+      "Functional"
     ]
   },
   {
@@ -1183,9 +1040,7 @@
       "Dmitry Katson"
     ],
     "categories": [
-      "Python",
-      "Azure",
-      "Business Central"
+      "Other"
     ]
   },
   {
@@ -1196,21 +1051,19 @@
       "David Feldhoff"
     ],
     "categories": [
-      "API",
-      "AL"
+      "VSCode"
     ]
   },
   {
-    "title": "20200331   Our road to SaaS @ Schouw Informatisering",
+    "title": "Our road to SaaS @ Schouw Informatisering",
     "views": 159,
     "url": "https://youtube.com/watch?v=OIuOmGcZoy4",
     "speakers": [
       "Danny Hellemons"
     ],
     "categories": [
-      "Azure DevOps",
-      "Power Platform",
-      "Business Central"
+      "Other",
+      "Functional"
     ]
   },
   {
@@ -1221,9 +1074,7 @@
       "José Miguel Azevedo"
     ],
     "categories": [
-      "ERP",
-      "Business Central",
-      "Project Management"
+      "Other"
     ]
   },
   {
@@ -1234,9 +1085,7 @@
       "Bartosz Rudzinski"
     ],
     "categories": [
-      "Power Apps",
-      "Business Central",
-      "Software Development"
+      "Power Platform"
     ]
   },
   {
@@ -1248,9 +1097,7 @@
       "Johan Knops"
     ],
     "categories": [
-      "Business Central",
-      "Azure",
-      "API"
+      "Other"
     ]
   },
   {
@@ -1261,8 +1108,7 @@
       "Maarten Pouwels"
     ],
     "categories": [
-      "Azure",
-      "Cloud Migration"
+      "Migration"
     ]
   },
   {
@@ -1274,9 +1120,7 @@
       "Tobias Fenster"
     ],
     "categories": [
-      "Azure DevOps",
-      "Docker",
-      "GitHub"
+      "DevOps"
     ]
   }
 ]

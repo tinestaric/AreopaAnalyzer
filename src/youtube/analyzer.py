@@ -104,7 +104,8 @@ class YouTubeAnalyzer:
         for video in videos:
             current_batch.append({
                 'video_id': video['id'],
-                'description': video['snippet']['description']
+                'description': video['snippet']['description'],
+                'title': video['snippet']['title']  # Add title to the batch
             })
             
             if len(current_batch) >= self.content_analyzer.batch_size:
