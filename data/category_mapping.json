@@ -15,12 +15,11 @@
     ],
     "Functional": [
         "General",
-
         "Requirements",
         "Data Analysis"
     ],
     "Power Platform": [],
-    "VSCode": [],
+    "VSCode": ["AL Extensions", "Other"],
     "DevOps": [],
     "Migration": [],
     "Other": []  

@@ -189,7 +189,7 @@
       "David Feldhoff"
     ],
     "categories": [
-      "VSCode"
+      "AL Extensions"
     ]
   },
   {
@@ -213,7 +213,7 @@
       "Christoph Krieg"
     ],
     "categories": [
-      "VSCode"
+      "AL Extensions"
     ]
   },
   {
@@ -325,8 +325,7 @@
       "waldo"
     ],
     "categories": [
-      "DevOps",
-      "Other"
+      "DevOps"
     ]
   },
   {
@@ -481,7 +480,7 @@
       "Rasmus Aaen"
     ],
     "categories": [
-      "VSCode"
+      "AL Extensions"
     ]
   },
   {
@@ -551,7 +550,7 @@
       "Marton Sagi"
     ],
     "categories": [
-      "VSCode"
+      "AL Extensions"
     ]
   },
   {
@@ -810,8 +809,7 @@
       "AJ Ansari"
     ],
     "categories": [
-      "AI",
-      "Other"
+      "AI"
     ]
   },
   {
@@ -1060,7 +1058,6 @@
       "Danny Hellemons"
     ],
     "categories": [
-      "Other",
       "Functional"
     ]
   },

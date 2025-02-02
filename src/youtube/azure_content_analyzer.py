@@ -38,8 +38,9 @@ class AzureContentAnalyzer:
                     
                     # Add subcategories if they exist
                     if isinstance(subcategories, list):
-                        # Skip 'General' subcategory as we'll use the parent category instead
-                        categories.update(subcat for subcat in subcategories if subcat != "General")
+                        # Skip 'General' and 'Other' subcategories as we'll use the parent category instead
+                        categories.update(subcat for subcat in subcategories 
+                                       if subcat not in ["General", "Other"])
                 
                 return categories
         return set()

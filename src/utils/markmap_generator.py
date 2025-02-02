@@ -16,16 +16,16 @@ class MarkmapGenerator:
         lines.append("#" * level + f" {category_prefix}{category}")
         
         # Add videos for this category
-        if category == "General" and parent_category:
-            # For "General" under parent categories, only include videos that have parent tag but no other subcategory tags
-            subcategories = set(self.hierarchy[parent_category]) - {"General"}
+        if (category in ["General", "Other"]) and parent_category:
+            # For "General" or "Other" under parent categories, only include videos that have parent tag but no other subcategory tags
+            subcategories = set(self.hierarchy[parent_category]) - {"General", "Other"}
             category_videos = [
                 v for v in videos 
                 if parent_category in v.get('categories', []) and 
                 not any(subcat in v.get('categories', []) for subcat in subcategories)
             ]
-        elif category in self.hierarchy and isinstance(self.hierarchy[category], list) and "General" in self.hierarchy[category]:
-            # For main categories that have a General subcategory, don't show videos here
+        elif category in self.hierarchy and isinstance(self.hierarchy[category], list) and any(sub in ["General", "Other"] for sub in self.hierarchy[category]):
+            # For main categories that have a General or Other subcategory, don't show videos here
             category_videos = []
         else:
             category_videos = [v for v in videos if category in v.get('categories', [])]
