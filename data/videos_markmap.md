@@ -1,3 +1,11 @@
+---
+markmap:
+  initialExpandLevel: 2
+  colorFreezeLevel: 3
+  duration: 1000
+  spacingVertical: 10
+---
+
 # [Areopa Webinars](https://areopa.academy/)
 
 ## 1. AI

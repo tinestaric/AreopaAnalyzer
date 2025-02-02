@@ -40,8 +40,19 @@ class MarkmapGenerator:
 
     def generate_markmap(self, videos: List[dict]) -> str:
         """Generate markmap-friendly markdown content"""
-        # Start with the root topic with link to areopa.academy
-        content = ["# [Areopa Webinars](https://areopa.academy/)\n"]
+        # Start with markmap options
+        content = [
+            "---",
+            "markmap:",
+            "  initialExpandLevel: 2",
+            "  colorFreezeLevel: 3",
+            "  duration: 1000",
+            "  spacingVertical: 10",
+            "---\n"
+        ]
+        
+        # Add the root topic with link to areopa.academy
+        content.append("# [Areopa Webinars](https://areopa.academy/)\n")
         
         # Generate content for each top-level category
         for i, (category, subcategories) in enumerate(self.hierarchy.items(), 1):
