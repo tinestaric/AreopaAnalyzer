@@ -87,10 +87,8 @@
 ### 4.2. Requirements
 #### 4.2.1. [My requirements specification - all facing the same direction](https://youtube.com/watch?v=TchUOb76uRs)
 ### 4.3. Data Analysis
-#### 4.3.1. [Sync your Business Central data with Azure Data Lake](https://youtube.com/watch?v=Fjz9LgviV2Q)
-#### 4.3.2. [How to export large data from Business Central to MS Fabric](https://youtube.com/watch?v=sXZkrFtN5oc)
-#### 4.3.3. [Why are dataflows so interesting for Power BI and Business Central](https://youtube.com/watch?v=N3g49PMuJCc)
-#### 4.3.4. [Power BI and Business Central Deep Dive, Tips and Tricks](https://youtube.com/watch?v=eVVSUa5l4kE)
+#### 4.3.1. [Why are dataflows so interesting for Power BI and Business Central](https://youtube.com/watch?v=N3g49PMuJCc)
+#### 4.3.2. [Power BI and Business Central Deep Dive, Tips and Tricks](https://youtube.com/watch?v=eVVSUa5l4kE)
 ## 5. Power Platform
 ### 5.1. [Replicating Business Central data to Microsoft Dataverse (former CDS)](https://youtube.com/watch?v=mNgx1d7TAXQ)
 ### 5.2. [Create a Custom BC Connector for Power Automate](https://youtube.com/watch?v=6VUNCVKCwM4)
@@ -109,7 +107,7 @@
 ### 6.7. [How to develop VS Code Extensions](https://youtube.com/watch?v=VMqDaVqob6I)
 ### 6.8. [Automating Code Quality - A Guide to Using Custom Code Analysis for AL](https://youtube.com/watch?v=U0W1MhNNwWI)
 ### 6.9. [Automated code refactoring transforming old solutions and improving code quality](https://youtube.com/watch?v=M5U7iyK9kCw)
-### 6.10. [20250106  - Why should I use a custom code analyzer?](https://youtube.com/watch?v=BP6eWM6iLd0)
+### 6.10. [Why should I use a custom code analyzer?](https://youtube.com/watch?v=BP6eWM6iLd0)
 ### 6.11. [Unleash extension possibilities by interacting with other extensions](https://youtube.com/watch?v=xUrUdbecDUI)
 ## 7. DevOps
 ### 7.1. [Automating and extending Azure DevOps](https://youtube.com/watch?v=B5MGP2coXQI)
