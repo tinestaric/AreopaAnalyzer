@@ -154,6 +154,42 @@
       ]
     },
     {
+      "name": "waldo",
+      "appearances": 6,
+      "videos": [        
+        {
+          "title": "What's new in Business Central 2020 Wave 1 YouTube",
+          "url": "https://youtube.com/watch?v=VDhgV67EG4U",
+          "views": 1433
+        },
+        {
+          "title": "\"The\" BC Toolkit for developers",
+          "url": "https://youtube.com/watch?v=WDd8heDU8es",
+          "views": 845
+        },
+        {
+          "title": "A day in the life of an iFacto Developer",
+          "url": "https://youtube.com/watch?v=8fAQIOhMXO4",
+          "views": 760
+        },
+        {
+          "title": "VS Code AL Extensions - 2",
+          "url": "https://youtube.com/watch?v=GJa9hh-MejE",
+          "views": 515
+        },
+        {
+          "title": "AL Patterns & Guidelines",
+          "url": "https://youtube.com/watch?v=y6J7haVJwDM",
+          "views": 491
+        },
+        {
+          "title": "The less familiar performance tooling",
+          "url": "https://youtube.com/watch?v=_V0hepCRrkA",
+          "views": 384
+        }       
+      ]
+    },    
+    {
       "name": "Dmitry Katson",
       "appearances": 5,
       "videos": [
@@ -234,42 +270,6 @@
           "url": "https://youtube.com/watch?v=xUrUdbecDUI",
           "views": 169
         }
-      ]
-    },
-    {
-      "name": "waldo",
-      "appearances": 4,
-      "videos": [        
-        {
-          "title": "What's new in Business Central 2020 Wave 1 YouTube",
-          "url": "https://youtube.com/watch?v=VDhgV67EG4U",
-          "views": 1433
-        },
-        {
-          "title": "\"The\" BC Toolkit for developers",
-          "url": "https://youtube.com/watch?v=WDd8heDU8es",
-          "views": 845
-        },
-        {
-          "title": "A day in the life of an iFacto Developer",
-          "url": "https://youtube.com/watch?v=8fAQIOhMXO4",
-          "views": 760
-        },
-        {
-          "title": "VS Code AL Extensions - 2",
-          "url": "https://youtube.com/watch?v=GJa9hh-MejE",
-          "views": 515
-        },
-        {
-          "title": "AL Patterns & Guidelines",
-          "url": "https://youtube.com/watch?v=y6J7haVJwDM",
-          "views": 491
-        },
-        {
-          "title": "The less familiar performance tooling",
-          "url": "https://youtube.com/watch?v=_V0hepCRrkA",
-          "views": 384
-        }       
       ]
     },
     {
