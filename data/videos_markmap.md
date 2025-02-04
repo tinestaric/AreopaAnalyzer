@@ -24,7 +24,7 @@ markmap:
 #### 2.1.5. [Business Central's user interface is changing - align your app](https://youtube.com/watch?v=6uexvSpghtI)
 #### 2.1.6. [AL Patterns & Guidelines](https://youtube.com/watch?v=y6J7haVJwDM)
 #### 2.1.7. [System App in Examples](https://youtube.com/watch?v=zfzvqBf6oCs)
-#### 2.1.8. [Learning BC Development from Scratch -  How Do You Get Started](https://youtube.com/watch?v=tqHRAwfYAWY)
+#### 2.1.8. [Learning BC Development from Scratch - How Do You Get Started](https://youtube.com/watch?v=tqHRAwfYAWY)
 #### 2.1.9. [Techniques for optimizing Dynamics 365 Business Central](https://youtube.com/watch?v=Pmbuqg4JPl0)
 #### 2.1.10. [Automated code refactoring transforming old solutions and improving code quality](https://youtube.com/watch?v=M5U7iyK9kCw)
 ### 2.2. Telemetry
@@ -145,3 +145,4 @@ markmap:
 ### 9.4. [How to get Insights from Business Central without Excel](https://youtube.com/watch?v=qPTOLaZ5MwY)
 ### 9.5. [How building a swimming pool taught me so many tips for implementing Dynamics 365](https://youtube.com/watch?v=TDIrb8Wh7Qo)
 ### 9.6. [Take a look over the wall - D365 FO for BC pros](https://youtube.com/watch?v=wBF8SOOme-Y)
+### 9.7. [Elastic Leadership applied for Development Teams](https://youtube.com/watch?v=P2U3gLihA60)

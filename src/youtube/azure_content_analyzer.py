@@ -96,7 +96,7 @@ class AzureContentAnalyzer:
         
         return """For each numbered YouTube video below:
         1. Identify the main speakers or participants (excluding moderators, hosts, or interviewers)
-        2. Assign 1-2 relevant categories ONLY from this fixed list:
+        2. Assign 1 relevant categories ONLY from this fixed list:
         {known_categories}
 
         DO NOT create new categories - only use categories from the list above.

@@ -13,11 +13,12 @@ class YouTubeAnalyzer:
         self.logger = logging.getLogger(__name__)
         self.youtube_delay = 1  # Delay between YouTube API calls in seconds
 
-    def analyze_channel_videos(self, channel_id: str, limit: int = None) -> List[Dict]:
+    def analyze_channel_videos(self, channel_id: str, sync_metadata: dict, limit: int = None) -> List[Dict]:
         """
-        Analyze videos from a channel, processing their descriptions and returning detailed information.
+        Analyze videos from a channel, only processing new videos with AI
         Args:
             channel_id: The YouTube channel ID to analyze
+            sync_metadata: Dictionary containing last sync time and processed video IDs
             limit: Maximum number of videos to return after sorting by views
         """
         try:
@@ -25,6 +26,7 @@ class YouTubeAnalyzer:
             next_page_token = None
             page_count = 0
             total_videos_found = None
+            processed_video_ids = set(sync_metadata.get('processed_video_ids', []))
             
             # Get initial page to determine total video count
             initial_request = self.youtube.search().list(
@@ -49,11 +51,28 @@ class YouTubeAnalyzer:
                 # Get detailed video information
                 video_details = self._get_video_details(video_ids)
                 
-                # Process video descriptions in batches
-                results_by_video = self._process_video_descriptions(video_details['items'])
+                # Split videos into new and existing
+                new_videos = []
+                existing_videos = []
+                
+                for video in video_details['items']:
+                    if video['id'] in processed_video_ids:
+                        existing_videos.append(video)
+                    else:
+                        new_videos.append(video)
+                
+                # Process only new video descriptions with AI
+                if new_videos:
+                    results_by_video = self._process_video_descriptions(new_videos)
+                else:
+                    results_by_video = {}
                 
                 # Add processed videos to results
-                videos.extend(self._create_video_entries(video_details['items'], results_by_video))
+                videos.extend(self._create_video_entries(new_videos, results_by_video))
+                
+                # Add existing videos with updated view counts only
+                for video in existing_videos:
+                    videos.append(self._create_simple_video_entry(video))
                 
                 self.logger.info(f"Progress: {len(videos)}/{total_videos_found} videos processed")
                 
@@ -131,9 +150,12 @@ class YouTubeAnalyzer:
         entries = []
         for video in videos:
             title = video['snippet']['title']
-            # Remove date prefix if it matches the pattern (8 digits followed by dash)
-            if len(title) > 8 and title[:8].isdigit() and title[8:].startswith(' - '):
-                title = title[11:].strip()
+            # Remove first word if it's a number, then handle any following dash
+            words = title.split()
+            if words and words[0].isdigit():
+                title = ' '.join(words[1:])
+                if title.lstrip().startswith('-'):
+                    title = title.lstrip()[1:].lstrip()
             
             video_results = results_by_video.get(video['id'], {'speakers': [], 'categories': []})
             
@@ -146,3 +168,22 @@ class YouTubeAnalyzer:
                 'categories': video_results['categories']
             })
         return entries
+
+    def _create_simple_video_entry(self, video: Dict) -> Dict:
+        """Create a video entry with just basic info and updated view count"""
+        title = video['snippet']['title']
+        # Remove first word if it's a number, then handle any following dash
+        words = title.split()
+        if words and words[0].isdigit():
+            title = ' '.join(words[1:])
+            if title.lstrip().startswith('-'):
+                title = title.lstrip()[1:].lstrip()
+        
+        return {
+            'title': title,
+            'views': int(video['statistics']['viewCount']),
+            'url': f"https://youtube.com/watch?v={video['id']}",
+            'description': video['snippet']['description'],
+            'speakers': [],  # These will be filled from existing data
+            'categories': []  # These will be filled from existing data
+        }
