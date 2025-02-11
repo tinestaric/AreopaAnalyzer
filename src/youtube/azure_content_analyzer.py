@@ -19,7 +19,7 @@ class AzureContentAnalyzer:
         self.batch_size = batch_size
         self.request_delay = 2  # Delay between Azure API calls in seconds
         self.max_retries = 3
-        self.retry_delay = 30  # Delay in seconds when hitting rate limit
+        self.retry_delay = 15  # Delay in seconds when hitting rate limit
         
         # Load or initialize category mapping
         self.categories_file = Path("data/category_mapping.json")
@@ -41,7 +41,6 @@ class AzureContentAnalyzer:
                         # Skip 'General' and 'Other' subcategories as we'll use the parent category instead
                         categories.update(subcat for subcat in subcategories 
                                        if subcat not in ["General", "Other"])
-                
                 return categories
         return set()
 
