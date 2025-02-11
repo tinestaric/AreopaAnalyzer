@@ -17,8 +17,8 @@ class AzureContentAnalyzer:
         self.deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT")
         self.logger = logging.getLogger(__name__)
         self.batch_size = batch_size
-        self.request_delay = 2  # Delay between Azure API calls in seconds
-        self.max_retries = 3
+        self.request_delay = 3  # Delay between Azure API calls in seconds
+        self.max_retries = 5
         self.retry_delay = 15  # Delay in seconds when hitting rate limit
         
         # Load or initialize category mapping
