@@ -15,6 +15,7 @@ markmap:
 ### 1.4. [Everything you need to know about selling Copilot to your customers today!](https://youtube.com/watch?v=0jMn7EuEkT8)
 ### 1.5. [Microsoft Copilot and AI: Finding a fit to business scenarios](https://youtube.com/watch?v=soLPYfN62dE)
 ### 1.6. [AI Everywhere: Local Deployment vs. Azure Cloud](https://youtube.com/watch?v=gYzYGZXL8v0)
+### 1.7. [How to be a Prompt Engineer](https://youtube.com/watch?v=q8xpDwjyNLY)
 ## 2. AL
 ### 2.1. General
 #### 2.1.1. [Working with files in Dynamics 365 Business Central SaaS](https://youtube.com/watch?v=4X-tSjL0XaA)
@@ -85,8 +86,8 @@ markmap:
 #### 4.1.1. [Getting easily from functional test case definitions to automated tests](https://youtube.com/watch?v=ma48oWYWCvw)
 #### 4.1.2. [Setting up and processing sales and use tax in Microsoft Dynamics 365 BC](https://youtube.com/watch?v=1ndyJ2oUwiE)
 #### 4.1.3. [Business Central's user interface is changing - align your app](https://youtube.com/watch?v=6uexvSpghtI)
-#### 4.1.4. [Test Automation is a team effort](https://youtube.com/watch?v=Ntb8BCL8P7M)
-#### 4.1.5. [Microsoft Copilot and AI: Finding a fit to business scenarios](https://youtube.com/watch?v=soLPYfN62dE)
+#### 4.1.4. [Microsoft Copilot and AI: Finding a fit to business scenarios](https://youtube.com/watch?v=soLPYfN62dE)
+#### 4.1.5. [Test Automation is a team effort](https://youtube.com/watch?v=Ntb8BCL8P7M)
 #### 4.1.6. [Why bother about test automation on customer projects? You can’t sell that!](https://youtube.com/watch?v=FYHGRg2Hyc8)
 #### 4.1.7. [Our road to SaaS @ Clever Dynamics](https://youtube.com/watch?v=x5KXZslAjdw)
 #### 4.1.8. [Give the User a chance – Just because it works, doesn’t mean it works](https://youtube.com/watch?v=NvKltLmv_Zs)
@@ -143,6 +144,6 @@ markmap:
 ### 9.2. [How I learned NAV in a few months](https://youtube.com/watch?v=g2XuFq9nTPo)
 ### 9.3. [RegEx - basic and advanced scenarios](https://youtube.com/watch?v=8qEHfD-QkXk)
 ### 9.4. [How to get Insights from Business Central without Excel](https://youtube.com/watch?v=qPTOLaZ5MwY)
-### 9.5. [How building a swimming pool taught me so many tips for implementing Dynamics 365](https://youtube.com/watch?v=TDIrb8Wh7Qo)
-### 9.6. [Take a look over the wall - D365 FO for BC pros](https://youtube.com/watch?v=wBF8SOOme-Y)
-### 9.7. [Elastic Leadership applied for Development Teams](https://youtube.com/watch?v=P2U3gLihA60)
+### 9.5. [Elastic Leadership applied for Development Teams](https://youtube.com/watch?v=P2U3gLihA60)
+### 9.6. [How building a swimming pool taught me so many tips for implementing Dynamics 365](https://youtube.com/watch?v=TDIrb8Wh7Qo)
+### 9.7. [Take a look over the wall - D365 FO for BC pros](https://youtube.com/watch?v=wBF8SOOme-Y)
