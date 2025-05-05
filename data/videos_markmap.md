@@ -51,6 +51,7 @@ markmap:
 #### 2.3.14. [Real Life Experience With Test Automation - testing install code](https://youtube.com/watch?v=3KHGyklxXIY)
 #### 2.3.15. [Tests are bets](https://youtube.com/watch?v=R9rMmWwZi2o)
 #### 2.3.16. [How about verifying and debugging your tests](https://youtube.com/watch?v=zna9iKllz-o)
+#### 2.3.17. [Test Automation for connected systems](https://youtube.com/watch?v=aN4mriGWXI4)
 ### 2.4. Architecture
 #### 2.4.1. [Interfaces in AL](https://youtube.com/watch?v=h9sE_u0r5Eo)
 #### 2.4.2. [SOLID principles for app architecture in Business Central](https://youtube.com/watch?v=ixzWkVnk0ws)
@@ -105,8 +106,8 @@ markmap:
 ### 5.2. [Create a Custom BC Connector for Power Automate](https://youtube.com/watch?v=6VUNCVKCwM4)
 ### 5.3. [How to sync master data in multiple companies using Power Automate](https://youtube.com/watch?v=kXRYKHZdpj4)
 ### 5.4. [Virtual Entities – Enable Low Coding Apps To Interact With Business Central](https://youtube.com/watch?v=Ufnvk0HaiPM)
-### 5.5. [Top 10 ways to automate manual BC processes and wow your clients](https://youtube.com/watch?v=GiqsZxvQYjI)
-### 5.6. [Business Central data in offline mode with Power Apps](https://youtube.com/watch?v=e3MLMJUFwiA)
+### 5.5. [Business Central data in offline mode with Power Apps](https://youtube.com/watch?v=e3MLMJUFwiA)
+### 5.6. [Top 10 ways to automate manual BC processes and wow your clients](https://youtube.com/watch?v=GiqsZxvQYjI)
 ### 5.7. [Microsoft Dataverse What’s in it for us](https://youtube.com/watch?v=3FR8_8CukjI)
 ## 6. VSCode
 ### 6.1. AL Extensions
@@ -148,4 +149,5 @@ markmap:
 ### 9.4. [Elastic Leadership applied for Development Teams](https://youtube.com/watch?v=P2U3gLihA60)
 ### 9.5. [How to get Insights from Business Central without Excel](https://youtube.com/watch?v=qPTOLaZ5MwY)
 ### 9.6. [How building a swimming pool taught me so many tips for implementing Dynamics 365](https://youtube.com/watch?v=TDIrb8Wh7Qo)
-### 9.7. [Take a look over the wall - D365 FO for BC pros](https://youtube.com/watch?v=wBF8SOOme-Y)
+### 9.7. [Scrum, Stoicism, and Systems Thinking Finding Order in Complexity](https://youtube.com/watch?v=hqY9up-In_M)
+### 9.8. [Take a look over the wall - D365 FO for BC pros](https://youtube.com/watch?v=wBF8SOOme-Y)
