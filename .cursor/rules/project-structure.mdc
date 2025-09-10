@@ -1,0 +1,64 @@
+---
+description:
+  Explain the current project structure and conventions for the YouTube analyzer tool.
+globs:
+  - src/yt_tool/**
+  - data/**
+  - .github/workflows/analyze.yml
+  - requirements.txt
+alwaysApply: true
+---
+
+Project Structure
+
+- Root goals
+  - Generic tool to analyze any YouTube channel, tag videos, compute stats, and export a markmap.
+  - Taxonomy is optional; tagging can be free-form or restricted to a given taxonomy.
+  - Single CLI with subcommands; no hardcoded channel-specific logic.
+
+- Packages and modules (under `src/yt_tool/`)
+  - `cli.py`: CLI entrypoint and subcommands
+    - `analyze`: fetch videos, tag new items, merge, write artifacts
+    - `export markmap`: generate markmap markdown
+    - `stats`: quick speaker/category stats
+  - `config.py`: loads configuration from env (`.env` supported)
+    - `YOUTUBE_API_KEY` (required)
+    - Optional Azure: `AZURE_OPENAI_KEY`, `AZURE_OPENAI_ENDPOINT`, `AZURE_OPENAI_DEPLOYMENT`, `AZURE_OPENAI_API_VERSION`
+    - Optional: `YT_TOOL_DATA_DIR`, `YT_TOOL_BATCH_SIZE`
+  - `youtube/`
+    - `client.py`: thin Google API wrapper + basic rate limiting (search, videos)
+    - `analyzer.py`: orchestrates pagination, splits new vs existing, batches to tagging provider, returns entries
+  - `tagging/`
+    - `provider.py`: interface for tagging providers (`analyze_content_batch`)
+    - `azure_openai.py`: Azure OpenAI implementation; supports optional taxonomy filtering
+  - `taxonomy/`
+    - `loader.py`: loads `data/taxonomy.json` if present
+    - `match.py`: filters categories to loaded taxonomy when requested
+  - `storage/`
+    - `repo.py`: read/write `videos.json`, `sync_metadata.json`, compute and save `speaker_stats.json`, merge logic
+  - `export/`
+    - `markmap.py`: parameterized root title/url; builds simple tree when no taxonomy is provided
+
+- Data artifacts (under `data/`)
+  - `videos.json`: canonical list of video entries (title, url, views, speakers, categories)
+  - `sync_metadata.json`: tracks `processed_video_ids` for incremental runs
+  - `speaker_stats.json`: computed stats used by the `stats` command
+  - `taxonomy.json` (optional): hierarchical taxonomy; used when `--restrict-to-taxonomy` is set
+  - Generated exports (ignored by VCS): `videos_markmap.md` (and optional HTML)
+
+- CLI usage examples
+  - Analyze: `python -m src.yt_tool.cli analyze --channel-id <id> --data-dir data`
+  - Analyze with taxonomy: `... --taxonomy data/taxonomy.json --restrict-to-taxonomy`
+  - Export markmap: `python -m src.yt_tool.cli export markmap --data-dir data --root-title "YouTube Channel" --root-url "https://youtube.com/@handle"`
+  - Stats: `python -m src.yt_tool.cli stats --data-dir data`
+
+- CI workflow (GitHub Actions)
+  - `.github/workflows/analyze.yml` supports `workflow_dispatch` with inputs:
+    - `channel_id` (required), `restrict_to_taxonomy` (bool), `taxonomy_path` (string)
+  - Injects secrets for YouTube and (optional) Azure, runs `analyze`, exports markmap, uploads artifacts.
+
+- Legacy/cleanup notes
+  - Legacy scripts under `scripts/` are redundant with the CLI and can be removed.
+  - Legacy utilities under `src/utils/` are superseded by modules in `src/yt_tool/`.
+  - The older Azure analyzer under `src/youtube/azure_content_analyzer.py` is superseded by `src/yt_tool/tagging/azure_openai.py` and can be removed.
+  - Generated logs and exported files are excluded via `.gitignore`.

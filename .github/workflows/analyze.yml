@@ -1,0 +1,61 @@
+name: Analyze YouTube Channel
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel_id:
+        description: "YouTube channel ID"
+        required: true
+        type: string
+      restrict_to_taxonomy:
+        description: "Filter tags to taxonomy"
+        required: false
+        default: false
+        type: boolean
+      taxonomy_path:
+        description: "Path to taxonomy file"
+        required: false
+        default: "data/taxonomy.json"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Run analyze
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          AZURE_OPENAI_KEY: ${{ secrets.AZURE_OPENAI_KEY }}
+          AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
+          AZURE_OPENAI_DEPLOYMENT: ${{ secrets.AZURE_OPENAI_DEPLOYMENT }}
+          AZURE_OPENAI_API_VERSION: ${{ secrets.AZURE_OPENAI_API_VERSION }}
+        run: |
+          python -m src.yt_tool.cli analyze \
+            --channel-id "${{ inputs.channel_id }}" \
+            --data-dir data \
+            ${{ inputs.restrict_to_taxonomy && format('--restrict-to-taxonomy --taxonomy {0}', inputs.taxonomy_path) || '' }}
+      - name: Export markmap
+        run: |
+          python -m src.yt_tool.cli export markmap --data-dir data --root-title "YouTube Channel"
+      - name: Create/Update latest release and upload assets
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          tag_name: latest
+          name: Latest analysis
+          make_latest: true
+          files: |
+            data/videos.json
+            data/speaker_stats.json
+            data/videos_markmap.md
+
