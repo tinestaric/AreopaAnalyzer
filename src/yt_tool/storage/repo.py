@@ -97,7 +97,15 @@ def save_sessions_sync_metadata(data_dir: Path, metadata: Dict) -> None:
 
 
 def merge_session_data(new_sessions: List[Dict], existing_sessions: List[Dict]) -> List[Dict]:
-    id_to_existing: Dict[str, Dict] = {s.get("session_id") or s.get("url"): s for s in existing_sessions}
+    # Normalize existing sessions to have url field if missing
+    normalized_existing = []
+    for s in existing_sessions:
+        if 'url' not in s and 'detail_url' in s:
+            s = dict(s)  # make a copy
+            s['url'] = s['detail_url']
+        normalized_existing.append(s)
+    
+    id_to_existing: Dict[str, Dict] = {s.get("session_id") or s.get("url"): s for s in normalized_existing}
     merged: List[Dict] = []
     for session in new_sessions:
         key = session.get("session_id") or session.get("detail_url") or session.get("url")

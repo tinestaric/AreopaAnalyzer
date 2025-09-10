@@ -1,0 +1,199 @@
+{
+  "_metadata": {
+    "structure": "role-product-area-level",
+    "description": "Role Combinatorial Taxonomy",
+    "exclude_session_types": ["Keynote", "Sponsor (45 min)", "ISV Theatre (15 min)"]
+  },
+  "Consultant": {
+    "Business Central": {
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AI/Agents": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Sustainability": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Finance": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Supply Chain": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AL": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "DevOps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Warehousing": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "API/Interface": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Admin": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Power Platform": {
+      "Power Pages": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Automate": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Integration": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Power Apps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Dataverse": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Other": {
+      "Sales": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Service": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "PowerBI": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Customer Insights": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "All": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+  },
+  "Developer": {
+    "Business Central": {
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AI/Agents": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Sustainability": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Finance": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Supply Chain": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AL": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "DevOps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Warehousing": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "API/Interface": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Admin": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Power Platform": {
+      "Power Pages": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Automate": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Integration": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Power Apps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Dataverse": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Other": {
+      "Sales": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Service": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "PowerBI": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Customer Insights": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "All": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+  },
+  "Project Manager": {
+    "Business Central": {
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AI/Agents": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Sustainability": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Finance": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Supply Chain": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AL": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "DevOps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Warehousing": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "API/Interface": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Admin": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Power Platform": {
+      "Power Pages": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Automate": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Integration": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Power Apps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Dataverse": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Other": {
+      "Sales": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Service": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "PowerBI": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Customer Insights": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "All": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+  },
+  "Sales & Marketing": {
+    "Business Central": {
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AI/Agents": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Sustainability": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Finance": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Supply Chain": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AL": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "DevOps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Warehousing": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "API/Interface": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Admin": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Power Platform": {
+      "Power Pages": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Automate": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Integration": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Power Apps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Dataverse": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Other": {
+      "Sales": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Service": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "PowerBI": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Customer Insights": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "All": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+  },
+  "Leadership": {
+    "Business Central": {
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AI/Agents": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Sustainability": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Finance": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Supply Chain": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AL": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "DevOps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Warehousing": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "API/Interface": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Admin": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Power Platform": {
+      "Power Pages": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Automate": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Integration": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Power Apps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Dataverse": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Other": {
+      "Sales": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Service": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "PowerBI": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Customer Insights": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "All": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+  },
+  "HR": {
+    "Business Central": {
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AI/Agents": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Sustainability": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Finance": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Supply Chain": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "AL": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "DevOps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Warehousing": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "API/Interface": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Admin": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Power Platform": {
+      "Power Pages": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Automate": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Integration": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Power Apps": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Dataverse": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Copilot": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "Other": {
+      "Sales": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Service": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "PowerBI": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+      "Customer Insights": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+    },
+    "All": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+  },
+  "All": {
+    "Business Central": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+    "Power Platform": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+    "Other": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"],
+    "All": ["100 Beginner", "200 Intermediate", "300 Advanced", "400 Expert"]
+  }
+}

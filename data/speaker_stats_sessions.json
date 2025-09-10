@@ -1,4 +1,2881 @@
 {
-  "speakers": [],
-  "total_speakers": 0
+  "speakers": [
+    {
+      "name": "Aleksandar Totovic",
+      "appearances": 8,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Future of localizations and delocalization project",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961818"
+        },
+        {
+          "title": "Microsoft presents: Rethinking the Partner Led Localization strategy.",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=969760"
+        },
+        {
+          "title": "Microsoft presents: What's new in E-Documents",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961842"
+        },
+        {
+          "title": "Microsoft presents: What's new in Finance",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961851"
+        },
+        {
+          "title": "Microsoft presents: What's new in Sustainability",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961835"
+        },
+        {
+          "title": "Microsoft roundtable: EDI in Business Central - The Future or a Footnote?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961854"
+        },
+        {
+          "title": "Microsoft roundtable: 'Project Gotland' Agent",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=963286"
+        },
+        {
+          "title": "Microsoft workshop: Extend E-Documents with new Interface",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961845"
+        }
+      ]
+    },
+    {
+      "name": "Kennie Nybo Pontoppidan",
+      "appearances": 6,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Introducing MCP server for Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=970056"
+        },
+        {
+          "title": "Microsoft presents: What's new in analytics",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=970058"
+        },
+        {
+          "title": "Microsoft presents: What's new in document reporting",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=970055"
+        },
+        {
+          "title": "Microsoft presents: What's new in financial reporting",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=970057"
+        },
+        {
+          "title": "Microsoft presents: What's new in server and database",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=970053"
+        },
+        {
+          "title": "Microsoft roundtable: Auditing challenges",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=970059"
+        }
+      ]
+    },
+    {
+      "name": "Peter Borring",
+      "appearances": 5,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Build Agents for Business Central: Partner Journeys & Insights",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999072"
+        },
+        {
+          "title": "Microsoft presents: Building agents for Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1002282"
+        },
+        {
+          "title": "Microsoft presents: Profiling First - How to Diagnose Performance Issues",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1027478"
+        },
+        {
+          "title": "Microsoft presents: What's new in VSC and AL",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1002281"
+        },
+        {
+          "title": "Microsoft workshop: Developing and testing Copilot in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1002287"
+        }
+      ]
+    },
+    {
+      "name": "Arend-Jan Kauffmann",
+      "appearances": 4,
+      "sessions": [
+        {
+          "title": "Advanced coding for OGs",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=981142"
+        },
+        {
+          "title": "Microsoft presents: Think You Know Business Central? Prove It in Our In-Product Escape Room",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1026641"
+        },
+        {
+          "title": "Microsoft presents: Think You Know Business Central? Prove It in Our In-Product Escape Room",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=969762"
+        },
+        {
+          "title": "OAuth revealed",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=981217"
+        }
+      ]
+    },
+    {
+      "name": "Peter Jakobsen",
+      "appearances": 4,
+      "sessions": [
+        {
+          "title": "Microsoft presents: 45 tips in 45 minutes",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1018833"
+        },
+        {
+          "title": "Microsoft presents: 5 ways a process-first approach can speed up D365 projects",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=926235"
+        },
+        {
+          "title": "Microsoft presents: Reimagining ERP - How to Demo Business Central as an AI-First Solution",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999906"
+        },
+        {
+          "title": "Microsoft Western Europe Presents: FY26 Strategy, GTM & Best Practices",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1020119"
+        }
+      ]
+    },
+    {
+      "name": "Roman Sauber",
+      "appearances": 4,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Automating Administration with APIs, Logic Apps, and MCP",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999800"
+        },
+        {
+          "title": "Microsoft presents: Cloud for Sovereignty and Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999793"
+        },
+        {
+          "title": "Microsoft presents: Securing Business Central | Customer-Driven Best Practices and Real-World Cases",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999804"
+        },
+        {
+          "title": "Microsoft presents: What is new in governance & administration",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999787"
+        }
+      ]
+    },
+    {
+      "name": "Evgenij Korovin",
+      "appearances": 4,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Extending Chat with your app's documentation",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987491"
+        },
+        {
+          "title": "Microsoft Presents: Mastering Excel Integration in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987530"
+        },
+        {
+          "title": "Microsoft Presents: What's new in Chat with Copilot",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987495"
+        },
+        {
+          "title": "Microsoft presents: Workshop - Extending Chat with your app's documentation",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987494"
+        }
+      ]
+    },
+    {
+      "name": "Soren Alexandersen",
+      "appearances": 4,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Payables Agent - the product manager perspective to building agents",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=960358"
+        },
+        {
+          "title": "Microsoft presents: Payables Agent demo and roadmap",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=960357"
+        },
+        {
+          "title": "Microsoft presents: Payables Agent roundtable",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=960361"
+        },
+        {
+          "title": "Microsoft presents: What's new in Finance",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961851"
+        }
+      ]
+    },
+    {
+      "name": "Eric \"waldo\" Wauters",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Advanced coding for OGs",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=981142"
+        },
+        {
+          "title": "Microsoft presents: Think You Know Business Central? Prove It in Our In-Product Escape Room",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1026641"
+        },
+        {
+          "title": "Microsoft presents: Think You Know Business Central? Prove It in Our In-Product Escape Room",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=969762"
+        }
+      ]
+    },
+    {
+      "name": "Mark Hamblin",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Barcode Integration in Business Central for Manufacturing and Warehousing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1014298"
+        },
+        {
+          "title": "Implementing Free WMS in 10 Minutes",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1000654"
+        },
+        {
+          "title": "Simplify Production Scheduling in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1013280"
+        }
+      ]
+    },
+    {
+      "name": "Krzysztof Bialowas",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Do I Still Need You? (a.k.a. Do We Still Need Developers?)",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987612"
+        },
+        {
+          "title": "Hey Azure DevOps users! Let's talk about GitHub - DeepDive",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=963321"
+        },
+        {
+          "title": "Microsoft Poland Presents: FY26 Strategy, GTM & Best Practices",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1020116"
+        }
+      ]
+    },
+    {
+      "name": "Roberto Corella",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Github Copilot: A practical approach to AL in 10+1 tips and tricks",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=971543"
+        },
+        {
+          "title": "MCP Server: Natural language interface to Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=964170"
+        },
+        {
+          "title": "Not a Developer? No Problem! Workshop: Deploy & Embed Power BI Apps in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=951121"
+        }
+      ]
+    },
+    {
+      "name": "Directions for Partners",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Keynote Day 1",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1019778"
+        },
+        {
+          "title": "Keynote Day 2",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1019779"
+        },
+        {
+          "title": "Keynote Day 3",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1019780"
+        }
+      ]
+    },
+    {
+      "name": "Blazej Kotelko",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Accelerate Business Central with Copilot Studio agents and MCP Server",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=962671"
+        },
+        {
+          "title": "Microsoft presents: Productivity with Business Central user interface - both desktop and mobile",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=962677"
+        },
+        {
+          "title": "Microsoft presents: Using Dynamics 365 product together: Business Central and Field Service",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=962672"
+        }
+      ]
+    },
+    {
+      "name": "Monica Ahuja",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Accelerate Business Central with Copilot Studio agents and MCP Server",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=962671"
+        },
+        {
+          "title": "Microsoft Presents: Data-Driven Copilot Experiences in Business Central: Summarize",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=981132"
+        },
+        {
+          "title": "Microsoft roundtable: 'Project Gotland' Agent",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=963286"
+        }
+      ]
+    },
+    {
+      "name": "Levent Bakirci",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Accelerate your SMB Business.",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1018883"
+        },
+        {
+          "title": "Microsoft presents: On-prem to cloud migrations",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1020112"
+        },
+        {
+          "title": "Microsoft presents: Partner incentives, benefits and winning formulas!",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=993001"
+        }
+      ]
+    },
+    {
+      "name": "Joost Bulsink",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: AI Billing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999784"
+        },
+        {
+          "title": "Microsoft presents: Cloud for Sovereignty and Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999793"
+        },
+        {
+          "title": "Microsoft presents: What is new in governance & administration",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999787"
+        }
+      ]
+    },
+    {
+      "name": "Lotte Cordt Ihlemann",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Build Agents for Business Central: Partner Journeys & Insights",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999072"
+        },
+        {
+          "title": "Microsoft presents: Key Business Central partner resources you don't want to miss",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999051"
+        },
+        {
+          "title": "Microsoft presents: On-prem to cloud migrations",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1020112"
+        }
+      ]
+    },
+    {
+      "name": "Diego Joshua MartÃ­nez Pineda",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Design patterns",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1001052"
+        },
+        {
+          "title": "Microsoft presents: What's new in analytics",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=970058"
+        },
+        {
+          "title": "Microsoft presents: What's new in document reporting",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=970055"
+        }
+      ]
+    },
+    {
+      "name": "Jonas Blunck",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Getting started with DevOps using AL-Go for GitHub",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=972806"
+        },
+        {
+          "title": "Microsoft presents: Managing large scale DevOps with AL-Go for GitHub",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=972813"
+        },
+        {
+          "title": "Microsoft roundtable: AL-Go for GitHub",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=972808"
+        }
+      ]
+    },
+    {
+      "name": "Jens MÃ¸ller-Pedersen",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Introducing MCP server for Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=970056"
+        },
+        {
+          "title": "Microsoft presents: What's new in document reporting",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=970055"
+        },
+        {
+          "title": "Microsoft presents: What's new in server and database",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=970053"
+        }
+      ]
+    },
+    {
+      "name": "Tomas Grubliauskas",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Mastering the Autofill with Copilot feature",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1030341"
+        },
+        {
+          "title": "Microsoft presents: Productivity with Business Central user interface - both desktop and mobile",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=962677"
+        },
+        {
+          "title": "Microsoft presents: Web Client performance improvements and how you can make it even faster",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=981144"
+        }
+      ]
+    },
+    {
+      "name": "Christian Heide Damm",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Payables Agent demo and roadmap",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=960357"
+        },
+        {
+          "title": "Microsoft presents: Payables Agent roundtable",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=960361"
+        },
+        {
+          "title": "Microsoft presents: Profiling First - How to Diagnose Performance Issues",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1027478"
+        }
+      ]
+    },
+    {
+      "name": "Kurt Juvyns",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Rethinking the Partner Led Localization strategy.",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=969760"
+        },
+        {
+          "title": "Microsoft presents: Think You Know Business Central? Prove It in Our In-Product Escape Room",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1026641"
+        },
+        {
+          "title": "Microsoft presents: Think You Know Business Central? Prove It in Our In-Product Escape Room",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=969762"
+        }
+      ]
+    },
+    {
+      "name": "Andrei Panko",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Shopify and Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=971728"
+        },
+        {
+          "title": "Microsoft presents: What's new in manufacturing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=971731"
+        },
+        {
+          "title": "Microsoft roundtable: Shopify Connector",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=971737"
+        }
+      ]
+    },
+    {
+      "name": "Magnus Hartvig Groenbech",
+      "appearances": 3,
+      "sessions": [
+        {
+          "title": "Microsoft presents: What's new in E-Documents",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961842"
+        },
+        {
+          "title": "Microsoft roundtable: EDI in Business Central - The Future or a Footnote?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961854"
+        },
+        {
+          "title": "Microsoft workshop: Extend E-Documents with new Interface",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961845"
+        }
+      ]
+    },
+    {
+      "name": "Luc van Vugt",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "43 dev tips in 45 minutes",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=975385"
+        },
+        {
+          "title": "Admitting your code sucks makes you a better dev",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989743"
+        }
+      ]
+    },
+    {
+      "name": "Milan Milincevic",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "43 dev tips in 45 minutes",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=975385"
+        },
+        {
+          "title": "From Data to Decisions: How Consultants Can Use Telemetry in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=937450"
+        }
+      ]
+    },
+    {
+      "name": "Katerina Chernevskaya",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Actionable Copilots: Empowering AI Agents to Automate Business Processes with Power Platform",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=995676"
+        },
+        {
+          "title": "Optimizing Microsoft 365 Copilot Agents with Copilot Studio and Power Platform Analytics",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=995674"
+        }
+      ]
+    },
+    {
+      "name": "Henrik Helgesen",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Admitting your code sucks makes you a better dev",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989743"
+        },
+        {
+          "title": "If You Can't Make It Fast, Make It Feel Fast",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=966733"
+        }
+      ]
+    },
+    {
+      "name": "Marko Totovic",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Agentic AI and the Frontier Firm: Rethinking ERP in the Age of Intelligence",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=988843"
+        },
+        {
+          "title": "When Dynamics 365 Sales Meets Business Central: Making the Most of Your BC and Sales Integration",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=976884"
+        }
+      ]
+    },
+    {
+      "name": "Stefano Demiliani",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "AI Integration in Business Central apps: Managed vs Custom AI - What You Need to Know",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=977530"
+        },
+        {
+          "title": "The Future of Business Central environment management at scale: API + Telemetry + AI",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=971794"
+        }
+      ]
+    },
+    {
+      "name": "Renato RomÃ£o",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "AI Orchestration: Building Multi-Agent Systems",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=911582"
+        },
+        {
+          "title": "Empowering Accessibility with AI through Copilot",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=911583"
+        }
+      ]
+    },
+    {
+      "name": "Andrew Wingate",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "AI-Driven Page Scripting: Practical Use Cases for Dynamics 365",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=984682"
+        },
+        {
+          "title": "Delivering BC in the Age of AI: Which Soft Skills Still Matter?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=984689"
+        }
+      ]
+    },
+    {
+      "name": "Jose Azevedo",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "AI-Driven Page Scripting: Practical Use Cases for Dynamics 365",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=984682"
+        },
+        {
+          "title": "Fight Club: Dynamics 365 BC vs Dynamics 365 FO",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990240"
+        }
+      ]
+    },
+    {
+      "name": "Yannick Reekmans",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "AuthN & AuthZ in Power Platform: advanced platform functionality",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989275"
+        },
+        {
+          "title": "Building Apps Smarter: combining Generative Pages & Code Apps with proven practices",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=997397"
+        }
+      ]
+    },
+    {
+      "name": "Marco Lubig",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Beyond the Buzz: What RAG with Vector Databases Really Looks Like in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989263"
+        },
+        {
+          "title": "From Clicks to Automation: Maximizing Business Central Efficiency with Power Automate",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=947657"
+        }
+      ]
+    },
+    {
+      "name": "Steve Gichure",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Build CtrlBC - Your Action-Driven Copilot Agent for Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=974816"
+        },
+        {
+          "title": "Real-World Messaging with Azure: Patterns That Power Your Integrations",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=985912"
+        }
+      ]
+    },
+    {
+      "name": "Tharanga Chandrasekara",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Build CtrlBC - Your Action-Driven Copilot Agent for Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=974816"
+        },
+        {
+          "title": "Real-World Messaging with Azure: Patterns That Power Your Integrations",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=985912"
+        }
+      ]
+    },
+    {
+      "name": "Kayleen Hannigan",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Build Your Company's AI Assistant - What We've Learned the Last 1,5 Years",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=982096"
+        },
+        {
+          "title": "No-Code Mobile Apps & AI-powered EDI & E-Invoice with Anvaigo",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022342"
+        }
+      ]
+    },
+    {
+      "name": "Nils Peemoeller",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Build Your Company's AI Assistant - What We've Learned the Last 1,5 Years",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=982096"
+        },
+        {
+          "title": "No-Code Mobile Apps & AI-powered EDI & E-Invoice with Anvaigo",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022342"
+        }
+      ]
+    },
+    {
+      "name": "Vjekoslav Babic",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Clean Code is Dead, Long Live Clean Code",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989532"
+        },
+        {
+          "title": "Vibe Coding: What I Learned Letting AI Write My Code (And Why You Should Care)",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989488"
+        }
+      ]
+    },
+    {
+      "name": "AJ Ansari",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Copilot Studio Zero to Hero: Build Copilot Agents connected to Business Central (No PhD needed!)",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=925739"
+        },
+        {
+          "title": "Let's Live-Build an AI-Powered Autonomous BC Support Desk: Put AI to Work for You",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=925734"
+        }
+      ]
+    },
+    {
+      "name": "Renato Fajdiga",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Deep Dive into Report Objects and Layouts in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990035"
+        },
+        {
+          "title": "From Data to Decisions: How Consultants Can Use Telemetry in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=937450"
+        }
+      ]
+    },
+    {
+      "name": "Vanessa Michel",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Excel Layouts Masterclass: Dust Off Your Excel Skills for Better Reports in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990247"
+        },
+        {
+          "title": "The Good, The Bad & The Billed: Real-Life Lessons from Implementing Subscription Billing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990192"
+        }
+      ]
+    },
+    {
+      "name": "Matt Traxinger",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Expanding Business Central Page Scripts Beyond QA",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=973626"
+        },
+        {
+          "title": "Vibe-Driven Development: Why Your Best Developers Will Hate This (And Why It Works Anyway)",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=972521"
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Vyska",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "From Chaos to Code: Building a Knowledge-First Development Workflow",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1003012"
+        },
+        {
+          "title": "Getting Started with AI (Vibe) Coding in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1018353"
+        }
+      ]
+    },
+    {
+      "name": "Stefan MaroÅ„",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "From Windows to Linux: Running Business Central the 'Wrong' Way",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990431"
+        },
+        {
+          "title": "If You Can't Make It Fast, Make It Feel Fast",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=966733"
+        }
+      ]
+    },
+    {
+      "name": "Javier Armesto",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Github Copilot: A practical approach to AL in 10+1 tips and tricks",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=971543"
+        },
+        {
+          "title": "MCP Server: Natural language interface to Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=964170"
+        }
+      ]
+    },
+    {
+      "name": "Miguel LLorca Gomez",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Github Copilot: A practical approach to AL in 10+1 tips and tricks",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=971543"
+        },
+        {
+          "title": "MCP Server: Natural language interface to Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=964170"
+        }
+      ]
+    },
+    {
+      "name": "Gary Frostick",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Hello Copilot - Are we going too fast?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990597"
+        },
+        {
+          "title": "Solving real-world manufacturing challenges with Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1019493"
+        }
+      ]
+    },
+    {
+      "name": "Tobias Fenster",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "How to NOT depend on 3rd parties when consuming APIs (and make your life easier when producing)",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=978414"
+        },
+        {
+          "title": "What is GitOps and why should you care?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=978438"
+        }
+      ]
+    },
+    {
+      "name": "Tine Staric",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Is BC the Right Path for Me? (Under-30s Edition)",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=973338"
+        },
+        {
+          "title": "You need to implement Agents now! ...But what even is an Agent?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=973239"
+        }
+      ]
+    },
+    {
+      "name": "Erik Hougaard",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Let's incorporate AI in an AL app",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=910976"
+        },
+        {
+          "title": "Practical MCP for AL developers",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989331"
+        }
+      ]
+    },
+    {
+      "name": "Marcin Karpacz",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft Business Process Catalog: The key to process-driven BC implementations with Azure DevOps",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=986651"
+        },
+        {
+          "title": "Next-Level Page Scripting with BC and Copilot: Hands-on examples and script post-processing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=986679"
+        }
+      ]
+    },
+    {
+      "name": "Tom Paquin",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Close More Deals with Microsoft Product Marketing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1000616"
+        },
+        {
+          "title": "Microsoft presents: Competitive Discovery and Why We Win",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1000610"
+        }
+      ]
+    },
+    {
+      "name": "Nikola Kukrika",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Design patterns",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1001052"
+        },
+        {
+          "title": "Microsoft presents: What's new in Test automation",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1001049"
+        }
+      ]
+    },
+    {
+      "name": "Sebastian Petersen",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Getting started with DevOps using AL-Go for GitHub",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=972806"
+        },
+        {
+          "title": "Microsoft roundtable: AL-Go for GitHub",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=972808"
+        }
+      ]
+    },
+    {
+      "name": "Craig Crescas",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Make Your Business Central Demos and Presentations Impactful",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=983630"
+        },
+        {
+          "title": "Microsoft presents: Make Your Business Central Demos and Presentations Impactful ( Repeat)",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1015068"
+        }
+      ]
+    },
+    {
+      "name": "Alexander Holstrup",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Managing large scale DevOps with AL-Go for GitHub",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=972813"
+        },
+        {
+          "title": "Microsoft roundtable: AL-Go for GitHub",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=972808"
+        }
+      ]
+    },
+    {
+      "name": "Maria Zhelezova",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Managing large scale DevOps with AL-Go for GitHub",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=972813"
+        },
+        {
+          "title": "Microsoft roundtable: AL-Go for GitHub",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=972808"
+        }
+      ]
+    },
+    {
+      "name": "Christian Baek",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Partner incentives, benefits and winning formulas!",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=993001"
+        },
+        {
+          "title": "Microsoft presents: Pricing and licensing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022534"
+        }
+      ]
+    },
+    {
+      "name": "Stig Killendahl",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Testing AI for safety and quality in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1001018"
+        },
+        {
+          "title": "Microsoft presents: What's new in Test automation",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1001049"
+        }
+      ]
+    },
+    {
+      "name": "Stephanie SÃ¸rensen Amador",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Think You Know Business Central? Prove It in Our In-Product Escape Room",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1026641"
+        },
+        {
+          "title": "Microsoft presents: Think You Know Business Central? Prove It in Our In-Product Escape Room",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=969762"
+        }
+      ]
+    },
+    {
+      "name": "Ivan KoletiÄ‡",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Using Dynamics 365 product together: Business Central and Field Service",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=962672"
+        },
+        {
+          "title": "When Dynamics 365 Sales Meets Business Central: Making the Most of Your BC and Sales Integration",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=976884"
+        }
+      ]
+    },
+    {
+      "name": "Miljan MilosavljeviÄ‡",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Microsoft workshop: Extend E-Documents with new Interface",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961845"
+        },
+        {
+          "title": "Unleashing the Power of AI: 14 Copilots and Agents Transforming Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=948292"
+        }
+      ]
+    },
+    {
+      "name": "Finn Pedersen",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Super fast tests covering 100% of your code",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=964127"
+        },
+        {
+          "title": "Vibe coding. The hottest new programming language is English",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=964154"
+        }
+      ]
+    },
+    {
+      "name": "Gabriel Michaud",
+      "appearances": 2,
+      "sessions": [
+        {
+          "title": "Unlock the Power of Excel for Dynamics 365 BC - Maximize Your ERP's Value with Live Data & Insights",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022497"
+        },
+        {
+          "title": "Velixo for Dynamics 365 BC: Live ERP Data for Smarter Reporting, Budgeting & Automation in Excel",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1017162"
+        }
+      ]
+    },
+    {
+      "name": "Frank Maier",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "A multisite project is more creating a product than a project",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=995307"
+        }
+      ]
+    },
+    {
+      "name": "Berny During",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Agentic AI and the Frontier Firm: Rethinking ERP in the Age of Intelligence",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=988843"
+        }
+      ]
+    },
+    {
+      "name": "Greg Kaupp",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "AI for the Over 40: From Skeptic to Evangelist - A Business Leader's Practical Journey",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=978015"
+        }
+      ]
+    },
+    {
+      "name": "Benjamin Brousseau",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "AI in Asset-Intensive Industries: Scaling Expertise and Driving Business Central Adoption",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1023801"
+        }
+      ]
+    },
+    {
+      "name": "Sophie Lapointe",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "AI in Asset-Intensive Industries: Scaling Expertise and Driving Business Central Adoption",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1023801"
+        }
+      ]
+    },
+    {
+      "name": "Vimal K. Balakrishnan",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "AI in Asset-Intensive Industries: Scaling Expertise and Driving Business Central Adoption",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1023801"
+        }
+      ]
+    },
+    {
+      "name": "Kamil Karbowiak",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "AI in Business Central: From Talking with Data to Smarter Decisions",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024479"
+        }
+      ]
+    },
+    {
+      "name": "Sharka Chobot",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "AI Is Not Another Productâ€”It's a Business Transformation",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990533"
+        }
+      ]
+    },
+    {
+      "name": "Kerem Kekec",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "AI-powered document processing: classification, content-based record creation and seamless matching",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1020245"
+        }
+      ]
+    },
+    {
+      "name": "Maximilian Krampe",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "AI-powered document processing: classification, content-based record creation and seamless matching",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1020245"
+        }
+      ]
+    },
+    {
+      "name": "Shannon Mullins",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Automating Standard Business Processes using Power Automate, Teams and Dynamics 365",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=977861"
+        }
+      ]
+    },
+    {
+      "name": "James Goddard",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "B2B Is Not an Excuse to Be Boring: 10 Marketing Moves Microsoft Partners Should Steal from B2C",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989127"
+        }
+      ]
+    },
+    {
+      "name": "Tom Pike",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "B2B Is Not an Excuse to Be Boring: 10 Marketing Moves Microsoft Partners Should Steal from B2C",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989127"
+        }
+      ]
+    },
+    {
+      "name": "Edgaras Bencevicius",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Bank feeds in Business Central: what your customers are missing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987630"
+        }
+      ]
+    },
+    {
+      "name": "Fabrice Kurz",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Beyond the Buzz: What RAG with Vector Databases Really Looks Like in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989263"
+        }
+      ]
+    },
+    {
+      "name": "Joel Stanciu",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Beyond the Buzz: What RAG with Vector Databases Really Looks Like in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989263"
+        }
+      ]
+    },
+    {
+      "name": "Marta Sowinska",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Beyond the Checkbox: Navigating E-Invoicing Compliance in Europe",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024802"
+        }
+      ]
+    },
+    {
+      "name": "Bo Hansen Hansen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Beyond the Pioneering Days: Transitioning from Software Development to Product Development",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=973366"
+        }
+      ]
+    },
+    {
+      "name": "Lene Graa Jennum",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Beyond the Pioneering Days: Transitioning from Software Development to Product Development",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=973366"
+        }
+      ]
+    },
+    {
+      "name": "Dennis Fredborg",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Beyond Traditional Patterns: Event-Driven Architecture with Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989543"
+        }
+      ]
+    },
+    {
+      "name": "Rene Nielsen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Boost efficiency with E-Docs in BC without complexity",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=963394"
+        }
+      ]
+    },
+    {
+      "name": "RamÃ³n Rautenstrauch",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Boosting Productivity with Copilot, Business Central, and Dataverse: A Smart Integration",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987693"
+        }
+      ]
+    },
+    {
+      "name": "Toni Granell",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Boosting Productivity with Copilot, Business Central, and Dataverse: A Smart Integration",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987693"
+        }
+      ]
+    },
+    {
+      "name": "Vivian Voss",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Building Apps Smarter: combining Generative Pages & Code Apps with proven practices",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=997397"
+        }
+      ]
+    },
+    {
+      "name": "Adnan Amin",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Building Custom Agent using Copilot Studio",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990083"
+        }
+      ]
+    },
+    {
+      "name": "Chris Weaver",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Business Central Intelligence: Cut Your Reporting and Planning Time with AI-Powered Solutions",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022506"
+        }
+      ]
+    },
+    {
+      "name": "Rekha Shinh",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Business Central Intelligence: Cut Your Reporting and Planning Time with AI-Powered Solutions",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022506"
+        }
+      ]
+    },
+    {
+      "name": "Jan Sillemann",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Business Central reports and documents: simple, fast, affordable.",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021210"
+        }
+      ]
+    },
+    {
+      "name": "Michael Nielsen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Business Central reports and documents: simple, fast, affordable.",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021210"
+        }
+      ]
+    },
+    {
+      "name": "Fredrik Gulich",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Can I Optimize Bin picking for production with Copilot?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=969573"
+        }
+      ]
+    },
+    {
+      "name": "Algirdas Kepezinskas",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Can you train developers in 60 days? We tried.",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=980369"
+        }
+      ]
+    },
+    {
+      "name": "Mathias Halkjaer",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Chat with your data",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990386"
+        }
+      ]
+    },
+    {
+      "name": "Dorthe Johanne Hillerup Vedsted",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Customer Journeys in the Cloud: Creating Value Beyond Go-Live",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=973516"
+        }
+      ]
+    },
+    {
+      "name": "Bartosz Szpiech",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "D365 Business Central Test automation - lets make it easy",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1025626"
+        }
+      ]
+    },
+    {
+      "name": "Steven Renders",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Deep Dive into Report Objects and Layouts in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990035"
+        }
+      ]
+    },
+    {
+      "name": "Phil Berrill",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Delivering BC in the Age of AI: Which Soft Skills Still Matter?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=984689"
+        }
+      ]
+    },
+    {
+      "name": "StefÃ¡n ÃžÃ³r StefÃ¡nsson",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Digitalizing Public Finance and Citizen Engagement Through Microsoft Cloud Solutions",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1023412"
+        }
+      ]
+    },
+    {
+      "name": "Stefan Kristiansen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Does document creation drive you mad?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1016999"
+        }
+      ]
+    },
+    {
+      "name": "Ulf Gustafsson",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "EazyStock's Session",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021262"
+        }
+      ]
+    },
+    {
+      "name": "Ivy Bumanglag",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Effective Requirements Gathering for Successful Business Central Implementations",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=975429"
+        }
+      ]
+    },
+    {
+      "name": "Robbie Tiesinga",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Elevate Efficiency through EDI, Supply Chain Optimization, and E-Invoicing Compliance",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1023351"
+        }
+      ]
+    },
+    {
+      "name": "Thomas Werkhoven",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Exsion + Business Central: Faster Insights, Happier Customers",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1020209"
+        }
+      ]
+    },
+    {
+      "name": "Msangi Masera",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Extending Business Central with Azure Services: A Developer's Guide",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990002"
+        }
+      ]
+    },
+    {
+      "name": "Sandra MatuleviÄiÅ«tÄ—-BagdonaviÄienÄ—",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Feedback, Please!",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961773"
+        }
+      ]
+    },
+    {
+      "name": "Jason Tromans",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Field Service + Business Central - The new perfect couple, or are they?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990475"
+        }
+      ]
+    },
+    {
+      "name": "Matthieu Fresse",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Field Service Management: Meeting Your Customers' Needs with AI-Powered, Best-in-Class Solutions",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1027441"
+        }
+      ]
+    },
+    {
+      "name": "SÃ³lbjÃ¶rg Howarth",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Acquisition to Activation: How ISVs can Drive Real Partner Adoption.",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989638"
+        }
+      ]
+    },
+    {
+      "name": "RaÃºl Bogajo Medina",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Call to ERP: Integrated Customer Support with Dynamics 365 Contact Center and Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=978480"
+        }
+      ]
+    },
+    {
+      "name": "Victor Sanchez",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Call to ERP: Integrated Customer Support with Dynamics 365 Contact Center and Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=978480"
+        }
+      ]
+    },
+    {
+      "name": "Ingmar Stieger",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Chaos to Clarity: Time, Billing & Projects the Simple Way",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022336"
+        }
+      ]
+    },
+    {
+      "name": "Philipp Urban",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Chaos to Clarity: Time, Billing & Projects the Simple Way",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022336"
+        }
+      ]
+    },
+    {
+      "name": "Christian Lenz",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Chaos to Clarity: Visualize AL Architecture for Scalable Business Central Solutions",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=957499"
+        }
+      ]
+    },
+    {
+      "name": "Christopher KjÃ¦r Jensen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Complex to Effortless: AI-Driven Item Configuration in 15 Minutes",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1000967"
+        }
+      ]
+    },
+    {
+      "name": "Brendan Murphy",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Hype to How: Your Playbook for the Future with Microsoft",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021898"
+        }
+      ]
+    },
+    {
+      "name": "Michel Jakubowski",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Hype to How: Your Playbook for the Future with Microsoft",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021898"
+        }
+      ]
+    },
+    {
+      "name": "Ruslan Trifonov Trifonoff",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Mobile Apps to Autonomous Field Operations: Built-In Compliance for the Last Mile",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1003033"
+        }
+      ]
+    },
+    {
+      "name": "Edit Kapcari",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Overwhelmed to In Control: A Governance Compass for Microsoft's AI Platform",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990271"
+        }
+      ]
+    },
+    {
+      "name": "Jakub Bajla",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Overwhelmed to In Control: A Governance Compass for Microsoft's AI Platform",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990271"
+        }
+      ]
+    },
+    {
+      "name": "Torben Leth",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "From Windows to Linux: Running Business Central the 'Wrong' Way",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990431"
+        }
+      ]
+    },
+    {
+      "name": "Kenneth Kryger Gram",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Future Talent in Business Central - A Shared Responsibility",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=982252"
+        }
+      ]
+    },
+    {
+      "name": "Carlos Serrano",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Future-Proofing Treasury: How to Build a Modern Finance Stack with Microsoft Dynamics 365",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022422"
+        }
+      ]
+    },
+    {
+      "name": "Inge Boubez",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Get Found (or Be Forgotten): How Microsoft Partners Must Rewire Their Website for the AI Era",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=985671"
+        }
+      ]
+    },
+    {
+      "name": "Krzysztof Sypniewski",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Global, Streamlined, Privacy-Focused: Electronic Banking Powered by AI",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022133"
+        }
+      ]
+    },
+    {
+      "name": "Magdalena StypczyÅ„ska",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Global, Streamlined, Privacy-Focused: Electronic Banking Powered by AI",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022133"
+        }
+      ]
+    },
+    {
+      "name": "Christoph BrÃ¼ntrup",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Handyman Field Service Management - Opportunities for Partners and Customers",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024553"
+        }
+      ]
+    },
+    {
+      "name": "Gary Hawkesford",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Help your customers take control of business spending with eRequest.",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1026669"
+        }
+      ]
+    },
+    {
+      "name": "Kamil SÃ¡Äek",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Hey Azure DevOps users! Let's talk about GitHub - DeepDive",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=963321"
+        }
+      ]
+    },
+    {
+      "name": "Jens Mattsson",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "How one of Scandinavia's biggest taxi company evolved their marketing with Dataflows & Dataverse",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=965781"
+        }
+      ]
+    },
+    {
+      "name": "Maximilian Breitinger",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "How to Build a Customer-Centric Sales & Marketing Engine with Dynamics 365",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=981063"
+        }
+      ]
+    },
+    {
+      "name": "Peter Dibbern",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "How to Build a Customer-Centric Sales & Marketing Engine with Dynamics 365",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=981063"
+        }
+      ]
+    },
+    {
+      "name": "Elena Baeva",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "IAMCP EMEA Roundtable",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990123"
+        }
+      ]
+    },
+    {
+      "name": "Klaus Fander",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "IAMCP EMEA Roundtable",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990123"
+        }
+      ]
+    },
+    {
+      "name": "Patricia Maia",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "IAMCP EMEA Roundtable",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990123"
+        }
+      ]
+    },
+    {
+      "name": "Kate Wilkes",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "iDynamics: Commissions, Royalties and Rebates for everybody!",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1013833"
+        }
+      ]
+    },
+    {
+      "name": "Salvador Gimeno",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "iDynamics: Commissions, Royalties and Rebates for everybody!",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1013833"
+        }
+      ]
+    },
+    {
+      "name": "Marc Siefert",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Insert Coin to Connect: EDI as the Player One of Digital Business",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=996751"
+        }
+      ]
+    },
+    {
+      "name": "Julian Wissel",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Is Microsoft Fabric the new Power BI and why should I care when working with Business Central?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987165"
+        }
+      ]
+    },
+    {
+      "name": "Phillip Dawson",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "It's All About the Money: Kill the CSV, Unlock Embedded Finance",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021288"
+        }
+      ]
+    },
+    {
+      "name": "Iva VlaÅ¡imsky",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Leadership On LinkedIn for Dynamics Partners In the AI Era",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990318"
+        }
+      ]
+    },
+    {
+      "name": "Dorothee Werner",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Leading by Choice: How We Let Employees Choose Their Leaders",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=988442"
+        }
+      ]
+    },
+    {
+      "name": "Julia Redner",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Leading by Choice: How We Let Employees Choose Their Leaders",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=988442"
+        }
+      ]
+    },
+    {
+      "name": "Ugne Kontare",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Leading Without Limits: Unlocking the Power of Self-Managing Teams",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=967232"
+        }
+      ]
+    },
+    {
+      "name": "Greg Strzyminski",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Leverage Power Automate to extend Power BI functionalities",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989248"
+        }
+      ]
+    },
+    {
+      "name": "Joey Willemse",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Licensing & Incentives - how to get the most out of your Microsoft partnership",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990176"
+        }
+      ]
+    },
+    {
+      "name": "Martijn Elfers",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Licensing & Incentives - how to get the most out of your Microsoft partnership",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990176"
+        }
+      ]
+    },
+    {
+      "name": "Jenn Claridge",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Linking the Chain: Production Subcontracting in the BC Supply Flow",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=937114"
+        }
+      ]
+    },
+    {
+      "name": "Petur Sigurdsson",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "LS Retail | Grow your BC business with LS Pay, a new payment solution for Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1020167"
+        }
+      ]
+    },
+    {
+      "name": "Joe Griffin",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Make Your Dataverse Fort Knox: Baseline Configuration Tips & Tricks",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=911809"
+        }
+      ]
+    },
+    {
+      "name": "Markus Lippert",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Making AL-Go better and easier to use with COSMO Alpaca",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=983082"
+        }
+      ]
+    },
+    {
+      "name": "Andrzej Zwierzchowski",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Making GitHub Copilot Smarter: Enhanced Context and Actions via Metadata and Tools",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987892"
+        }
+      ]
+    },
+    {
+      "name": "Frederik Taleman",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Managing complex products made easy: Extend your Dynamics 365 offering with CPQ",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1018901"
+        }
+      ]
+    },
+    {
+      "name": "Niels Stenfeldt",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Manufacturing and Business Central is spreading its wings.",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024555"
+        }
+      ]
+    },
+    {
+      "name": "Andrea Di Ceglie",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Master 1K customers with Gordon's free tools and telemetry magic",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1015065"
+        }
+      ]
+    },
+    {
+      "name": "Feline Parein",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Mastering ALM for Scalable Power Platform Projects",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989640"
+        }
+      ]
+    },
+    {
+      "name": "Bert Verbeek",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft Fabric - Why you should care about it",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=982269"
+        }
+      ]
+    },
+    {
+      "name": "Marek Sledziewski",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft Poland Presents: FY26 Strategy, GTM & Best Practices",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1020116"
+        }
+      ]
+    },
+    {
+      "name": "SÃ¸ren Pommer",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: 5 ways a process-first approach can speed up D365 projects",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=926235"
+        }
+      ]
+    },
+    {
+      "name": "Vincent Nicolas",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft Presents: A brief introduction to the history of AI - from Deep Blue to Copilot",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=971575"
+        }
+      ]
+    },
+    {
+      "name": "Paloma Alarco",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Accelerate your SMB Business.",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1018883"
+        }
+      ]
+    },
+    {
+      "name": "Horina Serbanescu",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft Presents: Behind the scenes of Copilot features in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1030342"
+        }
+      ]
+    },
+    {
+      "name": "Alaa Bitar",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Build Scalable SMB Solutions with Power Platform & Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=925855"
+        }
+      ]
+    },
+    {
+      "name": "Zankar Desai",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Building agents in Copilot Studio using Model Context Protocol",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=996867"
+        }
+      ]
+    },
+    {
+      "name": "Christina Buhelt",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Cloud for Sovereignty and Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999793"
+        }
+      ]
+    },
+    {
+      "name": "Henrik Krogh Andersen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Explore the opportunity for Business Applications in the Nonprofit industry",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=997927"
+        }
+      ]
+    },
+    {
+      "name": "Anders Larsen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Future of localizations and delocalization project",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961818"
+        }
+      ]
+    },
+    {
+      "name": "Jesper Schulz-Wedde",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft Presents: Help, my DB is too large! Offloading Data with the External File Storage module",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=994845"
+        }
+      ]
+    },
+    {
+      "name": "Stefan Sosic",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft Presents: Help, my DB is too large! Offloading Data with the External File Storage module",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=994845"
+        }
+      ]
+    },
+    {
+      "name": "Maya Ryom",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Key Business Central partner resources you don't want to miss",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999051"
+        }
+      ]
+    },
+    {
+      "name": "Cecilia Flombaum",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: On-prem to cloud migrations",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1020112"
+        }
+      ]
+    },
+    {
+      "name": "Fredrik Hietala",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft Presents: Practical Success with Business Central Concierge",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1025706"
+        }
+      ]
+    },
+    {
+      "name": "Bob Wyler",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Pricing and licensing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022534"
+        }
+      ]
+    },
+    {
+      "name": "Elaine Kelly",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Pricing and licensing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022534"
+        }
+      ]
+    },
+    {
+      "name": "Claudiu Ciumedean",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: Web Client performance improvements and how you can make it even faster",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=981144"
+        }
+      ]
+    },
+    {
+      "name": "Qasim Ikram",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: What's New in Sales Order Agent for Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024731"
+        }
+      ]
+    },
+    {
+      "name": "Esben Nyhuus Kristoffersen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: What's new in AL Language and Developer Tools",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=971695"
+        }
+      ]
+    },
+    {
+      "name": "Steffen Balslev",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: What's new in AL Language and Developer Tools",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=971695"
+        }
+      ]
+    },
+    {
+      "name": "Jacob Bang",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft presents: What's new in Sustainability",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=961835"
+        }
+      ]
+    },
+    {
+      "name": "Thomas Redder",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Microsoft Western Europe Presents: FY26 Strategy, GTM & Best Practices",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1020119"
+        }
+      ]
+    },
+    {
+      "name": "Inga Sartauskaite",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "More than a demo: leaving subtle traps for the competitors",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=948855"
+        }
+      ]
+    },
+    {
+      "name": "Ivana Bisevac",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "NAVIPARTNER I Empower your retail journey with Shopify and world-class POS",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=991199"
+        }
+      ]
+    },
+    {
+      "name": "Vanja BlagojeviÄ‡",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "NAVIPARTNER I Empower your retail journey with Shopify and world-class POS",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=991199"
+        }
+      ]
+    },
+    {
+      "name": "Ugne Fink-Jensen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Negotiation Advantage: Collaboration in a Tech-Driven World",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1002034"
+        }
+      ]
+    },
+    {
+      "name": "Tanya Henderson",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Not a Developer? No Problem! Workshop: Deploy & Embed Power BI Apps in Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=951121"
+        }
+      ]
+    },
+    {
+      "name": "Val Clarke",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Onboarding Consultants for Impact: How a Vertical Reseller Speeds Up Success with Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=988932"
+        }
+      ]
+    },
+    {
+      "name": "Mats Persson",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "One platform - endless possibilities",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021284"
+        }
+      ]
+    },
+    {
+      "name": "Artem Chernevskiy",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Optimizing Microsoft 365 Copilot Agents with Copilot Studio and Power Platform Analytics",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=995674"
+        }
+      ]
+    },
+    {
+      "name": "Brad Martin",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Partner 2 Partner: Unlocking Growth with Ingram Micro",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1022385"
+        }
+      ]
+    },
+    {
+      "name": "Mary Myers",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Partner's Guide to Securing your Customer Portal in Power Pages",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999089"
+        }
+      ]
+    },
+    {
+      "name": "David Weiper",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Planning under Pressure across Procurement, Production and Sales with BC and orderbase PlanningBoard",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=969146"
+        }
+      ]
+    },
+    {
+      "name": "Elmar Niehoff",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Planning under Pressure across Procurement, Production and Sales with BC and orderbase PlanningBoard",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=969146"
+        }
+      ]
+    },
+    {
+      "name": "Arjan Rijsdijk",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Play it (w)right: automate your end-to-end tests in the Power Platform",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=930931"
+        }
+      ]
+    },
+    {
+      "name": "Zsombor Nagy",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "POWER 2GO Solutions",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=983193"
+        }
+      ]
+    },
+    {
+      "name": "Fabian Huber",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Powerful Report Automation for Business Central and beyond",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1019415"
+        }
+      ]
+    },
+    {
+      "name": "Johannes Linder",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Powerful Report Automation for Business Central and beyond",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1019415"
+        }
+      ]
+    },
+    {
+      "name": "Clarinda Dobbelaar",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Ready to transform your Dynamics BC business into an AI-first powerhouse?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024792"
+        }
+      ]
+    },
+    {
+      "name": "Gemma McAnally",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Ready to transform your Dynamics BC business into an AI-first powerhouse?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024792"
+        }
+      ]
+    },
+    {
+      "name": "Will McIntee",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Ready to transform your Dynamics BC business into an AI-first powerhouse?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024792"
+        }
+      ]
+    },
+    {
+      "name": "RadosÅ‚aw Miernik",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Reporting in Word/Excel can be easy, because it is easy.",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=982174"
+        }
+      ]
+    },
+    {
+      "name": "Emmanuel Amoako",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Revolutionize Your Billing: Effortless Subcription and Service billing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1003031"
+        }
+      ]
+    },
+    {
+      "name": "Lars BÃ¶hlen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Revolutionize Your Billing: Effortless Subcription and Service billing",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1003031"
+        }
+      ]
+    },
+    {
+      "name": "Dana Willmer",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "SaaS is Dead - Now What?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989306"
+        }
+      ]
+    },
+    {
+      "name": "George Brown",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "SaaS is Dead - Now What?",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989306"
+        }
+      ]
+    },
+    {
+      "name": "Emma Wright",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Seer 365 | Accelerate Sales, Reduce Costs, and Win More with GYDE365's AI-Powered Discovery",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1015086"
+        }
+      ]
+    },
+    {
+      "name": "Sam Dharmasiri",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Seer 365 | Accelerate Sales, Reduce Costs, and Win More with GYDE365's AI-Powered Discovery",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1015086"
+        }
+      ]
+    },
+    {
+      "name": "Kasper HÃ¸jdal",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Shopify + BC: Not just an integration, a Business Model",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=984599"
+        }
+      ]
+    },
+    {
+      "name": "Ferhat Oender",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "SIEVERS WMS - Your excellence in warehouse management",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021900"
+        }
+      ]
+    },
+    {
+      "name": "Timm Wessels",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "SIEVERS WMS - Your excellence in warehouse management",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021900"
+        }
+      ]
+    },
+    {
+      "name": "Aida Rajala",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "SignUp Software",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=984096"
+        }
+      ]
+    },
+    {
+      "name": "Frans Gemen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Simplify your customer workflows with idyn apps",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021244"
+        }
+      ]
+    },
+    {
+      "name": "Ben Chapman",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Smarter inventory planning with AI: Help your customers get ahead",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024534"
+        }
+      ]
+    },
+    {
+      "name": "Stuart Stevenson",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Solving real-world manufacturing challenges with Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1019493"
+        }
+      ]
+    },
+    {
+      "name": "Ethan Sorenson",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Solving the Data Disconnect: How eOne iPaaS+ Drives Strategy, Stickiness and Scalable Success",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1026289"
+        }
+      ]
+    },
+    {
+      "name": "Madalynn Woolery",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Solving the Data Disconnect: How eOne iPaaS+ Drives Strategy, Stickiness and Scalable Success",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1026289"
+        }
+      ]
+    },
+    {
+      "name": "Arno Mouwen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Stop over-engineering permissions: use exclude to secure faster and smarter",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987578"
+        }
+      ]
+    },
+    {
+      "name": "Agne Balkeviciute Lajiene",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Storytelling with AI: What Your Customers' Executives Want to Hear (and Buy)",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=974143"
+        }
+      ]
+    },
+    {
+      "name": "Taimoor Tariq",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Supercharging Business Central for Microsoft Partners",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990253"
+        }
+      ]
+    },
+    {
+      "name": "Mercal Queralt",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "The AI-Powered future of Business Management",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=999739"
+        }
+      ]
+    },
+    {
+      "name": "Duilio Tacconi",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "The Future of Business Central environment management at scale: API + Telemetry + AI",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=971794"
+        }
+      ]
+    },
+    {
+      "name": "Lars Holm Byg",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "The Future of Product Data in Europe - From Compliance to Competitiveness",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1013892"
+        }
+      ]
+    },
+    {
+      "name": "Julien Chambon",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "The Modern Business Central Consultant: Unicorns Wanted",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=983893"
+        }
+      ]
+    },
+    {
+      "name": "Djoko Kimov",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Turn Data into Decisions: Build Powerful Dashboards with Power BIâ€”No Technical Skills Needed",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=990440"
+        }
+      ]
+    },
+    {
+      "name": "Edgar Grasl",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Unlock the Full Potential of Business Central with the ELO ECM Suite",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1018876"
+        }
+      ]
+    },
+    {
+      "name": "Marie Peper",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Unlock the Full Potential of Business Central with the ELO ECM Suite",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1018876"
+        }
+      ]
+    },
+    {
+      "name": "Hendrik Bulens",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Unlocking the power of planning with Dime.Scheduler: use cases & what's next",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=917952"
+        }
+      ]
+    },
+    {
+      "name": "Christian Sega",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Update: Unlock the Power of Emotional Intelligence and what's IN for YOU!",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=984009"
+        }
+      ]
+    },
+    {
+      "name": "Jason Gumpert",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Vision 2030 Survey: Insights from the Microsoft AI Business Partner Sales & Marketing Leaders",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987915"
+        }
+      ]
+    },
+    {
+      "name": "Rick McCutcheon",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Vision 2030 Survey: Insights from the Microsoft AI Business Partner Sales & Marketing Leaders",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=987915"
+        }
+      ]
+    },
+    {
+      "name": "Martin SÃ¸rensen",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Warehouse Management Made Easy with Tasklet Mobile WMS",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021166"
+        }
+      ]
+    },
+    {
+      "name": "Peter List",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Warehouse Management Made Easy with Tasklet Mobile WMS",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1021166"
+        }
+      ]
+    },
+    {
+      "name": "Carlos Yuwono",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Webhook to Business Central: Integration with Azure Logic Apps and Service Bus",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=986210"
+        }
+      ]
+    },
+    {
+      "name": "Kevin Rosendaal",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Who's Watching the Consultants? Securing Business Central with Microsoft PIM",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=967790"
+        }
+      ]
+    },
+    {
+      "name": "Kevin Maier",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Why waste time with Gen Z? (Spoiler: You Should!)",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=982132"
+        }
+      ]
+    },
+    {
+      "name": "Miguel Mello Vieira",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Why waste time with Gen Z? (Spoiler: You Should!)",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=982132"
+        }
+      ]
+    },
+    {
+      "name": "Tibor Major",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "WMS MobileNAV = efficient warehouse",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024473"
+        }
+      ]
+    },
+    {
+      "name": "Hannes Storz",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "YAVEON: Boosting Process Industry Performance with AI and Tasklet Scanning",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1000550"
+        }
+      ]
+    },
+    {
+      "name": "Karolina KrilaviÄiÅ«tÄ—",
+      "appearances": 1,
+      "sessions": [
+        {
+          "title": "Yooz & Microsoft: Boost Dynamics 365 sales with end-to-end P2P automation for Business Central",
+          "url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024476"
+        }
+      ]
+    }
+  ],
+  "total_speakers": 244
 }

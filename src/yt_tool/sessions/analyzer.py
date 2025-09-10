@@ -88,15 +88,26 @@ def analyze_sessions(
                 speakers = sorted({*speakers, *ai["speakers"]})
             if ai.get("categories"):
                 categories = sorted({*categories, *ai["categories"]})
-        merged_pre.append({
+        
+        # Convert SessionEntry to dict with structured fields
+        session_dict = {
             "session_id": s.session_id,
             "title": s.title,
             "detail_url": s.detail_url,
+            "url": s.detail_url,  # Add url field for consistency with videos.json
             "speakers": speakers,
             "categories": categories,
             "description": s.description,
             "source": s.source,
-        })
+            # Add structured fields
+            "session_type": s.session_type,
+            "level": s.level,
+            "roles": s.roles,
+            "product": s.product,
+            "areas": s.areas,
+            "submitter": s.submitter,
+        }
+        merged_pre.append(session_dict)
 
     # Optional taxonomy restriction after enrichment
     if restrict_to_taxonomy and taxonomy_path:

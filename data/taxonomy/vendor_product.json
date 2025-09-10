@@ -1,0 +1,35 @@
+{
+  "_metadata": {
+    "structure": "product-role-area",
+    "description": "Vendor Sessions (Product-First View)",
+    "include_session_types": ["Sponsor (45 min)", "ISV Theatre (15 min)"]
+  },
+  "Business Central": {
+    "Consultant": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "Developer": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "Project Manager": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "Sales & Marketing": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "Leadership": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "HR": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "All": []
+  },
+  "Power Platform": {
+    "Consultant": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "Developer": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "Project Manager": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "Sales & Marketing": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "Leadership": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "HR": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "All": []
+  },
+  "Other": {
+    "Consultant": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "Developer": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "Project Manager": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "Sales & Marketing": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "Leadership": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "HR": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "All": []
+  },
+  "All": ["Consultant", "Developer", "Project Manager", "Sales & Marketing", "Leadership", "HR", "All"]
+}

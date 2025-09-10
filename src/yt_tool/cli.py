@@ -24,6 +24,7 @@ from .tagging.azure_openai import AzureOpenAITaggingProvider
 from .sessions.analyzer import analyze_sessions
 from .storage.repo import (
     load_sessions,
+    save_sessions,
     compute_session_speaker_stats,
 )
 
@@ -56,6 +57,7 @@ def cmd_analyze(args: argparse.Namespace) -> None:
                 taxonomy=taxonomy,
                 root_title=args.root_title or "Conference Sessions",
                 root_url=args.root_url or args.session_list_url,
+                exclude_session_types=[] if getattr(args, 'include_all_session_types', False) else None,
             )
             out_path = Path(args.output) if args.output else (data_dir / "sessions_markmap.md")
             save_markmap(content, out_path)
@@ -104,6 +106,7 @@ def cmd_analyze(args: argparse.Namespace) -> None:
             taxonomy=taxonomy,
             root_title=args.root_title or "YouTube Channel",
             root_url=args.root_url,
+            exclude_session_types=[] if getattr(args, 'include_all_session_types', False) else None,
         )
         out_path = Path(args.output) if args.output else (data_dir / "videos_markmap.md")
         save_markmap(content, out_path)
@@ -112,18 +115,65 @@ def cmd_analyze(args: argparse.Namespace) -> None:
 
 def cmd_export_markmap(args: argparse.Namespace) -> None:
     cfg = load_config()
+    
+    # Data directory contains the source data files
     data_dir = ensure_data_dir(Path(args.data_dir or cfg.data_dir))
-    videos = load_videos(data_dir)
+    
+    # Output directory for the markmap file (defaults to data_dir if not specified)
+    output_dir = Path(args.output_dir) if getattr(args, 'output_dir', None) else data_dir
+    
+    # Check if --sessions flag is used or if sessions.json exists and is newer/larger than videos.json
+    use_sessions = getattr(args, 'sessions', False)
+    if not use_sessions:
+        sessions_file = data_dir / "sessions.json"
+        videos_file = data_dir / "videos.json"
+        if sessions_file.exists() and (not videos_file.exists() or sessions_file.stat().st_size > videos_file.stat().st_size):
+            print("Auto-detecting sessions.json as data source (larger/newer than videos.json)")
+            use_sessions = True
+    
+    if use_sessions:
+        data = load_sessions(data_dir)
+        default_title = "Conference Sessions"
+        default_output = output_dir / "sessions_markmap.md"
+    else:
+        data = load_videos(data_dir)
+        default_title = "YouTube Channel"
+        default_output = output_dir / "videos_markmap.md"
+    
     taxonomy = load_taxonomy(Path(args.taxonomy)) if args.taxonomy else None
+    
+    # Derive filename from taxonomy if not explicitly provided
+    if args.output:
+        out = Path(args.output)
+    elif args.taxonomy and taxonomy:
+        taxonomy_path = Path(args.taxonomy)
+        # Extract name from taxonomy file (remove extension and path)
+        taxonomy_name = taxonomy_path.stem
+        if taxonomy_name != "taxonomy":  # Don't use generic "taxonomy" name
+            # Use taxonomy name for filename
+            if use_sessions:
+                filename = f"{taxonomy_name}_markmap.md"
+            else:
+                filename = f"{taxonomy_name}_markmap.md"
+            out = output_dir / filename
+        else:
+            out = default_output
+    else:
+        out = default_output
+    
     content = generate_markmap(
-        videos,
+        data,
         taxonomy=taxonomy,
-        root_title=args.root_title or "YouTube Channel",
+        root_title=args.root_title or default_title,
         root_url=args.root_url,
+        exclude_session_types=[] if getattr(args, 'include_all_session_types', False) else None,
     )
-    out = Path(args.output or (data_dir / "videos_markmap.md"))
+    
+    # Create output directory if it doesn't exist
+    out.parent.mkdir(parents=True, exist_ok=True)
+    
     save_markmap(content, out)
-    print(f"Saved markmap to {out}")
+    print(f"Saved markmap to {out} (source: {'sessions.json' if use_sessions else 'videos.json'} from {data_dir})")
 
 
 def cmd_stats(args: argparse.Namespace) -> None:
@@ -159,16 +209,20 @@ def build_parser() -> argparse.ArgumentParser:
     a.add_argument("--root-title", help="Markmap root title when exporting")
     a.add_argument("--root-url", help="Markmap root URL when exporting")
     a.add_argument("--output", help="Markmap output path when exporting")
+    a.add_argument("--include-all-session-types", action="store_true", help="Include keynote, sponsor, and ISV sessions in markmap")
     a.set_defaults(func=cmd_analyze)
 
     e = sub.add_parser("export", help="Export assets")
     esub = e.add_subparsers(dest="export_command", required=True)
     mm = esub.add_parser("markmap", help="Export markmap markdown")
-    mm.add_argument("--data-dir")
+    mm.add_argument("--data-dir", help="Source directory containing sessions.json/videos.json")
+    mm.add_argument("--output-dir", help="Output directory for markmap file (defaults to --data-dir)")
     mm.add_argument("--taxonomy")
     mm.add_argument("--root-title")
     mm.add_argument("--root-url")
     mm.add_argument("--output")
+    mm.add_argument("--sessions", action="store_true", help="Use sessions.json instead of videos.json")
+    mm.add_argument("--include-all-session-types", action="store_true", help="Include keynote, sponsor, and ISV sessions in markmap")
     mm.set_defaults(func=cmd_export_markmap)
 
     s = sub.add_parser("stats", help="Show simple statistics")

@@ -1,0 +1,49 @@
+{
+  "_metadata": {
+    "structure": "role-product-area",
+    "description": "Role Simple Taxonomy (No Levels)",
+    "exclude_session_types": ["Keynote", "Sponsor (45 min)", "ISV Theatre (15 min)"]
+  },
+  "Consultant": {
+    "Business Central": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "Power Platform": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "Other": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "All": []
+  },
+  "Developer": {
+    "Business Central": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "Power Platform": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "Other": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "All": []
+  },
+  "Project Manager": {
+    "Business Central": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "Power Platform": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "Other": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "All": []
+  },
+  "Sales & Marketing": {
+    "Business Central": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "Power Platform": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "Other": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "All": []
+  },
+  "Leadership": {
+    "Business Central": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "Power Platform": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "Other": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "All": []
+  },
+  "HR": {
+    "Business Central": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "Power Platform": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "Other": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "All": []
+  },
+  "All": {
+    "Business Central": ["Copilot", "Other", "AI/Agents", "Sustainability", "Finance", "Supply Chain", "AL", "DevOps", "Warehousing", "API/Interface", "Admin"],
+    "Power Platform": ["Power Pages", "Automate", "Integration", "Power Apps", "Dataverse", "Copilot", "Other"],
+    "Other": ["Sales", "Service", "PowerBI", "Customer Insights"],
+    "All": []
+  }
+}

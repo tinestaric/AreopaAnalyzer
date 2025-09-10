@@ -9,6 +9,8 @@ globs:
 alwaysApply: true
 ---
 
+Do not try to run python. This project uses conda, and the AI terminal is not able to run it.
+
 Project Structure
 
 - Root goals
