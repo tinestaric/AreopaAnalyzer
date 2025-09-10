@@ -7,6 +7,14 @@ on:
         description: "YouTube channel ID"
         required: true
         type: string
+      channel_name:
+        description: "Human-friendly channel name (for markmap root title)"
+        required: false
+        type: string
+      channel_url:
+        description: "Channel URL (for markmap root link)"
+        required: false
+        type: string
       restrict_to_taxonomy:
         description: "Filter tags to taxonomy"
         required: false
@@ -17,6 +25,13 @@ on:
         required: false
         default: "data/taxonomy.json"
         type: string
+      limit:
+        description: "Optional max videos to process (for testing)"
+        required: false
+        type: number
+  schedule:
+    # Every Wednesday at 03:00 UTC
+    - cron: '0 3 * * 3'
 
 permissions:
   contents: write
@@ -24,6 +39,14 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Fallbacks for scheduled runs (since workflow_dispatch inputs are not available then)
+      CHANNEL_ID: ${{ inputs.channel_id || vars.CHANNEL_ID }}
+      CHANNEL_NAME: ${{ inputs.channel_name || vars.CHANNEL_NAME }}
+      CHANNEL_URL: ${{ inputs.channel_url || vars.CHANNEL_URL }}
+      TAXONOMY_PATH: ${{ inputs.taxonomy_path || vars.TAXONOMY_PATH || 'data/taxonomy.json' }}
+      RESTRICT: ${{ inputs.restrict_to_taxonomy || vars.RESTRICT_TO_TAXONOMY }}
+      LIMIT: ${{ inputs.limit || vars.LIMIT }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -39,13 +62,18 @@ jobs:
           AZURE_OPENAI_DEPLOYMENT: ${{ secrets.AZURE_OPENAI_DEPLOYMENT }}
           AZURE_OPENAI_API_VERSION: ${{ secrets.AZURE_OPENAI_API_VERSION }}
         run: |
-          python -m src.yt_tool.cli analyze \
-            --channel-id "${{ inputs.channel_id }}" \
-            --data-dir data \
-            ${{ inputs.restrict_to_taxonomy && format('--restrict-to-taxonomy --taxonomy {0}', inputs.taxonomy_path) || '' }}
+          CMD="python -m src.yt_tool.cli analyze --channel-id \"${CHANNEL_ID}\" --data-dir data"
+          if [ -n "${LIMIT}" ]; then CMD="$CMD --limit ${LIMIT}"; fi
+          if [ "${RESTRICT}" = "true" ]; then CMD="$CMD --restrict-to-taxonomy --taxonomy ${TAXONOMY_PATH}"; fi
+          echo "$CMD"
+          eval $CMD
       - name: Export markmap
         run: |
-          python -m src.yt_tool.cli export markmap --data-dir data --root-title "YouTube Channel"
+          CMD="python -m src.yt_tool.cli export markmap --data-dir data"
+          if [ -n "${CHANNEL_NAME}" ]; then CMD="$CMD --root-title \"${CHANNEL_NAME}\""; fi
+          if [ -n "${CHANNEL_URL}" ]; then CMD="$CMD --root-url \"${CHANNEL_URL}\""; fi
+          echo "$CMD"
+          eval $CMD
       - name: Create/Update latest release and upload assets
         uses: softprops/action-gh-release@v2
         env:
