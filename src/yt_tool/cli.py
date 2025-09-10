@@ -48,6 +48,7 @@ def cmd_analyze(args: argparse.Namespace) -> None:
             delay_min=float(getattr(args, "delay_min", 0.3)),
             delay_max=float(getattr(args, "delay_max", 0.8)),
             limit=args.limit,
+            verbose=bool(getattr(args, "verbose", False)),
         )
         print(f"Processed {len(entries)} sessions.")
         if getattr(args, "export_markmap", False):
@@ -156,6 +157,7 @@ def build_parser() -> argparse.ArgumentParser:
     a.add_argument("--delay-min", type=float, default=0.3, help="Min polite delay between requests (sessions)")
     a.add_argument("--delay-max", type=float, default=0.8, help="Max polite delay between requests (sessions)")
     a.add_argument("--export-markmap", action="store_true", help="Also export markmap after analyze")
+    a.add_argument("--verbose", action="store_true", help="Verbose output (sessions and AI tagging)")
     a.add_argument("--root-title", help="Markmap root title when exporting")
     a.add_argument("--root-url", help="Markmap root URL when exporting")
     a.add_argument("--output", help="Markmap output path when exporting")

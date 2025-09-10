@@ -5,7 +5,7 @@
     "detail_url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=975385",
     "speakers": [],
     "categories": [],
-    "description": "",
+    "description": "Are you a Business Central developer looking to refresh your knowledge?Fasten your seatbelts and focus with us on 43 simple but powerful tips to help you work smarter and faster. Learn how to write better code, find and fix problems more easily, and create custom solutions that work well for your users.We will cover useful AL programming tips, tricks to save time in VS Code, ideas to make your work more efficient, and a couple of jokes.Whether you are new to Business Central development or have experience, these tips will help you increase code quality and build great solutions.",
     "source": "directions-emea-2025"
   },
   {
@@ -14,7 +14,7 @@
     "detail_url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=995307",
     "speakers": [],
     "categories": [],
-    "description": "",
+    "description": "In this session, we'll explore why a multisite BC rollout is not just a project, but in many ways a product development effort, especially in the early stages. You'll learn how the initial phase of harmonizing processes, stabilizing requirements, and building reusable components resembles the lifecycle of a software product far more than that of a classic IT project.We'll discuss: - The critical shift in mindset required from project teams and stakeholders - Why a \"template-first\" approach is essential for scalability - Lessons learned from large international rollouts - How to balance standardization with local flexibilityIf you are involved in international BC implementations â€” whether as a consultant, project manager, or internal stakeholder â€” this session will help you rethink your approach and build BC solutions that scale effectively across the enterprise.",
     "source": "directions-emea-2025"
   },
   {
@@ -23,7 +23,7 @@
     "detail_url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=995676",
     "speakers": [],
     "categories": [],
-    "description": "",
+    "description": "Most AI chatbots in business today are limited to providing static answers. They can't do anything - they can't update CRM records, send notifications, or automate tasks. This leads to disconnected user experiences and missed opportunities for operational efficiency.As organizations adopt AI copilots across customer service, internal support, and operations, the demand is shifting from passive Q&A bots to intelligent agents that can take action across systems. This requires tight integration with business data and tools like Dynamics 365, Microsoft 365, and third-party systems. Without this, AI remains just a novelty, not a driver of value or ROI.How - Tools & Features to Solve It:In 2025, Microsoft Copilot Studio introduced the Tools pane, a centralized interface for adding actions and data sources to your chatbot. These features empower Copilots to not just talk, but to actâ€”automating tasks like submitting service tickets, scheduling meetings, or logging data into your CRM in real time.In this session:- Learn how to connect Copilot Studio to Dynamics 365, Power Automate, and external systems to build end-to-end business processes within your chatbot.- Discover how generative AI can intelligently decide which action to take, including asking for missing inputs dynamically during the conversation.- Gain practical experience designing Copilot workflows that go beyond answering questions - by performing actions that deliver measurable business value.",
     "source": "directions-emea-2025"
   },
   {
@@ -32,7 +32,7 @@
     "detail_url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=989743",
     "speakers": [],
     "categories": [],
-    "description": "",
+    "description": "What makes a good developer? While there are many qualities, Henrik Helgesen and Luc van Vugt emphasize one in particular: the importance to learn from mistakes. They believe that having the courage to admit when your code isn't the best solution is crucial. A solution that worked years ago might not be effective today, especially with the constantly evolving BC platform.Through engaging examples, Henrik and Luc will demonstrate how fixing mistakes has made them better developers and teammates. They will also explore how AI has become a modern peer providing lightning fast feedback on their code.Their presentations are always thought-provoking and lively, and this session promises to be no different. Although they might not be as elegantly dressed as in Vienna, their content will undoubtedly shine.",
     "source": "directions-emea-2025"
   },
   {
@@ -41,7 +41,7 @@
     "detail_url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=981142",
     "speakers": [],
     "categories": [],
-    "description": "",
+    "description": "OGs, or Original Gangsters, are once skilled in C/AL and NAV, but now find AL and BC a bit challenging due to many new language and platform features to learn.In this session, we'll cover coding topics that might be unfamiliar to many of you. These areas are not often used, sometimes because they are needed only for specific cases, and mostly because different approaches are used to solve problems. They might also be new to you, and you may lack the time or knowledge to explore them (Copilot, anyone?).",
     "source": "directions-emea-2025"
   },
   {
@@ -50,7 +50,7 @@
     "detail_url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=988843",
     "speakers": [],
     "categories": [],
-    "description": "",
+    "description": "In 2025, AI is no longer a buzzwordâ€”it's a battleground. From Microsoft's bold vision of the â€œFrontier Firmâ€ to Apple's sobering critique in The Illusion of Thinking, the AI landscape is evolving faster than most businesses can adapt. This session dives deep into the rise of Agentic AI and its transformative impact on ERP, with a sharp focus on Business Central. But we won't stop there. We'll explore how other ERP giants are reimagining AI in their platforms, and how their strategies compare to Microsoft's. We'll also examine the broader AI ecosystem: Apple's stumbles with Apple Intelligence, Microsoft's missteps with Windows Recall, and the rise of physical AI from Tesla and Figure. You'll leave with a clear understanding of where AI is headed, what it means for your customers, and how to position yourself at the forefront of this revolution. Expect bold insights, real-world examples, and a roadmap for navigating the next wave of intelligent ERP.",
     "source": "directions-emea-2025"
   },
   {
@@ -59,7 +59,7 @@
     "detail_url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=978015",
     "speakers": [],
     "categories": [],
-    "description": "",
+    "description": "Remember when \"digital transformation\" meant moving from Excel to ERP? Today's AI revolution demands an even bigger leap, and for many business leaders over 40, it feels like being asked to learn a new language while running a marathon. This isn't another theoretical AI presentation filled with buzzwords and hype. Instead, join a fellow business leader on a journey of AI discovery.In this candid 45-minute session, discover why your years of business experience aren't obsolete - they're your secret weapon in the AI age. Learn why treating AI like Google is your biggest mistake, and how thinking of AI as your smartest team member changes everything. Through real-world examples, you'll see how AI can transform your work as a prerequisite to changing how your teams and clients work.Key takeaways include:â€¢ The mindset shift that turns AI from a frustrating toy into an indispensable business toolâ€¢ Why you have a unique advantage in the AI revolutionâ€¢ Practical AI ideas you can implement immediately (really)â€¢ How to lead AI transformation across the organizationâ€¢ The journey from AI anxiety to organizational leadershipThis session is for leaders who have built successful practices based on experience and relationships, who understand that technology should serve business (not vice versa), and who suspect AI is important but haven't seen AI drive organizational transformation yet. No coding required.",
     "source": "directions-emea-2025"
   },
   {
@@ -68,7 +68,7 @@
     "detail_url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1023801",
     "speakers": [],
     "categories": [],
-    "description": "",
+    "description": "In industries like Manufacturing, Facility Management, and Energy, the impact of AI will be transformative, but only if solutions address the real demands of operations. For AI to deliver value in maintenance and field service, it must be accessible, practical, and embedded in systems already in use.Maintenance teams need tools that simplify daily work such as creating work orders and tracking requests, while operations managers require support for building preventive plans and deploying predictive maintenance strategies powered by IoT and machine learning. The goal is to extend the expertise of experienced staff by scaling their knowledge through data-driven decision-making.For Microsoft Solutions Partners, the opportunity is clear: deploy AI trained on operational and maintenance dataâ€”not generalized ERP, finance, or HR inputs. Solutions that meet users where they work improve adoption, drive productivity, and make Business Central even more essential to daily operations.With mobiMentor AI, built into TAG Mobi EAM for Microsoft Business Central, Verosoft is delivering a new layer of intelligence that ensures cleaner maintenance data, boosts engagement, and expands ERP value for asset-intensive industries.Meet the Verosoft expert at Directions EMEA 2025 to see how AI designed for maintenance is already increasing user stickiness in Business Central and how it will soon optimize complex workflows as data flows through BC, turning AI from concept into enabler.",
     "source": "directions-emea-2025"
   },
   {
@@ -77,7 +77,7 @@
     "detail_url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=1024479",
     "speakers": [],
     "categories": [],
-    "description": "",
+    "description": "AI isn't the future of Business Central â€” it's happening right now. In this session, we'll show how AI apps transform the way finance teams work: from conversational reporting in AI Financial Intelligence to automated close and audit validations in AI Chief Accountant Assistant.You'll see how AI turns everyday ERP data into insights, charts, and explanations you can act on instantly â€” without spreadsheets, manual reporting, or waiting for IT.Key takeaways:How conversational analytics let you talk with your data and get instant answersWhy dynamic charts make trends and risks clear at a glanceHow AI-driven checklists bring control and confidence to month-end and audit prepPractical examples of AI in action inside Business CentralJoin us to explore how AI can cut through the noise, simplify finance, and give decision-makers the clarity they need.",
     "source": "directions-emea-2025"
   },
   {
@@ -86,7 +86,7 @@
     "detail_url": "https://www.directionsforpartners.com/conferences-and-events/directions/emea2025/session-list?session=977530",
     "speakers": [],
     "categories": [],
-    "description": "",
+    "description": "When implementing AI solutions in your Business Central extensions, you face a critical decision: adopting Microsoft's Managed AI service or custom Azure OpenAI deployments? This choice impacts costs, control, and monitoring capabilities of your AI solution.During this session, we'll go in-depth into both approaches. We will discover what the new Microsoft's Managed AI service is, its integration with AL and when it's the optimal choice to adopt. Then we'll also explore the adoption of custom Azure OpenAI deployments, including setup, configuration of an AI layer, advanced tips for AI performant architecture (like routing models) and advanced monitoring techniques.You will learn practical implementation strategies, cost optimization methods, and best practices for tracking AI usage per customer. I will also share custom monitoring tools and frameworks you can immediately adopt in your development practice.Whether you're building your first AI-powered extension or scaling existing solutions, this session provides the insights and tools needed to make informed architectural decisions and implement effective AI monitoring strategies.",
     "source": "directions-emea-2025"
   }
 ]

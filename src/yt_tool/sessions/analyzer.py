@@ -31,6 +31,7 @@ def analyze_sessions(
     delay_min: float = 0.3,
     delay_max: float = 0.8,
     limit: Optional[int] = None,
+    verbose: bool = False,
 ) -> List[Dict]:
     existing = load_sessions(data_dir)
     sync = load_sessions_sync_metadata(data_dir)
@@ -41,7 +42,7 @@ def analyze_sessions(
         request_timeout=request_timeout,
         respect_robots=respect_robots,
     )
-    collected: List[SessionEntry] = client.collect((delay_min, delay_max), max_items=limit)
+    collected: List[SessionEntry] = client.collect((delay_min, delay_max), max_items=limit, verbose=verbose)
 
     # Build tagger
     tagger: Optional[AzureOpenAITaggingProvider] = None
@@ -69,6 +70,8 @@ def analyze_sessions(
         for i in range(0, len(new_entries), batch_size):
             batch = new_entries[i : i + batch_size]
             ai_results = tagger.analyze_content_batch([to_desc(s) for s in batch])
+            if verbose:
+                print(f"AI tagged batch {i//batch_size + 1}/{(len(new_entries)+batch_size-1)//batch_size} of {len(batch)} sessions")
             for res in ai_results:
                 key = res["video_id"]
                 enriched_map[str(key)] = {
