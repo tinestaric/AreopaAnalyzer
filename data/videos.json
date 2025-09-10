@@ -1,7 +1,7 @@
 [
   {
     "title": "Replicating Business Central data to Microsoft Dataverse (former CDS)",
-    "views": 6768,
+    "views": 6802,
     "url": "https://youtube.com/watch?v=mNgx1d7TAXQ",
     "speakers": [
       "Andrey Baludin"
@@ -13,7 +13,7 @@
   },
   {
     "title": "Working with files in Dynamics 365 Business Central SaaS",
-    "views": 6312,
+    "views": 6403,
     "url": "https://youtube.com/watch?v=4X-tSjL0XaA",
     "speakers": [
       "Stefano Demiliani"
@@ -25,7 +25,7 @@
   },
   {
     "title": "Sync your Business Central data with Azure Data Lake",
-    "views": 5929,
+    "views": 6218,
     "url": "https://youtube.com/watch?v=Fjz9LgviV2Q",
     "speakers": [
       "Bert Verbeek"
@@ -36,7 +36,7 @@
   },
   {
     "title": "Working with XML in AL",
-    "views": 5300,
+    "views": 5414,
     "url": "https://youtube.com/watch?v=3w018zjbUwQ",
     "speakers": [
       "Arend-Jan Kauffman"
@@ -47,7 +47,7 @@
   },
   {
     "title": "OAuth authentication with Business Central APIs",
-    "views": 4987,
+    "views": 5034,
     "url": "https://youtube.com/watch?v=yeKRuw9MtSQ",
     "speakers": [
       "Arend-Jan Kauffmann"
@@ -58,7 +58,7 @@
   },
   {
     "title": "Calculating Azure Cost by Using Pricing API, a Command Line Tool and Excel",
-    "views": 4267,
+    "views": 4289,
     "url": "https://youtube.com/watch?v=_2vyg8PhxVY",
     "speakers": [
       "Tobias Fenster"
@@ -69,7 +69,7 @@
   },
   {
     "title": "Azure Functions for Dynamics 365 Business Central developers",
-    "views": 3444,
+    "views": 3461,
     "url": "https://youtube.com/watch?v=NoQqHOHj4wc",
     "speakers": [
       "Stefano Demiliani"
@@ -80,7 +80,7 @@
   },
   {
     "title": "Working with APIs",
-    "views": 3007,
+    "views": 3048,
     "url": "https://youtube.com/watch?v=-BLNMTf7r5k",
     "speakers": [
       "Arend-Jan Kauffmann"
@@ -90,19 +90,8 @@
     ]
   },
   {
-    "title": "Automating and extending Azure DevOps",
-    "views": 2835,
-    "url": "https://youtube.com/watch?v=B5MGP2coXQI",
-    "speakers": [
-      "Tobias Fenster"
-    ],
-    "categories": [
-      "DevOps"
-    ]
-  },
-  {
     "title": "How to export large data from Business Central to MS Fabric",
-    "views": 2741,
+    "views": 2993,
     "url": "https://youtube.com/watch?v=sXZkrFtN5oc",
     "speakers": [
       "Bert Verbeek"
@@ -112,8 +101,19 @@
     ]
   },
   {
+    "title": "Automating and extending Azure DevOps",
+    "views": 2838,
+    "url": "https://youtube.com/watch?v=B5MGP2coXQI",
+    "speakers": [
+      "Tobias Fenster"
+    ],
+    "categories": [
+      "DevOps"
+    ]
+  },
+  {
     "title": "Create a Custom BC Connector for Power Automate",
-    "views": 2279,
+    "views": 2324,
     "url": "https://youtube.com/watch?v=6VUNCVKCwM4",
     "speakers": [
       "Josh Anglesea"
@@ -124,7 +124,7 @@
   },
   {
     "title": "GitHub Copilot Write Extensions for Business Central with AL",
-    "views": 2255,
+    "views": 2282,
     "url": "https://youtube.com/watch?v=i-K3J6C5zkc",
     "speakers": [
       "Dmitry Katson"
@@ -136,7 +136,7 @@
   },
   {
     "title": "Automated testing of your Business Central API",
-    "views": 2180,
+    "views": 2223,
     "url": "https://youtube.com/watch?v=xKnYtdiAG0A",
     "speakers": [
       "Luc van Vugt"
@@ -148,7 +148,7 @@
   },
   {
     "title": "45 tips in 45 minutes",
-    "views": 1771,
+    "views": 1832,
     "url": "https://youtube.com/watch?v=1qgo6vGLuk4",
     "speakers": [
       "Søren Friis Alexandersen"
@@ -159,7 +159,7 @@
   },
   {
     "title": "Getting easily from functional test case definitions to automated tests",
-    "views": 1482,
+    "views": 1489,
     "url": "https://youtube.com/watch?v=ma48oWYWCvw",
     "speakers": [
       "Luc van Vugt"
@@ -171,7 +171,7 @@
   },
   {
     "title": "What's new in Business Central 2020 Wave 1 YouTube",
-    "views": 1439,
+    "views": 1441,
     "url": "https://youtube.com/watch?v=VDhgV67EG4U",
     "speakers": [
       "waldo",
@@ -183,7 +183,7 @@
   },
   {
     "title": "What does it mean to 'build' an app for Business Central",
-    "views": 1256,
+    "views": 1268,
     "url": "https://youtube.com/watch?v=VwCfWjimn78",
     "speakers": [],
     "categories": [
@@ -191,8 +191,21 @@
     ]
   },
   {
+    "title": "VS Code AL Extensions - 4",
+    "views": 1186,
+    "url": "https://youtube.com/watch?v=28JghaJHNJ4",
+    "speakers": [
+      "Rob van Bekkum",
+      "Johannes Wikman",
+      "Christoph Krieg"
+    ],
+    "categories": [
+      "AL Extensions"
+    ]
+  },
+  {
     "title": "VS Code AL Extensions - 1",
-    "views": 1173,
+    "views": 1179,
     "url": "https://youtube.com/watch?v=f_ikghBRGMA",
     "speakers": [
       "Waldemar Brakowski",
@@ -205,7 +218,7 @@
   },
   {
     "title": "Setting up and processing sales and use tax in Microsoft Dynamics 365 BC",
-    "views": 1132,
+    "views": 1173,
     "url": "https://youtube.com/watch?v=1ndyJ2oUwiE",
     "speakers": [
       "Kristen Hosman"
@@ -215,21 +228,8 @@
     ]
   },
   {
-    "title": "VS Code AL Extensions - 4",
-    "views": 1131,
-    "url": "https://youtube.com/watch?v=28JghaJHNJ4",
-    "speakers": [
-      "Rob van Bekkum",
-      "Johannes Wikman",
-      "Christoph Krieg"
-    ],
-    "categories": [
-      "AL Extensions"
-    ]
-  },
-  {
     "title": "What about Page Scripting? An introduction and beyond",
-    "views": 1101,
+    "views": 1155,
     "url": "https://youtube.com/watch?v=ao4hKIFcsI0",
     "speakers": [
       "Bert Verbeek",
@@ -241,7 +241,7 @@
   },
   {
     "title": "How to sync master data in multiple companies using Power Automate",
-    "views": 1099,
+    "views": 1109,
     "url": "https://youtube.com/watch?v=kXRYKHZdpj4",
     "speakers": [
       "Josh Anglesea"
@@ -252,7 +252,7 @@
   },
   {
     "title": "Developing Generative AI for Extensions with the Copilot Tool",
-    "views": 1026,
+    "views": 1040,
     "url": "https://youtube.com/watch?v=Xa8pjUqwfeo",
     "speakers": [
       "Dmitry Katson"
@@ -263,7 +263,7 @@
   },
   {
     "title": "AL Go for GitHub",
-    "views": 989,
+    "views": 1007,
     "url": "https://youtube.com/watch?v=uq7Uuj1eIeU",
     "speakers": [
       "Freddy Kristiansen"
@@ -274,7 +274,7 @@
   },
   {
     "title": "Telemetry for Business Central - what are the benefits?",
-    "views": 972,
+    "views": 977,
     "url": "https://youtube.com/watch?v=XMwMqEY5Ebs",
     "speakers": [
       "Krzysztof Bialowas"
@@ -285,7 +285,7 @@
   },
   {
     "title": "Enums in Business Central",
-    "views": 961,
+    "views": 973,
     "url": "https://youtube.com/watch?v=jTV70Rdk5Pc",
     "speakers": [
       "Dmitry Katson"
@@ -295,8 +295,19 @@
     ]
   },
   {
+    "title": "The Rest Client module in AL",
+    "views": 925,
+    "url": "https://youtube.com/watch?v=gv_NQAekX8Y",
+    "speakers": [
+      "Arend-Jan Kauffmann"
+    ],
+    "categories": [
+      "API"
+    ]
+  },
+  {
     "title": "\"The\" BC Toolkit for developers",
-    "views": 880,
+    "views": 891,
     "url": "https://youtube.com/watch?v=WDd8heDU8es",
     "speakers": [
       "waldo"
@@ -306,19 +317,8 @@
     ]
   },
   {
-    "title": "Virtual Entities – Enable Low Coding Apps To Interact With Business Central",
-    "views": 824,
-    "url": "https://youtube.com/watch?v=Ufnvk0HaiPM",
-    "speakers": [
-      "Gabor Faludi"
-    ],
-    "categories": [
-      "Power Platform"
-    ]
-  },
-  {
     "title": "Interfaces in AL",
-    "views": 821,
+    "views": 827,
     "url": "https://youtube.com/watch?v=h9sE_u0r5Eo",
     "speakers": [
       "Tobias Fenster"
@@ -329,8 +329,30 @@
     ]
   },
   {
+    "title": "Virtual Entities – Enable Low Coding Apps To Interact With Business Central",
+    "views": 826,
+    "url": "https://youtube.com/watch?v=Ufnvk0HaiPM",
+    "speakers": [
+      "Gabor Faludi"
+    ],
+    "categories": [
+      "Power Platform"
+    ]
+  },
+  {
+    "title": "A day in the life of an iFacto Developer",
+    "views": 768,
+    "url": "https://youtube.com/watch?v=8fAQIOhMXO4",
+    "speakers": [
+      "waldo"
+    ],
+    "categories": [
+      "DevOps"
+    ]
+  },
+  {
     "title": "Preparing your BC upgrade – A panel discussion",
-    "views": 766,
+    "views": 767,
     "url": "https://youtube.com/watch?v=kzZclu7vqF4",
     "speakers": [
       "Jon Long",
@@ -342,19 +364,8 @@
     ]
   },
   {
-    "title": "A day in the life of an iFacto Developer",
-    "views": 765,
-    "url": "https://youtube.com/watch?v=8fAQIOhMXO4",
-    "speakers": [
-      "waldo"
-    ],
-    "categories": [
-      "DevOps"
-    ]
-  },
-  {
     "title": "Source Control and Audit Trail in Business Central",
-    "views": 737,
+    "views": 750,
     "url": "https://youtube.com/watch?v=eDsJzQs9AKQ",
     "speakers": [
       "Michael Nielsen"
@@ -365,7 +376,7 @@
   },
   {
     "title": "DevOps and Docker in real life",
-    "views": 725,
+    "views": 727,
     "url": "https://youtube.com/watch?v=lGIZBIbz_7Y",
     "speakers": [
       "Christoph Krieg"
@@ -375,30 +386,8 @@
     ]
   },
   {
-    "title": "The Rest Client module in AL",
-    "views": 721,
-    "url": "https://youtube.com/watch?v=gv_NQAekX8Y",
-    "speakers": [
-      "Arend-Jan Kauffmann"
-    ],
-    "categories": [
-      "API"
-    ]
-  },
-  {
-    "title": "SOLID principles for app architecture in Business Central",
-    "views": 680,
-    "url": "https://youtube.com/watch?v=ixzWkVnk0ws",
-    "speakers": [
-      "Kamil Sacek"
-    ],
-    "categories": [
-      "Architecture"
-    ]
-  },
-  {
     "title": "Don't Be a Messy AL Developer",
-    "views": 676,
+    "views": 707,
     "url": "https://youtube.com/watch?v=HSH0qxvfADc",
     "speakers": [
       "Krzysztof Bialowas"
@@ -408,19 +397,19 @@
     ]
   },
   {
-    "title": "Upgrade to BC - How do you do that",
-    "views": 670,
-    "url": "https://youtube.com/watch?v=CwacefCj3rc",
+    "title": "SOLID principles for app architecture in Business Central",
+    "views": 701,
+    "url": "https://youtube.com/watch?v=ixzWkVnk0ws",
     "speakers": [
-      "Luc van Vugt"
+      "Kamil Sacek"
     ],
     "categories": [
-      "Migration"
+      "Architecture"
     ]
   },
   {
     "title": "Why are dataflows so interesting for Power BI and Business Central",
-    "views": 669,
+    "views": 689,
     "url": "https://youtube.com/watch?v=N3g49PMuJCc",
     "speakers": [
       "Steven Renders"
@@ -431,20 +420,19 @@
     ]
   },
   {
-    "title": "Running multiple NAV/BC containers on an Azure VM",
-    "views": 641,
-    "url": "https://youtube.com/watch?v=rjZ9DXsi9_w",
+    "title": "Upgrade to BC - How do you do that",
+    "views": 671,
+    "url": "https://youtube.com/watch?v=CwacefCj3rc",
     "speakers": [
-      "Tobias Fenster"
+      "Luc van Vugt"
     ],
     "categories": [
-      "Azure",
-      "DevOps"
+      "Migration"
     ]
   },
   {
     "title": "Efficient testing with test doubles",
-    "views": 633,
+    "views": 649,
     "url": "https://youtube.com/watch?v=Y7Zu21lpW_c",
     "speakers": [
       "Vjekoslav Babic"
@@ -455,8 +443,20 @@
     ]
   },
   {
+    "title": "Running multiple NAV/BC containers on an Azure VM",
+    "views": 647,
+    "url": "https://youtube.com/watch?v=rjZ9DXsi9_w",
+    "speakers": [
+      "Tobias Fenster"
+    ],
+    "categories": [
+      "Azure",
+      "DevOps"
+    ]
+  },
+  {
     "title": "Power BI and Business Central Deep Dive, Tips and Tricks",
-    "views": 616,
+    "views": 619,
     "url": "https://youtube.com/watch?v=eVVSUa5l4kE",
     "speakers": [
       "Steven Renders",
@@ -469,7 +469,7 @@
   },
   {
     "title": "Business Central's user interface is changing - align your app",
-    "views": 593,
+    "views": 602,
     "url": "https://youtube.com/watch?v=6uexvSpghtI",
     "speakers": [
       "Jan Veenendaal"
@@ -481,7 +481,7 @@
   },
   {
     "title": "How I learned NAV in a few months",
-    "views": 578,
+    "views": 586,
     "url": "https://youtube.com/watch?v=g2XuFq9nTPo",
     "speakers": [
       "Nicolai Krarup",
@@ -493,8 +493,20 @@
     ]
   },
   {
+    "title": "Object-Oriented Approaches and Design Patterns in Microsoft AL",
+    "views": 540,
+    "url": "https://youtube.com/watch?v=T8VAho9ZZYg",
+    "speakers": [
+      "Patrick Schiefer"
+    ],
+    "categories": [
+      "AL",
+      "Architecture"
+    ]
+  },
+  {
     "title": "VS Code AL Extensions - 2",
-    "views": 537,
+    "views": 539,
     "url": "https://youtube.com/watch?v=GJa9hh-MejE",
     "speakers": [
       "Bart Permentier",
@@ -506,43 +518,8 @@
     ]
   },
   {
-    "title": "Object-Oriented Approaches and Design Patterns in Microsoft AL",
-    "views": 532,
-    "url": "https://youtube.com/watch?v=T8VAho9ZZYg",
-    "speakers": [
-      "Patrick Schiefer"
-    ],
-    "categories": [
-      "AL",
-      "Architecture"
-    ]
-  },
-  {
-    "title": "AL Patterns & Guidelines",
-    "views": 494,
-    "url": "https://youtube.com/watch?v=y6J7haVJwDM",
-    "speakers": [
-      "waldo"
-    ],
-    "categories": [
-      "AL"
-    ]
-  },
-  {
-    "title": "Let’s talk about tools to test APIs!",
-    "views": 487,
-    "url": "https://youtube.com/watch?v=g6GxYnz5qsU",
-    "speakers": [
-      "Arend-Jan Kauffmann"
-    ],
-    "categories": [
-      "API",
-      "Test Automation"
-    ]
-  },
-  {
     "title": "How to be a Prompt Engineer",
-    "views": 481,
+    "views": 528,
     "url": "https://youtube.com/watch?v=q8xpDwjyNLY",
     "speakers": [
       "Tine Starič"
@@ -553,7 +530,7 @@
   },
   {
     "title": "Techniques for optimizing Dynamics 365 Business Central",
-    "views": 481,
+    "views": 522,
     "url": "https://youtube.com/watch?v=Pmbuqg4JPl0",
     "speakers": [
       "Milan Milinčević"
@@ -563,8 +540,42 @@
     ]
   },
   {
+    "title": "AL Patterns & Guidelines",
+    "views": 495,
+    "url": "https://youtube.com/watch?v=y6J7haVJwDM",
+    "speakers": [
+      "waldo"
+    ],
+    "categories": [
+      "AL"
+    ]
+  },
+  {
+    "title": "Let’s talk about tools to test APIs!",
+    "views": 488,
+    "url": "https://youtube.com/watch?v=g6GxYnz5qsU",
+    "speakers": [
+      "Arend-Jan Kauffmann"
+    ],
+    "categories": [
+      "API",
+      "Test Automation"
+    ]
+  },
+  {
+    "title": "Art of Docs Fast Building with MkDocs, GitHub & ChatGPT",
+    "views": 484,
+    "url": "https://youtube.com/watch?v=tMsO0aX91_Q",
+    "speakers": [
+      "Dmitry Katson"
+    ],
+    "categories": [
+      "AI"
+    ]
+  },
+  {
     "title": "How to get data driven in your partner practice with telemetry",
-    "views": 477,
+    "views": 482,
     "url": "https://youtube.com/watch?v=HWmUUOCLVZ8",
     "speakers": [
       "Kennie Pontoppidan"
@@ -574,20 +585,19 @@
     ]
   },
   {
-    "title": "VS Code AL Extensions - 3",
-    "views": 447,
-    "url": "https://youtube.com/watch?v=om_LzWF-uyc",
+    "title": "Telemetry with Azure Data Explorer",
+    "views": 476,
+    "url": "https://youtube.com/watch?v=y2j9OuBKC6k",
     "speakers": [
-      "James Pearson",
-      "Marton Sagi"
+      "Duilio Tacconi"
     ],
     "categories": [
-      "AL Extensions"
+      "Telemetry"
     ]
   },
   {
     "title": "Containerized CI/CD agents for Azure DevOps and GitHub",
-    "views": 446,
+    "views": 458,
     "url": "https://youtube.com/watch?v=0INOdEhXd38",
     "speakers": [
       "Markus Lippert",
@@ -598,19 +608,20 @@
     ]
   },
   {
-    "title": "Telemetry with Azure Data Explorer",
-    "views": 441,
-    "url": "https://youtube.com/watch?v=y2j9OuBKC6k",
+    "title": "VS Code AL Extensions - 3",
+    "views": 448,
+    "url": "https://youtube.com/watch?v=om_LzWF-uyc",
     "speakers": [
-      "Duilio Tacconi"
+      "James Pearson",
+      "Marton Sagi"
     ],
     "categories": [
-      "Telemetry"
+      "AL Extensions"
     ]
   },
   {
     "title": "System App in Examples",
-    "views": 437,
+    "views": 442,
     "url": "https://youtube.com/watch?v=zfzvqBf6oCs",
     "speakers": [
       "Krzysztof Bialowas"
@@ -620,19 +631,8 @@
     ]
   },
   {
-    "title": "Art of Docs Fast Building with MkDocs, GitHub & ChatGPT",
-    "views": 431,
-    "url": "https://youtube.com/watch?v=tMsO0aX91_Q",
-    "speakers": [
-      "Dmitry Katson"
-    ],
-    "categories": [
-      "AI"
-    ]
-  },
-  {
     "title": "Learning BC Development from Scratch - How Do You Get Started",
-    "views": 422,
+    "views": 435,
     "url": "https://youtube.com/watch?v=tqHRAwfYAWY",
     "speakers": [
       "Steve Endow"
@@ -642,8 +642,19 @@
     ]
   },
   {
+    "title": "Automating Code Quality - A Guide to Using Custom Code Analysis for AL",
+    "views": 426,
+    "url": "https://youtube.com/watch?v=U0W1MhNNwWI",
+    "speakers": [
+      "Tine Starič"
+    ],
+    "categories": [
+      "VSCode"
+    ]
+  },
+  {
     "title": "Interface-based injection and test automation in BC",
-    "views": 408,
+    "views": 411,
     "url": "https://youtube.com/watch?v=P-8MOfNppVQ",
     "speakers": [
       "Luc van Vugt"
@@ -654,7 +665,7 @@
   },
   {
     "title": "The less familiar performance tooling",
-    "views": 404,
+    "views": 411,
     "url": "https://youtube.com/watch?v=_V0hepCRrkA",
     "speakers": [
       "waldo"
@@ -664,19 +675,8 @@
     ]
   },
   {
-    "title": "Automating Code Quality - A Guide to Using Custom Code Analysis for AL",
-    "views": 400,
-    "url": "https://youtube.com/watch?v=U0W1MhNNwWI",
-    "speakers": [
-      "Tine Starič"
-    ],
-    "categories": [
-      "VSCode"
-    ]
-  },
-  {
     "title": "Real Life Experience With Test Automation",
-    "views": 390,
+    "views": 395,
     "url": "https://youtube.com/watch?v=uLmhOoiafxA",
     "speakers": [
       "James Pearson",
@@ -687,19 +687,8 @@
     ]
   },
   {
-    "title": "VS Code: Not *AL* Extensions",
-    "views": 389,
-    "url": "https://youtube.com/watch?v=MNdsxzipP90",
-    "speakers": [
-      "Jeremy Vyska"
-    ],
-    "categories": [
-      "VSCode"
-    ]
-  },
-  {
     "title": "It is not C#, it is AL. Object oriented development in AL.",
-    "views": 384,
+    "views": 392,
     "url": "https://youtube.com/watch?v=X02WZu-6HpM",
     "speakers": [
       "Andrzej Zwierzchowski"
@@ -710,7 +699,7 @@
   },
   {
     "title": "Automated Testing (with) Permissions",
-    "views": 378,
+    "views": 392,
     "url": "https://youtube.com/watch?v=mUeRmDVHZRk",
     "speakers": [
       "Luc van Vugt"
@@ -720,8 +709,41 @@
     ]
   },
   {
+    "title": "VS Code: Not *AL* Extensions",
+    "views": 391,
+    "url": "https://youtube.com/watch?v=MNdsxzipP90",
+    "speakers": [
+      "Jeremy Vyska"
+    ],
+    "categories": [
+      "VSCode"
+    ]
+  },
+  {
+    "title": "Everything you need to know about selling Copilot to your customers today!",
+    "views": 388,
+    "url": "https://youtube.com/watch?v=0jMn7EuEkT8",
+    "speakers": [
+      "AJ Ansari"
+    ],
+    "categories": [
+      "AI"
+    ]
+  },
+  {
+    "title": "Sustainability functionality in Business Central What's there and why",
+    "views": 388,
+    "url": "https://youtube.com/watch?v=mRFSvVQQEek",
+    "speakers": [
+      "Niall McGovern"
+    ],
+    "categories": [
+      "Functional"
+    ]
+  },
+  {
     "title": "Dynamically scaling BC containers on Docker Swarm using Azure SQL",
-    "views": 376,
+    "views": 379,
     "url": "https://youtube.com/watch?v=daALMP6KPCI",
     "speakers": [
       "Tobias Fenster"
@@ -743,54 +765,8 @@
     ]
   },
   {
-    "title": "Everything you need to know about selling Copilot to your customers today!",
-    "views": 373,
-    "url": "https://youtube.com/watch?v=0jMn7EuEkT8",
-    "speakers": [
-      "AJ Ansari"
-    ],
-    "categories": [
-      "AI"
-    ]
-  },
-  {
-    "title": "External Business Events in AL",
-    "views": 362,
-    "url": "https://youtube.com/watch?v=Tdx-7Otjle4",
-    "speakers": [
-      "Arend-Jan Kauffmann"
-    ],
-    "categories": [
-      "API"
-    ]
-  },
-  {
-    "title": "Automated code refactoring transforming old solutions and improving code quality",
-    "views": 358,
-    "url": "https://youtube.com/watch?v=M5U7iyK9kCw",
-    "speakers": [
-      "Andrzej Zwierzchowski"
-    ],
-    "categories": [
-      "AL",
-      "VSCode"
-    ]
-  },
-  {
-    "title": "My requirements specification - all facing the same direction",
-    "views": 353,
-    "url": "https://youtube.com/watch?v=TchUOb76uRs",
-    "speakers": [
-      "Luc van Vugt"
-    ],
-    "categories": [
-      "Requirements",
-      "Test Automation"
-    ]
-  },
-  {
     "title": "On lightning-fast test automation, SOLIDized code and a revised test plan",
-    "views": 350,
+    "views": 367,
     "url": "https://youtube.com/watch?v=k4ResT3dSgU",
     "speakers": [
       "Christoffer Andersen",
@@ -801,31 +777,31 @@
     ]
   },
   {
-    "title": "What about Modular Monoliths in AL",
-    "views": 342,
-    "url": "https://youtube.com/watch?v=_iQKi-IES5U",
+    "title": "Automated code refactoring transforming old solutions and improving code quality",
+    "views": 364,
+    "url": "https://youtube.com/watch?v=M5U7iyK9kCw",
     "speakers": [
-      "Christian Bräunlich"
+      "Andrzej Zwierzchowski"
     ],
     "categories": [
-      "Architecture"
+      "AL",
+      "VSCode"
     ]
   },
   {
-    "title": "Microsoft Copilot and AI: Finding a fit to business scenarios",
-    "views": 338,
-    "url": "https://youtube.com/watch?v=soLPYfN62dE",
+    "title": "External Business Events in AL",
+    "views": 363,
+    "url": "https://youtube.com/watch?v=Tdx-7Otjle4",
     "speakers": [
-      "Niall McGovern"
+      "Arend-Jan Kauffmann"
     ],
     "categories": [
-      "AI",
-      "Functional"
+      "API"
     ]
   },
   {
     "title": "Why should I use a custom code analyzer?",
-    "views": 335,
+    "views": 355,
     "url": "https://youtube.com/watch?v=BP6eWM6iLd0",
     "speakers": [
       "Arthur van der Vondervoort",
@@ -836,8 +812,43 @@
     ]
   },
   {
+    "title": "My requirements specification - all facing the same direction",
+    "views": 354,
+    "url": "https://youtube.com/watch?v=TchUOb76uRs",
+    "speakers": [
+      "Luc van Vugt"
+    ],
+    "categories": [
+      "Requirements",
+      "Test Automation"
+    ]
+  },
+  {
+    "title": "What about Modular Monoliths in AL",
+    "views": 349,
+    "url": "https://youtube.com/watch?v=_iQKi-IES5U",
+    "speakers": [
+      "Christian Bräunlich"
+    ],
+    "categories": [
+      "Architecture"
+    ]
+  },
+  {
+    "title": "Microsoft Copilot and AI: Finding a fit to business scenarios",
+    "views": 348,
+    "url": "https://youtube.com/watch?v=soLPYfN62dE",
+    "speakers": [
+      "Niall McGovern"
+    ],
+    "categories": [
+      "AI",
+      "Functional"
+    ]
+  },
+  {
     "title": "Navision to Business Central – The Journey",
-    "views": 335,
+    "views": 346,
     "url": "https://youtube.com/watch?v=RHQYSUWpbuY",
     "speakers": [
       "David Singleton"
@@ -848,7 +859,7 @@
   },
   {
     "title": "RegEx - basic and advanced scenarios",
-    "views": 331,
+    "views": 342,
     "url": "https://youtube.com/watch?v=8qEHfD-QkXk",
     "speakers": [
       "David Feldhoff"
@@ -858,8 +869,19 @@
     ]
   },
   {
+    "title": "Tests are bets",
+    "views": 340,
+    "url": "https://youtube.com/watch?v=R9rMmWwZi2o",
+    "speakers": [
+      "Xavi Ametller Serrat"
+    ],
+    "categories": [
+      "Test Automation"
+    ]
+  },
+  {
     "title": "Unlocking The Secrets Of Secure Endpoints: Connecting BC With Adv. Auth. Techniques",
-    "views": 321,
+    "views": 339,
     "url": "https://youtube.com/watch?v=twIhN4MeCjg",
     "speakers": [
       "Tine Starič"
@@ -870,7 +892,7 @@
   },
   {
     "title": "Test Automation is a team effort",
-    "views": 312,
+    "views": 318,
     "url": "https://youtube.com/watch?v=Ntb8BCL8P7M",
     "speakers": [
       "Luc van Vugt"
@@ -881,8 +903,19 @@
     ]
   },
   {
+    "title": "Business Central data in offline mode with Power Apps",
+    "views": 313,
+    "url": "https://youtube.com/watch?v=e3MLMJUFwiA",
+    "speakers": [
+      "Bartosz Rudzinski"
+    ],
+    "categories": [
+      "Power Platform"
+    ]
+  },
+  {
     "title": "Application versions, dependencies and how to handle them",
-    "views": 309,
+    "views": 312,
     "url": "https://youtube.com/watch?v=u-XCDwS4Vw0",
     "speakers": [
       "Kamil Sacek"
@@ -892,8 +925,19 @@
     ]
   },
   {
+    "title": "Lessons learned from using Power Automate approvals with Business Central",
+    "views": 309,
+    "url": "https://youtube.com/watch?v=8VnW6KB7NgA",
+    "speakers": [
+      "Arend-Jan Kauffmann"
+    ],
+    "categories": [
+      "Power Platform"
+    ]
+  },
+  {
     "title": "Creating high performance low-code workflows for BC what's new in Azure Log",
-    "views": 299,
+    "views": 302,
     "url": "https://youtube.com/watch?v=5AXEw5G2wS4",
     "speakers": [
       "Stefano Demiliani"
@@ -904,7 +948,7 @@
   },
   {
     "title": "Applied IaC Deploying Business Central in an Azure Container Instance using Bicep",
-    "views": 297,
+    "views": 299,
     "url": "https://youtube.com/watch?v=wCmAnRbVBxs",
     "speakers": [
       "Tobias Fenster"
@@ -916,7 +960,7 @@
   },
   {
     "title": "Why bother about test automation on customer projects? You can’t sell that!",
-    "views": 296,
+    "views": 299,
     "url": "https://youtube.com/watch?v=FYHGRg2Hyc8",
     "speakers": [
       "David Singleton",
@@ -925,6 +969,17 @@
     "categories": [
       "Test Automation",
       "Functional"
+    ]
+  },
+  {
+    "title": "Control Events with the Discovery Event Pattern",
+    "views": 287,
+    "url": "https://youtube.com/watch?v=7FEX_babwmU",
+    "speakers": [
+      "Martin Oomen"
+    ],
+    "categories": [
+      "Architecture"
     ]
   },
   {
@@ -939,74 +994,8 @@
     ]
   },
   {
-    "title": "Control Events with the Discovery Event Pattern",
-    "views": 282,
-    "url": "https://youtube.com/watch?v=7FEX_babwmU",
-    "speakers": [
-      "Martin Oomen"
-    ],
-    "categories": [
-      "Architecture"
-    ]
-  },
-  {
-    "title": "Business Central data in offline mode with Power Apps",
-    "views": 279,
-    "url": "https://youtube.com/watch?v=e3MLMJUFwiA",
-    "speakers": [
-      "Bartosz Rudzinski"
-    ],
-    "categories": [
-      "Power Platform"
-    ]
-  },
-  {
-    "title": "Tests are bets",
-    "views": 274,
-    "url": "https://youtube.com/watch?v=R9rMmWwZi2o",
-    "speakers": [
-      "Xavi Ametller Serrat"
-    ],
-    "categories": [
-      "Test Automation"
-    ]
-  },
-  {
-    "title": "Lessons learned from using Power Automate approvals with Business Central",
-    "views": 263,
-    "url": "https://youtube.com/watch?v=8VnW6KB7NgA",
-    "speakers": [
-      "Arend-Jan Kauffmann"
-    ],
-    "categories": [
-      "Power Platform"
-    ]
-  },
-  {
-    "title": "Top 10 ways to automate manual BC processes and wow your clients",
-    "views": 250,
-    "url": "https://youtube.com/watch?v=GiqsZxvQYjI",
-    "speakers": [
-      "Shannon Mullins"
-    ],
-    "categories": [
-      "Power Platform"
-    ]
-  },
-  {
-    "title": "Elastic Leadership applied for Development Teams",
-    "views": 234,
-    "url": "https://youtube.com/watch?v=P2U3gLihA60",
-    "speakers": [
-      "Christian Lenz"
-    ],
-    "categories": [
-      "Other"
-    ]
-  },
-  {
     "title": "External - Co nowego w Business Central Wave 1 2025 (Business Central Polish Community)",
-    "views": 230,
+    "views": 271,
     "url": "https://youtube.com/watch?v=I-EBFKEQndE",
     "speakers": [
       "Marcin Karpacz",
@@ -1017,8 +1006,19 @@
     ]
   },
   {
+    "title": "Markdown's Magical Mermaid",
+    "views": 265,
+    "url": "https://youtube.com/watch?v=vJXsMHti1qU",
+    "speakers": [
+      "Jeremy Vyska"
+    ],
+    "categories": [
+      "Other"
+    ]
+  },
+  {
     "title": "Scrum, Stoicism, and Systems Thinking Finding Order in Complexity",
-    "views": 229,
+    "views": 259,
     "url": "https://youtube.com/watch?v=hqY9up-In_M",
     "speakers": [
       "Ivan Milanov"
@@ -1028,8 +1028,41 @@
     ]
   },
   {
+    "title": "Top 10 ways to automate manual BC processes and wow your clients",
+    "views": 254,
+    "url": "https://youtube.com/watch?v=GiqsZxvQYjI",
+    "speakers": [
+      "Shannon Mullins"
+    ],
+    "categories": [
+      "Power Platform"
+    ]
+  },
+  {
+    "title": "Elastic Leadership applied for Development Teams",
+    "views": 248,
+    "url": "https://youtube.com/watch?v=P2U3gLihA60",
+    "speakers": [
+      "Christian Lenz"
+    ],
+    "categories": [
+      "Other"
+    ]
+  },
+  {
+    "title": "Real Life Experience With Test Automation - testing install code",
+    "views": 236,
+    "url": "https://youtube.com/watch?v=3KHGyklxXIY",
+    "speakers": [
+      "Peter"
+    ],
+    "categories": [
+      "Test Automation"
+    ]
+  },
+  {
     "title": "Microsoft Dataverse What’s in it for us",
-    "views": 228,
+    "views": 229,
     "url": "https://youtube.com/watch?v=3FR8_8CukjI",
     "speakers": [
       "Stefan Strube"
@@ -1040,19 +1073,8 @@
     ]
   },
   {
-    "title": "Real Life Experience With Test Automation - testing install code",
-    "views": 227,
-    "url": "https://youtube.com/watch?v=3KHGyklxXIY",
-    "speakers": [
-      "Peter"
-    ],
-    "categories": [
-      "Test Automation"
-    ]
-  },
-  {
     "title": "AI Everywhere: Local Deployment vs. Azure Cloud",
-    "views": 214,
+    "views": 225,
     "url": "https://youtube.com/watch?v=gYzYGZXL8v0",
     "speakers": [
       "Andrzej Zwierzchowski"
@@ -1063,7 +1085,7 @@
   },
   {
     "title": "Grabbing BC artifacts in your pipelines via an Azure Function and how all of this works",
-    "views": 211,
+    "views": 223,
     "url": "https://youtube.com/watch?v=7i1h9XJZUF8",
     "speakers": [
       "Arthur van der Vondervoort",
@@ -1074,19 +1096,31 @@
     ]
   },
   {
-    "title": "Sustainability functionality in Business Central What's there and why",
-    "views": 205,
-    "url": "https://youtube.com/watch?v=mRFSvVQQEek",
+    "title": "From OpenAPI to AL Auto Generating Strongly Typed REST API Clients for BC with Kiota",
+    "views": 199,
+    "url": "https://youtube.com/watch?v=Xi9nxXKshcI",
     "speakers": [
-      "Niall McGovern"
+      "Simon Fisher",
+      "Tobias Fenster"
     ],
     "categories": [
-      "Functional"
+      "API"
+    ]
+  },
+  {
+    "title": "How about verifying and debugging your tests",
+    "views": 196,
+    "url": "https://youtube.com/watch?v=zna9iKllz-o",
+    "speakers": [
+      "Luc van Vugt"
+    ],
+    "categories": [
+      "Test Automation"
     ]
   },
   {
     "title": "Our road to SaaS @ Clever Dynamics",
-    "views": 194,
+    "views": 195,
     "url": "https://youtube.com/watch?v=x5KXZslAjdw",
     "speakers": [
       "James Crowter",
@@ -1094,6 +1128,17 @@
     ],
     "categories": [
       "Functional"
+    ]
+  },
+  {
+    "title": "How to get Insights from Business Central without Excel",
+    "views": 191,
+    "url": "https://youtube.com/watch?v=qPTOLaZ5MwY",
+    "speakers": [
+      "Dmitry Katson"
+    ],
+    "categories": [
+      "Other"
     ]
   },
   {
@@ -1108,22 +1153,11 @@
     ]
   },
   {
-    "title": "How to get Insights from Business Central without Excel",
-    "views": 189,
-    "url": "https://youtube.com/watch?v=qPTOLaZ5MwY",
+    "title": "Test Automation for connected systems",
+    "views": 187,
+    "url": "https://youtube.com/watch?v=aN4mriGWXI4",
     "speakers": [
-      "Dmitry Katson"
-    ],
-    "categories": [
-      "Other"
-    ]
-  },
-  {
-    "title": "How about verifying and debugging your tests",
-    "views": 188,
-    "url": "https://youtube.com/watch?v=zna9iKllz-o",
-    "speakers": [
-      "Luc van Vugt"
+      "Patrick Schiefer"
     ],
     "categories": [
       "Test Automation"
@@ -1142,13 +1176,25 @@
   },
   {
     "title": "Release the Power of Assisted Setup",
-    "views": 181,
+    "views": 182,
     "url": "https://youtube.com/watch?v=zuPfPUvQzeA",
     "speakers": [
       "Krzysztof Bialowas"
     ],
     "categories": [
       "Functional"
+    ]
+  },
+  {
+    "title": "Power Platform from the perspective of BC Development",
+    "views": 173,
+    "url": "https://youtube.com/watch?v=SPslb8X4WKY",
+    "speakers": [
+      "waldo",
+      "Tine Starič"
+    ],
+    "categories": [
+      "Power Platform"
     ]
   },
   {
@@ -1163,19 +1209,8 @@
     ]
   },
   {
-    "title": "Test Automation for connected systems",
-    "views": 171,
-    "url": "https://youtube.com/watch?v=aN4mriGWXI4",
-    "speakers": [
-      "Patrick Schiefer"
-    ],
-    "categories": [
-      "Test Automation"
-    ]
-  },
-  {
     "title": "Our road to SaaS @ Schouw Informatisering",
-    "views": 164,
+    "views": 170,
     "url": "https://youtube.com/watch?v=OIuOmGcZoy4",
     "speakers": [
       "Danny Hellemons"
@@ -1209,7 +1244,7 @@
   },
   {
     "title": "Cloud migration within budget, on time and according to specification",
-    "views": 109,
+    "views": 110,
     "url": "https://youtube.com/watch?v=IAEwnNvgM1Y",
     "speakers": [
       "Maarten Pouwels"
