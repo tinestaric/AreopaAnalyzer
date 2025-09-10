@@ -29,9 +29,6 @@ on:
         description: "Optional max videos to process (for testing)"
         required: false
         type: number
-  schedule:
-    # Every Wednesday at 03:00 UTC
-    - cron: '0 3 * * 3'
 
 permissions:
   contents: write
@@ -40,13 +37,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Fallbacks for scheduled runs (since workflow_dispatch inputs are not available then)
-      CHANNEL_ID: ${{ inputs.channel_id || vars.CHANNEL_ID }}
-      CHANNEL_NAME: ${{ inputs.channel_name || vars.CHANNEL_NAME }}
-      CHANNEL_URL: ${{ inputs.channel_url || vars.CHANNEL_URL }}
-      TAXONOMY_PATH: ${{ inputs.taxonomy_path || vars.TAXONOMY_PATH || 'data/taxonomy.json' }}
-      RESTRICT: ${{ inputs.restrict_to_taxonomy || vars.RESTRICT_TO_TAXONOMY }}
-      LIMIT: ${{ inputs.limit || vars.LIMIT }}
+      CHANNEL_ID: ${{ inputs.channel_id }}
+      CHANNEL_NAME: ${{ inputs.channel_name }}
+      CHANNEL_URL: ${{ inputs.channel_url }}
+      TAXONOMY_PATH: ${{ inputs.taxonomy_path }}
+      RESTRICT: ${{ inputs.restrict_to_taxonomy }}
+      LIMIT: ${{ inputs.limit }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
