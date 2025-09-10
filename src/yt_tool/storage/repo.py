@@ -74,3 +74,60 @@ def compute_speaker_stats(videos: List[Dict]) -> Dict:
 def save_speaker_stats(data_dir: Path, stats: Dict) -> None:
     _write_json(data_dir / "speaker_stats.json", stats)
 
+
+# Sessions storage helpers
+
+def load_sessions(data_dir: Path) -> List[Dict]:
+    return _read_json(data_dir / "sessions.json", default=[])
+
+
+def save_sessions(data_dir: Path, sessions: List[Dict]) -> None:
+    _write_json(data_dir / "sessions.json", sessions)
+
+
+def load_sessions_sync_metadata(data_dir: Path) -> Dict:
+    return _read_json(
+        data_dir / "sync_metadata_sessions.json",
+        default={"last_sync": None, "processed_session_ids": []},
+    )
+
+
+def save_sessions_sync_metadata(data_dir: Path, metadata: Dict) -> None:
+    _write_json(data_dir / "sync_metadata_sessions.json", metadata)
+
+
+def merge_session_data(new_sessions: List[Dict], existing_sessions: List[Dict]) -> List[Dict]:
+    id_to_existing: Dict[str, Dict] = {s.get("session_id") or s.get("url"): s for s in existing_sessions}
+    merged: List[Dict] = []
+    for session in new_sessions:
+        key = session.get("session_id") or session.get("detail_url") or session.get("url")
+        if key in id_to_existing:
+            existing = id_to_existing[key]
+            # preserve human-edited fields
+            session["speakers"] = existing.get("speakers", session.get("speakers", []))
+            session["categories"] = existing.get("categories", session.get("categories", []))
+        merged.append(session)
+    return merged
+
+
+def compute_session_speaker_stats(sessions: List[Dict]) -> Dict:
+    speaker_stats: Dict[str, Dict[str, Any]] = {}
+    for session in sessions:
+        for speaker in session.get("speakers", []):
+            if speaker not in speaker_stats:
+                speaker_stats[speaker] = {"name": speaker, "appearances": 0, "sessions": []}
+            speaker_stats[speaker]["appearances"] += 1
+            speaker_stats[speaker]["sessions"].append(
+                {"title": session.get("title"), "url": session.get("detail_url") or session.get("url")}
+            )
+
+    speakers_list = list(speaker_stats.values())
+    speakers_list.sort(key=lambda x: x["appearances"], reverse=True)
+    return {
+        "speakers": speakers_list,
+        "total_speakers": len(speakers_list),
+    }
+
+
+def save_session_speaker_stats(data_dir: Path, stats: Dict) -> None:
+    _write_json(data_dir / "speaker_stats_sessions.json", stats)

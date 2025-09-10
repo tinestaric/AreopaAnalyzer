@@ -21,17 +21,50 @@ from .taxonomy.match import filter_categories
 from .youtube.analyzer import analyze_channel
 from .youtube.client import YouTubeClient
 from .tagging.azure_openai import AzureOpenAITaggingProvider
+from .sessions.analyzer import analyze_sessions
+from .storage.repo import (
+    load_sessions,
+    compute_session_speaker_stats,
+)
 
 
 def cmd_analyze(args: argparse.Namespace) -> None:
     cfg = load_config()
     data_dir = ensure_data_dir(Path(args.data_dir or cfg.data_dir))
 
-    sync = load_sync_metadata(data_dir)
-    existing = load_videos(data_dir)
-
     taxonomy_path = Path(args.taxonomy) if args.taxonomy else None
     taxonomy = load_taxonomy(taxonomy_path)
+
+    if getattr(args, "session_list_url", None):
+        entries = analyze_sessions(
+            session_list_url=args.session_list_url,
+            data_dir=data_dir,
+            batch_size=args.batch_size or cfg.batch_size,
+            taxonomy_path=taxonomy_path,
+            restrict_to_taxonomy=bool(args.restrict_to_taxonomy),
+            skip_ai=bool(getattr(args, "skip_ai", False)),
+            request_timeout=int(getattr(args, "request_timeout", 60)),
+            respect_robots=not bool(getattr(args, "no_robots", False)),
+            delay_min=float(getattr(args, "delay_min", 0.3)),
+            delay_max=float(getattr(args, "delay_max", 0.8)),
+            limit=args.limit,
+        )
+        print(f"Processed {len(entries)} sessions.")
+        if getattr(args, "export_markmap", False):
+            content = generate_markmap(
+                entries,
+                taxonomy=taxonomy,
+                root_title=args.root_title or "Conference Sessions",
+                root_url=args.root_url or args.session_list_url,
+            )
+            out_path = Path(args.output) if args.output else (data_dir / "sessions_markmap.md")
+            save_markmap(content, out_path)
+            print(f"Saved markmap to {out_path}")
+        return
+
+    # YouTube path (default)
+    sync = load_sync_metadata(data_dir)
+    existing = load_videos(data_dir)
 
     tagger = AzureOpenAITaggingProvider(
         batch_size=args.batch_size or cfg.batch_size,
@@ -108,13 +141,20 @@ def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="yt-tool")
     sub = p.add_subparsers(dest="command", required=True)
 
-    a = sub.add_parser("analyze", help="Fetch videos, tag new ones, update data")
-    a.add_argument("--channel-id", required=True)
+    a = sub.add_parser("analyze", help="Fetch items, tag new ones, update data")
+    src = a.add_mutually_exclusive_group(required=True)
+    src.add_argument("--channel-id", help="YouTube channel id")
+    src.add_argument("--session-list-url", help="Conference sessions list URL")
     a.add_argument("--data-dir")
     a.add_argument("--taxonomy")
     a.add_argument("--restrict-to-taxonomy", action="store_true")
     a.add_argument("--limit", type=int)
     a.add_argument("--batch-size", type=int)
+    a.add_argument("--skip-ai", action="store_true", help="Skip AI tagging (sessions)")
+    a.add_argument("--request-timeout", type=int, default=60, help="HTTP request timeout seconds (sessions)")
+    a.add_argument("--no-robots", action="store_true", help="Ignore robots.txt (sessions)")
+    a.add_argument("--delay-min", type=float, default=0.3, help="Min polite delay between requests (sessions)")
+    a.add_argument("--delay-max", type=float, default=0.8, help="Max polite delay between requests (sessions)")
     a.add_argument("--export-markmap", action="store_true", help="Also export markmap after analyze")
     a.add_argument("--root-title", help="Markmap root title when exporting")
     a.add_argument("--root-url", help="Markmap root URL when exporting")
