@@ -19,6 +19,31 @@ jobs:
           python-version: '3.11'
       - name: Install deps
         run: pip install -r requirements.txt
+      - name: Download previous data from latest release
+        run: |
+          # Create data directory
+          mkdir -p data
+          
+          # Try to download previous data files from the latest release
+          # If the release doesn't exist or files are missing, the script will continue with defaults
+          echo "Attempting to download previous data files..."
+          
+          # Download videos.json (existing video data)
+          curl -L -f -o data/videos.json \
+            "https://github.com/${{ github.repository }}/releases/download/latest/videos.json" \
+            || echo "No previous videos.json found, starting fresh"
+          
+          # Download sync_metadata.json (processed video IDs)
+          curl -L -f -o data/sync_metadata.json \
+            "https://github.com/${{ github.repository }}/releases/download/latest/sync_metadata.json" \
+            || echo "No previous sync_metadata.json found, starting fresh"
+          
+          # Download speaker_stats.json (previous stats)
+          curl -L -f -o data/speaker_stats.json \
+            "https://github.com/${{ github.repository }}/releases/download/latest/speaker_stats.json" \
+            || echo "No previous speaker_stats.json found, will generate new"
+          
+          echo "Data download completed"
       - name: Run analyze (Areopa)
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -45,6 +70,7 @@ jobs:
           make_latest: true
           files: |
             data/videos.json
+            data/sync_metadata.json
             data/speaker_stats.json
             data/videos_markmap.md
 

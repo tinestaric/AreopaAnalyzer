@@ -83,16 +83,26 @@ def analyze_channel(
         for item in details.get("items", []):
             (existing_videos if item["id"] in processed_set else new_videos).append(item)
 
-        # Tag only new videos
+        # Tag only new videos in batches of 5
         tagging_results: Dict[str, Dict] = {}
         if new_videos:
-            batch: List[Dict[str, str]] = [
+            print(f"Processing {len(new_videos)} new videos...")
+            all_video_data = [
                 {"video_id": v["id"], "title": v["snippet"]["title"], "description": v["snippet"].get("description", "")}
                 for v in new_videos
             ]
-            results = tagger.analyze_content_batch(batch)
-            for r in results:
-                tagging_results[r["video_id"]] = {"speakers": r["speakers"], "categories": r["categories"]}
+            
+            # Process in batches of 5
+            batch_size = 5
+            for i in range(0, len(all_video_data), batch_size):
+                batch = all_video_data[i:i + batch_size]
+                print(f"  Processing batch {i//batch_size + 1} of {(len(all_video_data) + batch_size - 1)//batch_size} ({len(batch)} videos)")
+                results = tagger.analyze_content_batch(batch)
+                for r in results:
+                    tagging_results[r["video_id"]] = {"speakers": r["speakers"], "categories": r["categories"]}
+        
+        if existing_videos:
+            print(f"Skipping {len(existing_videos)} already processed videos")
 
         all_entries.extend(build_entries_from_details({"items": new_videos}, tagging_results))
         all_entries.extend(build_simple_entries_from_details({"items": existing_videos}))

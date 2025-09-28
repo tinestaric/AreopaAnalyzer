@@ -22,7 +22,7 @@ class AzureOpenAITaggingProvider:
             azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
         )
         self.deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT")
-        self.batch_size = batch_size
+        self.batch_size = min(batch_size, 5)  # Enforce max batch size of 5
         self.request_delay = 2
         self.max_retries = 3
         self.retry_delay = 30
@@ -47,34 +47,61 @@ class AzureOpenAITaggingProvider:
         )
 
     def _create_prompt(self) -> str:
-        taxonomy_hint = (
-            f"ONLY use categories from this fixed list: {sorted(list(self.known_categories))}"
-            if self.known_categories
-            else "Suggest concise, relevant categories"
-        )
-        return f"""
-For each numbered YouTube video below:
-1. Identify the main speakers or participants (exclude moderators/hosts)
-2. Assign 1-2 relevant categories. {taxonomy_hint}.
+        return """For each numbered YouTube video below:
+        1. Identify the main speakers or participants (excluding moderators, hosts, or interviewers)
+        2. Assign 1 relevant categories ONLY from this fixed list:
+        {known_categories}
 
-Return JSON with numbered keys matching the videos, e.g.:
-{{
-  "1": {{ "speakers": ["name"], "categories": ["category"] }},
-  "2": {{ "speakers": ["name1","name2"], "categories": ["category"] }}
-}}
+        DO NOT create new categories - only use categories from the list above.
+        If no category fits, use "Other".
 
-Videos:
-{{descriptions}}
-"""
+        Return the results as a JSON object with numbered keys matching the videos:
+        {{
+            "1": {{
+                "speakers": ["name1", "name2"],
+                "categories": ["category1", "category2"]
+            }},
+            "2": {{
+                "speakers": ["name3"],
+                "categories": ["category3"]
+            }}
+        }}
+
+        Example:
+        Title 1: "Interview about Quantum Physics"
+        Description 1: "In this episode, host John Smith interviews Dr. Jane Doe about quantum physics"
+        
+        Title 2: "Climate Change Discussion"
+        Description 2: "Moderator Alice Brown leads a discussion with experts Bob Wilson and Carol Davis about climate change"
+
+        Result:
+        {{
+            "1": {{
+                "speakers": ["Jane Doe"],
+                "categories": ["Science"]
+            }},
+            "2": {{
+                "speakers": ["Bob Wilson", "Carol Davis"],
+                "categories": ["Environment"]
+            }}
+        }}
+
+        Here are the videos to analyze:
+        {descriptions}"""
 
     def analyze_content_batch(self, descriptions: List[Dict[str, str]]) -> List[Dict[str, object]]:
+        print(f"  Analyzing batch of {len(descriptions)} videos with Azure OpenAI...")
         formatted = self._format_descriptions(descriptions)
         for attempt in range(self.max_retries):
             try:
                 sleep(self.request_delay)
+                prompt = self._create_prompt().format(
+                    descriptions=formatted,
+                    known_categories=list(self.known_categories) if self.known_categories else "No categories yet - suggest appropriate ones"
+                )
                 response = self.client.chat.completions.create(
                     model=self.deployment_name,
-                    messages=[{"role": "user", "content": self._create_prompt().format(descriptions=formatted)}],
+                    messages=[{"role": "user", "content": prompt}],
                     temperature=0.3,
                     max_tokens=1000,
                     response_format={"type": "json_object"},

@@ -40,6 +40,10 @@ def cmd_analyze(args: argparse.Namespace) -> None:
     )
     yt = YouTubeClient(cfg.youtube_api_key)
 
+    print(f"Starting analysis for channel: {args.channel_id}")
+    processed_before = len(sync.get("processed_video_ids", []))
+    print(f"Previously processed videos: {processed_before}")
+    
     entries = analyze_channel(
         yt=yt,
         channel_id=args.channel_id,
@@ -53,6 +57,26 @@ def cmd_analyze(args: argparse.Namespace) -> None:
         for e in entries:
             e["categories"] = filter_categories(e.get("categories", []), taxonomy)
 
+    # Show details of newly processed videos
+    new_videos = []
+    existing_video_urls = {v["url"] for v in existing}
+    for entry in entries:
+        if entry["url"] not in existing_video_urls:
+            new_videos.append(entry)
+    
+    if new_videos:
+        print(f"\n=== NEWLY PROCESSED VIDEOS ({len(new_videos)}) ===")
+        for video in new_videos:
+            speakers_str = ", ".join(video.get("speakers", [])) or "No speakers identified"
+            categories_str = ", ".join(video.get("categories", [])) or "No categories assigned"
+            print(f"\n{video['title']}")
+            print(f"   Speakers: {speakers_str}")
+            print(f"   Categories: {categories_str}")
+            print(f"   Views: {video.get('views', 0):,}")
+            print(f"   URL: {video['url']}")
+    else:
+        print("\n=== NO NEW VIDEOS TO PROCESS ===")
+
     merged = merge_video_data(entries, existing)
     save_videos(data_dir, merged)
 
@@ -62,7 +86,11 @@ def cmd_analyze(args: argparse.Namespace) -> None:
     stats = compute_speaker_stats(merged)
     save_speaker_stats(data_dir, stats)
 
-    print(f"Processed {len(merged)} videos. Speakers: {stats['total_speakers']}")
+    print(f"\n=== SUMMARY ===")
+    print(f"Total videos in database: {len(merged)}")
+    print(f"Videos processed this run: {len(new_videos)}")
+    print(f"Total unique speakers: {stats['total_speakers']}")
+    print(f"Previously processed: {processed_before} → Now processed: {len(merged)}")
 
     # Optionally export markmap in the same run
     if getattr(args, "export_markmap", False):
