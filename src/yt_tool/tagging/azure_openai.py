@@ -126,6 +126,7 @@ class AzureOpenAITaggingProvider:
                     for i in range(len(descriptions))
                 ]
             except Exception as e:
+                print(f"    Error analyzing batch (attempt {attempt + 1}/{self.max_retries}): {e}")
                 if "429" in str(e) and attempt < self.max_retries - 1:
                     sleep(self.retry_delay * (attempt + 1))
                     continue

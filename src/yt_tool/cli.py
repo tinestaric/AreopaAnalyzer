@@ -86,10 +86,6 @@ def cmd_analyze(args: argparse.Namespace) -> None:
     stats = compute_speaker_stats(merged)
     save_speaker_stats(data_dir, stats)
 
-    print(f"\n=== SUMMARY ===")
-    print(f"Total videos in database: {len(merged)}")
-    print(f"Videos processed this run: {len(new_videos)}")
-    print(f"Total unique speakers: {stats['total_speakers']}")
     print(f"Previously processed: {processed_before} → Now processed: {len(merged)}")
 
     # Optionally export markmap in the same run
