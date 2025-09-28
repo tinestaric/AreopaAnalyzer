@@ -100,9 +100,6 @@ def analyze_channel(
                 results = tagger.analyze_content_batch(batch)
                 for r in results:
                     tagging_results[r["video_id"]] = {"speakers": r["speakers"], "categories": r["categories"]}
-        
-        if existing_videos:
-            print(f"Skipping {len(existing_videos)} already processed videos")
 
         all_entries.extend(build_entries_from_details({"items": new_videos}, tagging_results))
         all_entries.extend(build_simple_entries_from_details({"items": existing_videos}))
