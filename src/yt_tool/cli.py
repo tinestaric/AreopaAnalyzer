@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
-from typing import Optional
+from typing import Dict, List, Optional
 
 from .config import load_config
 from .export.markmap import generate_markmap, save_markmap
@@ -179,12 +179,106 @@ def cmd_export_markmap(args: argparse.Namespace) -> None:
 def cmd_stats(args: argparse.Namespace) -> None:
     cfg = load_config()
     data_dir = ensure_data_dir(Path(args.data_dir or cfg.data_dir))
-    videos = load_videos(data_dir)
+    
+    # Use sessions if --sessions flag is provided, otherwise use videos
+    use_sessions = getattr(args, 'sessions', False)
+    
+    if use_sessions:
+        sessions = load_sessions(data_dir)
+        _print_session_stats(sessions)
+    else:
+        videos = load_videos(data_dir)
+        _print_video_stats(videos)
+
+
+def _print_video_stats(videos: List[Dict]) -> None:
+    """Print statistics for YouTube videos data."""
+    from .storage.repo import compute_speaker_stats
+    
     stats = compute_speaker_stats(videos)
     print(f"Total videos: {len(videos)}")
     print(f"Total speakers: {stats['total_speakers']}")
+    print(f"\nTop 10 speakers by video count:")
     for s in stats["speakers"][:10]:
-        print(f"{s['name']}: {s['appearances']} videos")
+        print(f"  {s['name']}: {s['appearances']} videos")
+
+
+def _print_session_stats(sessions: List[Dict]) -> None:
+    """Print comprehensive statistics for conference sessions data."""
+    from collections import Counter
+    from .storage.repo import compute_session_speaker_stats
+    
+    print(f"Total sessions: {len(sessions)}")
+    
+    # Speaker stats
+    speaker_stats = compute_session_speaker_stats(sessions)
+    print(f"Total speakers: {speaker_stats['total_speakers']}")
+    print(f"\nTop 10 speakers by session count:")
+    for s in speaker_stats["speakers"][:10]:
+        print(f"  {s['name']}: {s['appearances']} sessions")
+    
+    # Session type distribution
+    session_types = Counter(s.get("session_type") for s in sessions if s.get("session_type"))
+    if session_types:
+        print(f"\nSession types:")
+        for stype, count in session_types.most_common():
+            print(f"  {stype}: {count} sessions")
+    
+    # Level distribution
+    levels = Counter(s.get("level") for s in sessions if s.get("level"))
+    if levels:
+        print(f"\nSession levels:")
+        for level, count in levels.most_common():
+            print(f"  {level}: {count} sessions")
+    
+    # Role distribution (flattened from roles arrays)
+    all_roles = []
+    for s in sessions:
+        if s.get("roles"):
+            all_roles.extend(s["roles"])
+    role_counts = Counter(all_roles)
+    if role_counts:
+        print(f"\nTarget roles:")
+        for role, count in role_counts.most_common():
+            print(f"  {role}: {count} sessions")
+    
+    # Product distribution
+    products = Counter(s.get("product") for s in sessions if s.get("product"))
+    if products:
+        print(f"\nProducts:")
+        for product, count in products.most_common():
+            print(f"  {product}: {count} sessions")
+    
+    # Areas distribution (flattened from areas arrays)
+    all_areas = []
+    for s in sessions:
+        if s.get("areas"):
+            all_areas.extend(s["areas"])
+    area_counts = Counter(all_areas)
+    if area_counts:
+        print(f"\nTechnical areas:")
+        for area, count in area_counts.most_common():
+            print(f"  {area}: {count} sessions")
+    
+    # Submitter distribution
+    submitters = Counter(s.get("submitter") for s in sessions if s.get("submitter"))
+    if submitters:
+        print(f"\nSubmitters:")
+        for submitter, count in submitters.most_common():
+            print(f"  {submitter}: {count} sessions")
+    
+    # Multi-speaker sessions
+    multi_speaker = [s for s in sessions if len(s.get("speakers", [])) > 1]
+    print(f"\nMulti-speaker sessions: {len(multi_speaker)} ({len(multi_speaker)/len(sessions)*100:.1f}%)")
+    
+    # Category diversity (sessions with most categories)
+    sessions_with_categories = [s for s in sessions if s.get("categories")]
+    if sessions_with_categories:
+        avg_categories = sum(len(s["categories"]) for s in sessions_with_categories) / len(sessions_with_categories)
+        max_categories = max(len(s["categories"]) for s in sessions_with_categories)
+        print(f"\nCategory diversity:")
+        print(f"  Average categories per session: {avg_categories:.1f}")
+        print(f"  Maximum categories in a session: {max_categories}")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -227,6 +321,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     s = sub.add_parser("stats", help="Show simple statistics")
     s.add_argument("--data-dir")
+    s.add_argument("--sessions", action="store_true", help="Use sessions.json instead of videos.json")
     s.set_defaults(func=cmd_stats)
 
     return p
