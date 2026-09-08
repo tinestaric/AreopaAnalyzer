@@ -1,5 +1,9 @@
 {
-    "AI": [],
+    "AI": [
+        "Dev Tools",
+        "Agent Building",
+        "Business Use"
+    ],
     "AL": [
         "Telemetry",
         "Test Automation",

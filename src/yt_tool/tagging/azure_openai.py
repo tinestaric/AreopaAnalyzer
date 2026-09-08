@@ -58,6 +58,14 @@ class AzureOpenAITaggingProvider:
         DO NOT create new categories - only use categories from the list above.
         If no category fits, use "Other".
 
+        When a video is about AI, also pick the most fitting AI subcategory:
+        - "Dev Tools": AI tools developers use for their own coding work (e.g. GitHub Copilot,
+          Claude Code, prompting techniques for writing code).
+        - "Agent Building": building AI agents, MCP servers, or generative-AI features/extensions
+          that a partner delivers for a customer.
+        - "Business Use": using AI/Copilot features inside Business Central itself, or AI from a
+          functional/consultant/sales perspective (not building or coding with AI).
+
         Return the results as a JSON object with numbered keys matching the videos:
         {{
             "1": {{

@@ -21,6 +21,22 @@ markmap:
 ### 10. [Microsoft Copilot and AI: Finding a fit to business scenarios](https://youtube.com/watch?v=soLPYfN62dE)
 ### 11. [Developing Generative AI for Extensions with the Copilot Tool](https://youtube.com/watch?v=Xa8pjUqwfeo)
 ### 12. [GitHub Copilot Write Extensions for Business Central with AL](https://youtube.com/watch?v=i-K3J6C5zkc)
+### Dev Tools
+#### 1. [How to be a Prompt Engineer](https://youtube.com/watch?v=q8xpDwjyNLY)
+#### 2. [AI Everywhere: Local Deployment vs. Azure Cloud](https://youtube.com/watch?v=gYzYGZXL8v0)
+#### 3. [GitHub Copilot Write Extensions for Business Central with AL](https://youtube.com/watch?v=i-K3J6C5zkc)
+### Agent Building
+#### 1. [Business Central MCP Server, standard and custom](https://youtube.com/watch?v=rm-FstU_I80)
+#### 2. [From Zero to Agent Building agents in Business Central](https://youtube.com/watch?v=nbGw2g3KMXI)
+#### 3. [Extending the backend of Business Central AI Agents with Azure AI Foundry](https://youtube.com/watch?v=jHezPjhjSwo)
+#### 4. [Developing Generative AI for Extensions with the Copilot Tool](https://youtube.com/watch?v=Xa8pjUqwfeo)
+### Business Use
+#### 1. [Business Central MCP Server, standard and custom](https://youtube.com/watch?v=rm-FstU_I80)
+#### 2. [AI Enabled Delivery for Consultants](https://youtube.com/watch?v=IDYhxt-8ImI)
+#### 3. [7 or so AI killer prompts to change your daily life as Functional Consultant](https://youtube.com/watch?v=rHFvEqg6DBk)
+#### 4. [How to be a Prompt Engineer](https://youtube.com/watch?v=q8xpDwjyNLY)
+#### 5. [Everything you need to know about selling Copilot to your customers today!](https://youtube.com/watch?v=0jMn7EuEkT8)
+#### 6. [Microsoft Copilot and AI: Finding a fit to business scenarios](https://youtube.com/watch?v=soLPYfN62dE)
 ## AL
 ### 1. [From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL](https://youtube.com/watch?v=Q-oazDEucLE)
 ### 2. [If You Can’t Make It Fast, Make It Feel Fast](https://youtube.com/watch?v=D7GxnNiGQ14)
