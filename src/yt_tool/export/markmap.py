@@ -3,6 +3,8 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Dict, List, Optional
 
+from ..taxonomy.loader import flatten_names
+
 
 def generate_markmap(
     videos: List[Dict],
@@ -26,21 +28,21 @@ def generate_markmap(
         lines.append(f"# {root_title}\n")
 
     if taxonomy and isinstance(taxonomy, dict):
-        for category, subcats in taxonomy.items():
+        flat = flatten_names(taxonomy)
+        for category, subcats in flat.items():
             lines.append(f"## {category}")
             cat_videos = [v for v in videos if category in v.get("categories", [])]
             for i, v in enumerate(cat_videos, 1):
                 title = (v.get("title") or "").replace("[", "").replace("]", "")
                 url = v.get("url")
                 lines.append(f"### {i}. [{title}]({url})")
-            if isinstance(subcats, list):
-                for sub in subcats:
-                    lines.append(f"### {sub}")
-                    sub_videos = [v for v in videos if sub in v.get("categories", [])]
-                    for j, v in enumerate(sub_videos, 1):
-                        title = (v.get("title") or "").replace("[", "").replace("]", "")
-                        url = v.get("url")
-                        lines.append(f"#### {j}. [{title}]({url})")
+            for sub in subcats:
+                lines.append(f"### {sub}")
+                sub_videos = [v for v in videos if sub in v.get("categories", [])]
+                for j, v in enumerate(sub_videos, 1):
+                    title = (v.get("title") or "").replace("[", "").replace("]", "")
+                    url = v.get("url")
+                    lines.append(f"#### {j}. [{title}]({url})")
     else:
         # Simple by-category tree from observed categories
         observed = sorted({c for v in videos for c in v.get("categories", [])})

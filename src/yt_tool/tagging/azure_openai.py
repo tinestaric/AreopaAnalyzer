@@ -8,6 +8,8 @@ from typing import Dict, List, Set
 
 from openai import AzureOpenAI
 
+from ..taxonomy.loader import flatten_names, format_taxonomy_for_prompt
+
 
 class AzureOpenAITaggingProvider:
     def __init__(
@@ -29,16 +31,18 @@ class AzureOpenAITaggingProvider:
         self.restrict_to_taxonomy = restrict_to_taxonomy
 
         self.known_categories: Set[str] = set()
+        self.category_guide: str = ""
         if taxonomy_path and taxonomy_path.exists():
-            self.known_categories = self._load_categories(taxonomy_path)
+            taxonomy = json.loads(taxonomy_path.read_text(encoding="utf-8"))
+            self.known_categories = self._load_categories(taxonomy)
+            self.category_guide = format_taxonomy_for_prompt(taxonomy)
 
-    def _load_categories(self, path: Path) -> Set[str]:
-        mapping = json.loads(Path(path).read_text(encoding="utf-8"))
+    def _load_categories(self, taxonomy: Dict) -> Set[str]:
+        flat = flatten_names(taxonomy)
         categories: Set[str] = set()
-        for category, subcategories in mapping.items():
+        for category, subcategories in flat.items():
             categories.add(category)
-            if isinstance(subcategories, list):
-                categories.update(sub for sub in subcategories if sub != "Other")
+            categories.update(sub for sub in subcategories if sub != "Other")
         return categories
 
     def _format_descriptions(self, descriptions: List[Dict[str, str]]) -> str:
@@ -49,7 +53,8 @@ class AzureOpenAITaggingProvider:
     def _create_prompt(self) -> str:
         return """For each numbered YouTube video below:
         1. Identify the main speakers or participants (excluding moderators, hosts, or interviewers)
-        2. Assign categories ONLY from this fixed list:
+        2. Assign categories ONLY from this fixed list (each category/subcategory is followed by
+        its description, where available, to help you judge fit):
         {known_categories}
 
         Prefer the single most specific category that fits (e.g. a subcategory like "Architecture"
@@ -57,14 +62,6 @@ class AzureOpenAITaggingProvider:
         genuinely spans multiple distinct topics.
         DO NOT create new categories - only use categories from the list above.
         If no category fits, use "Other".
-
-        When a video is about AI, also pick the most fitting AI subcategory:
-        - "Dev Tools": AI tools developers use for their own coding work (e.g. GitHub Copilot,
-          Claude Code, prompting techniques for writing code).
-        - "Agent Building": building AI agents, MCP servers, or generative-AI features/extensions
-          that a partner delivers for a customer.
-        - "Business Use": using AI/Copilot features inside Business Central itself, or AI from a
-          functional/consultant/sales perspective (not building or coding with AI).
 
         Return the results as a JSON object with numbered keys matching the videos:
         {{
@@ -108,7 +105,7 @@ class AzureOpenAITaggingProvider:
                 sleep(self.request_delay)
                 prompt = self._create_prompt().format(
                     descriptions=formatted,
-                    known_categories=list(self.known_categories) if self.known_categories else "No categories yet - suggest appropriate ones"
+                    known_categories=self.category_guide or "No categories yet - suggest appropriate ones"
                 )
                 response = self.client.chat.completions.create(
                     model=self.deployment_name,

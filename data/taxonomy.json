@@ -1,29 +1,41 @@
 {
-    "AI": [
-        "Dev Tools",
-        "Agent Building",
-        "Business Use"
-    ],
-    "AL": [
-        "Telemetry",
-        "Test Automation",
-        "Architecture"
-    ],
-    "Integration": [
-        "API",
-        "Fabric",
-        "Dataverse",
-        "Azure"
-
-    ],
-    "Functional": [
-        "Requirements",
-        "Data Analysis"
-    ],
-    "Power Platform": [],
-    "VSCode": ["AL Extensions", "General Dev Tools"],
-    "DevOps": [],
-    "Migration": [],
-    "Career & Soft Skills": [],
-    "Other": []
+    "AI": {
+        "subcategories": {
+            "Dev Tools": "AI tools developers use for their own coding work (e.g. GitHub Copilot, Claude Code, prompting techniques for writing code).",
+            "Agent Building": "Building AI agents, MCP servers, or generative-AI features/extensions that a partner delivers for a customer.",
+            "Business Use": "Using AI/Copilot features inside Business Central itself, or AI from a functional/consultant/sales perspective (not building or coding with AI)."
+        }
+    },
+    "AL": {
+        "subcategories": {
+            "Telemetry": "",
+            "Test Automation": "",
+            "Architecture": ""
+        }
+    },
+    "Integration": {
+        "subcategories": {
+            "API": "",
+            "Fabric": "",
+            "Dataverse": "",
+            "Azure": ""
+        }
+    },
+    "Functional": {
+        "subcategories": {
+            "Requirements": "",
+            "Data Analysis": ""
+        }
+    },
+    "Power Platform": {},
+    "VSCode": {
+        "subcategories": {
+            "AL Extensions": "",
+            "General Dev Tools": ""
+        }
+    },
+    "DevOps": {},
+    "Migration": {},
+    "Career & Soft Skills": {},
+    "Other": {}
 }
