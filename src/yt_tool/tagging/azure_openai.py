@@ -111,8 +111,9 @@ class AzureOpenAITaggingProvider:
                     model=self.deployment_name,
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.3,
-                    max_tokens=1000,
+                    max_completion_tokens=1000,
                     response_format={"type": "json_object"},
+                    reasoning_effort="none",
                 )
                 parsed = json.loads(response.choices[0].message.content)
 
