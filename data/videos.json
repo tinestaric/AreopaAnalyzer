@@ -10,7 +10,6 @@
     ],
     "categories": [
       "Integration",
-      "AI",
       "Agent Building",
       "Business Use"
     ]
@@ -25,7 +24,6 @@
       "Bert Verbeek"
     ],
     "categories": [
-      "AI",
       "Agent Building"
     ]
   },
@@ -39,7 +37,6 @@
       "Niall McGovern"
     ],
     "categories": [
-      "AI",
       "Business Use"
     ]
   },
@@ -147,7 +144,7 @@
       "Tonya Bricco-Meske"
     ],
     "categories": [
-      "Data Analysis"
+      "BI"
     ]
   },
   {
@@ -189,7 +186,6 @@
       "Artem Chernevskiy"
     ],
     "categories": [
-      "AI",
       "Agent Building"
     ]
   },
@@ -216,7 +212,6 @@
       "Jose Miguel Azevedo"
     ],
     "categories": [
-      "AI",
       "Business Use"
     ]
   },
@@ -376,7 +371,6 @@
       "Tine Starič"
     ],
     "categories": [
-      "AI",
       "Dev Tools",
       "Business Use"
     ]
@@ -445,7 +439,6 @@
       "Christian Bräunlich"
     ],
     "categories": [
-      "AL",
       "Architecture"
     ]
   },
@@ -472,7 +465,6 @@
       "Andrzej Zwierzchowski"
     ],
     "categories": [
-      "AI",
       "Dev Tools"
     ]
   },
@@ -500,7 +492,6 @@
       "AJ Ansari"
     ],
     "categories": [
-      "AI",
       "Business Use"
     ]
   },
@@ -540,7 +531,6 @@
       "Andrzej Zwierzchowski"
     ],
     "categories": [
-      "AL",
       "Architecture"
     ]
   },
@@ -554,7 +544,6 @@
       "Niall McGovern"
     ],
     "categories": [
-      "AI",
       "Business Use"
     ]
   },
@@ -581,7 +570,6 @@
       "Patrick Schiefer"
     ],
     "categories": [
-      "AL",
       "Architecture"
     ]
   },
@@ -647,7 +635,6 @@
       "Dmitry Katson"
     ],
     "categories": [
-      "AI",
       "Agent Building"
     ]
   },
@@ -661,7 +648,7 @@
       "Bert Verbeek"
     ],
     "categories": [
-      "Fabric"
+      "BI"
     ]
   },
   {
@@ -713,7 +700,6 @@
       "Tine Starič"
     ],
     "categories": [
-      "Integration",
       "API"
     ]
   },
@@ -912,8 +898,7 @@
       "Steven Renders"
     ],
     "categories": [
-      "Data Analysis",
-      "Functional"
+      "BI"
     ]
   },
   {
@@ -939,7 +924,6 @@
       "Dmitry Katson"
     ],
     "categories": [
-      "AI",
       "Dev Tools"
     ]
   },
@@ -1179,7 +1163,6 @@
       "Rasmus Aaen"
     ],
     "categories": [
-      "VSCode",
       "AL Extensions"
     ]
   },
@@ -1261,7 +1244,7 @@
       "Renato Fajdiga"
     ],
     "categories": [
-      "Data Analysis"
+      "BI"
     ]
   },
   {
@@ -1432,7 +1415,6 @@
       "Tobias Fenster"
     ],
     "categories": [
-      "AL",
       "Architecture"
     ]
   },

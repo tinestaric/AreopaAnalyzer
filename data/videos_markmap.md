@@ -9,18 +9,7 @@ markmap:
 # [Areopa Webinars](https://areopa.academy/)
 
 ## AI
-### 1. [Business Central MCP Server, standard and custom](https://youtube.com/watch?v=rm-FstU_I80)
-### 2. [From Zero to Agent Building agents in Business Central](https://youtube.com/watch?v=nbGw2g3KMXI)
-### 3. [AI Enabled Delivery for Consultants](https://youtube.com/watch?v=IDYhxt-8ImI)
-### 4. [Learning AI the Way I Learned NAV](https://youtube.com/watch?v=jWJc_D67Vfw)
-### 5. [Extending the backend of Business Central AI Agents with Azure AI Foundry](https://youtube.com/watch?v=jHezPjhjSwo)
-### 6. [7 or so AI killer prompts to change your daily life as Functional Consultant](https://youtube.com/watch?v=rHFvEqg6DBk)
-### 7. [How to be a Prompt Engineer](https://youtube.com/watch?v=q8xpDwjyNLY)
-### 8. [AI Everywhere: Local Deployment vs. Azure Cloud](https://youtube.com/watch?v=gYzYGZXL8v0)
-### 9. [Everything you need to know about selling Copilot to your customers today!](https://youtube.com/watch?v=0jMn7EuEkT8)
-### 10. [Microsoft Copilot and AI: Finding a fit to business scenarios](https://youtube.com/watch?v=soLPYfN62dE)
-### 11. [Developing Generative AI for Extensions with the Copilot Tool](https://youtube.com/watch?v=Xa8pjUqwfeo)
-### 12. [GitHub Copilot Write Extensions for Business Central with AL](https://youtube.com/watch?v=i-K3J6C5zkc)
+### 1. [Learning AI the Way I Learned NAV](https://youtube.com/watch?v=jWJc_D67Vfw)
 ### Dev Tools
 #### 1. [How to be a Prompt Engineer](https://youtube.com/watch?v=q8xpDwjyNLY)
 #### 2. [AI Everywhere: Local Deployment vs. Azure Cloud](https://youtube.com/watch?v=gYzYGZXL8v0)
@@ -43,17 +32,13 @@ markmap:
 ### 3. [The Cost of Poorly Written AL Code SQL Performance](https://youtube.com/watch?v=pd-feooThYY)
 ### 4. [Don't Be a Messy AL Developer](https://youtube.com/watch?v=HSH0qxvfADc)
 ### 5. [Why should I use a custom code analyzer?](https://youtube.com/watch?v=BP6eWM6iLd0)
-### 6. [What about Modular Monoliths in AL](https://youtube.com/watch?v=_iQKi-IES5U)
-### 7. [Techniques for optimizing Dynamics 365 Business Central](https://youtube.com/watch?v=Pmbuqg4JPl0)
-### 8. [It is not C#, it is AL. Object oriented development in AL.](https://youtube.com/watch?v=X02WZu-6HpM)
-### 9. [Object-Oriented Approaches and Design Patterns in Microsoft AL](https://youtube.com/watch?v=T8VAho9ZZYg)
-### 10. [Automating Code Quality - A Guide to Using Custom Code Analysis for AL](https://youtube.com/watch?v=U0W1MhNNwWI)
-### 11. [Automated code refactoring transforming old solutions and improving code quality](https://youtube.com/watch?v=M5U7iyK9kCw)
-### 12. ["The" BC Toolkit for developers](https://youtube.com/watch?v=WDd8heDU8es)
-### 13. [External Business Events in AL](https://youtube.com/watch?v=Tdx-7Otjle4)
-### 14. [Working with XML in AL](https://youtube.com/watch?v=3w018zjbUwQ)
-### 15. [Enums in Business Central](https://youtube.com/watch?v=jTV70Rdk5Pc)
-### 16. [Interfaces in AL](https://youtube.com/watch?v=h9sE_u0r5Eo)
+### 6. [Techniques for optimizing Dynamics 365 Business Central](https://youtube.com/watch?v=Pmbuqg4JPl0)
+### 7. [Automating Code Quality - A Guide to Using Custom Code Analysis for AL](https://youtube.com/watch?v=U0W1MhNNwWI)
+### 8. [Automated code refactoring transforming old solutions and improving code quality](https://youtube.com/watch?v=M5U7iyK9kCw)
+### 9. ["The" BC Toolkit for developers](https://youtube.com/watch?v=WDd8heDU8es)
+### 10. [External Business Events in AL](https://youtube.com/watch?v=Tdx-7Otjle4)
+### 11. [Working with XML in AL](https://youtube.com/watch?v=3w018zjbUwQ)
+### 12. [Enums in Business Central](https://youtube.com/watch?v=jTV70Rdk5Pc)
 ### Telemetry
 #### 1. [My customer has performance problems - what do I do](https://youtube.com/watch?v=brroEMkXqC4)
 #### 2. [Telemetry with Azure Data Explorer](https://youtube.com/watch?v=y2j9OuBKC6k)
@@ -87,9 +72,8 @@ markmap:
 #### 7. [Control Events with the Discovery Event Pattern](https://youtube.com/watch?v=7FEX_babwmU)
 ## Integration
 ### 1. [Business Central MCP Server, standard and custom](https://youtube.com/watch?v=rm-FstU_I80)
-### 2. [Unlocking The Secrets Of Secure Endpoints: Connecting BC With Adv. Auth. Techniques](https://youtube.com/watch?v=twIhN4MeCjg)
-### 3. [System App in Examples](https://youtube.com/watch?v=zfzvqBf6oCs)
-### 4. [Working with files in Dynamics 365 Business Central SaaS](https://youtube.com/watch?v=4X-tSjL0XaA)
+### 2. [System App in Examples](https://youtube.com/watch?v=zfzvqBf6oCs)
+### 3. [Working with files in Dynamics 365 Business Central SaaS](https://youtube.com/watch?v=4X-tSjL0XaA)
 ### API
 #### 1. [From OpenAPI to AL Auto Generating Strongly Typed REST API Clients for BC with Kiota](https://youtube.com/watch?v=Xi9nxXKshcI)
 #### 2. [The Rest Client module in AL](https://youtube.com/watch?v=gv_NQAekX8Y)
@@ -97,8 +81,6 @@ markmap:
 #### 4. [OAuth authentication with Business Central APIs](https://youtube.com/watch?v=yeKRuw9MtSQ)
 #### 5. [Let’s talk about tools to test APIs!](https://youtube.com/watch?v=g6GxYnz5qsU)
 #### 6. [Working with APIs](https://youtube.com/watch?v=-BLNMTf7r5k)
-### Fabric
-#### 1. [How to export large data from Business Central to MS Fabric](https://youtube.com/watch?v=sXZkrFtN5oc)
 ### Dataverse
 #### 1. [Microsoft Dataverse What’s in it for us](https://youtube.com/watch?v=3FR8_8CukjI)
 #### 2. [Virtual Entities – Enable Low Coding Apps To Interact With Business Central](https://youtube.com/watch?v=Ufnvk0HaiPM)
@@ -117,17 +99,17 @@ markmap:
 ### 3. [45 tips in 45 minutes](https://youtube.com/watch?v=1qgo6vGLuk4)
 ### 4. [How building a swimming pool taught me so many tips for implementing Dynamics 365](https://youtube.com/watch?v=TDIrb8Wh7Qo)
 ### 5. [Setting up and processing sales and use tax in Microsoft Dynamics 365 BC](https://youtube.com/watch?v=1ndyJ2oUwiE)
-### 6. [Why are dataflows so interesting for Power BI and Business Central](https://youtube.com/watch?v=N3g49PMuJCc)
-### 7. [Give the User a chance – Just because it works, doesn’t mean it works](https://youtube.com/watch?v=NvKltLmv_Zs)
-### 8. [Release the Power of Assisted Setup](https://youtube.com/watch?v=zuPfPUvQzeA)
-### 9. [Getting easily from functional test case definitions to automated tests](https://youtube.com/watch?v=ma48oWYWCvw)
+### 6. [Give the User a chance – Just because it works, doesn’t mean it works](https://youtube.com/watch?v=NvKltLmv_Zs)
+### 7. [Release the Power of Assisted Setup](https://youtube.com/watch?v=zuPfPUvQzeA)
+### 8. [Getting easily from functional test case definitions to automated tests](https://youtube.com/watch?v=ma48oWYWCvw)
 ### Requirements
 #### 1. [Application versions, dependencies and how to handle them](https://youtube.com/watch?v=u-XCDwS4Vw0)
 #### 2. [My requirements specification - all facing the same direction](https://youtube.com/watch?v=TchUOb76uRs)
-### Data Analysis
-#### 1. [Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](https://youtube.com/watch?v=1ft4o9lQzsU)
-#### 2. [Why are dataflows so interesting for Power BI and Business Central](https://youtube.com/watch?v=N3g49PMuJCc)
-#### 3. [Power BI and Business Central Deep Dive, Tips and Tricks](https://youtube.com/watch?v=eVVSUa5l4kE)
+## BI
+### 1. [Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting](https://youtube.com/watch?v=1ft4o9lQzsU)
+### 2. [How to export large data from Business Central to MS Fabric](https://youtube.com/watch?v=sXZkrFtN5oc)
+### 3. [Why are dataflows so interesting for Power BI and Business Central](https://youtube.com/watch?v=N3g49PMuJCc)
+### 4. [Power BI and Business Central Deep Dive, Tips and Tricks](https://youtube.com/watch?v=eVVSUa5l4kE)
 ## Power Platform
 ### 1. [Power Platform from the perspective of BC Development](https://youtube.com/watch?v=SPslb8X4WKY)
 ### 2. [Lessons learned from using Power Automate approvals with Business Central](https://youtube.com/watch?v=8VnW6KB7NgA)
@@ -138,8 +120,7 @@ markmap:
 ## VSCode
 ### 1. [43 dev tips in 45 minutes](https://youtube.com/watch?v=XJXOledBObA)
 ### 2. [VS Code: Not *AL* Extensions](https://youtube.com/watch?v=MNdsxzipP90)
-### 3. [VS Code AL Extensions - 2](https://youtube.com/watch?v=GJa9hh-MejE)
-### 4. [How to develop VS Code Extensions](https://youtube.com/watch?v=VMqDaVqob6I)
+### 3. [How to develop VS Code Extensions](https://youtube.com/watch?v=VMqDaVqob6I)
 ### AL Extensions
 #### 1. [Business Central's user interface is changing - align your app](https://youtube.com/watch?v=6uexvSpghtI)
 #### 2. [Source Control and Audit Trail in Business Central](https://youtube.com/watch?v=eDsJzQs9AKQ)
@@ -148,7 +129,6 @@ markmap:
 #### 5. [VS Code AL Extensions - 2](https://youtube.com/watch?v=GJa9hh-MejE)
 #### 6. [VS Code AL Extensions - 1](https://youtube.com/watch?v=f_ikghBRGMA)
 #### 7. [Unleash extension possibilities by interacting with other extensions](https://youtube.com/watch?v=xUrUdbecDUI)
-### General Dev Tools
 ## DevOps
 ### 1. [What is GitOps and why should you care](https://youtube.com/watch?v=qqWj_2uM0ek)
 ### 2. [Grabbing BC artifacts in your pipelines via an Azure Function and how all of this works](https://youtube.com/watch?v=7i1h9XJZUF8)

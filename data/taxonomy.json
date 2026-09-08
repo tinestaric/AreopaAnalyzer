@@ -16,22 +16,22 @@
     "Integration": {
         "subcategories": {
             "API": "",
-            "Fabric": "",
             "Dataverse": "",
             "Azure": ""
         }
     },
     "Functional": {
         "subcategories": {
-            "Requirements": "",
-            "Data Analysis": ""
+            "Requirements": ""
         }
+    },
+    "BI": {
+        "description": "Business intelligence and reporting on Business Central data, e.g. Power BI, MS Fabric, Excel reporting."
     },
     "Power Platform": {},
     "VSCode": {
         "subcategories": {
-            "AL Extensions": "",
-            "General Dev Tools": ""
+            "AL Extensions": ""
         }
     },
     "DevOps": {},
