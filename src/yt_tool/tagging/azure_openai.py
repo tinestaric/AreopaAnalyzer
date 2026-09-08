@@ -38,7 +38,7 @@ class AzureOpenAITaggingProvider:
         for category, subcategories in mapping.items():
             categories.add(category)
             if isinstance(subcategories, list):
-                categories.update(sub for sub in subcategories if sub not in ["General", "Other"])
+                categories.update(sub for sub in subcategories if sub != "Other")
         return categories
 
     def _format_descriptions(self, descriptions: List[Dict[str, str]]) -> str:
@@ -49,9 +49,12 @@ class AzureOpenAITaggingProvider:
     def _create_prompt(self) -> str:
         return """For each numbered YouTube video below:
         1. Identify the main speakers or participants (excluding moderators, hosts, or interviewers)
-        2. Assign 1 relevant categories ONLY from this fixed list:
+        2. Assign categories ONLY from this fixed list:
         {known_categories}
 
+        Prefer the single most specific category that fits (e.g. a subcategory like "Architecture"
+        over its broader parent like "AL"). Only assign more than one category when the video
+        genuinely spans multiple distinct topics.
         DO NOT create new categories - only use categories from the list above.
         If no category fits, use "Other".
 

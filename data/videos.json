@@ -9,7 +9,8 @@
       "Roberto Corella"
     ],
     "categories": [
-      "Integration"
+      "Integration",
+      "AI"
     ]
   },
   {
@@ -74,7 +75,8 @@
       "Nabil Ba-Moh"
     ],
     "categories": [
-      "AI"
+      "AI",
+      "Career & Soft Skills"
     ]
   },
   {
@@ -316,7 +318,7 @@
       "Ivan Milanov"
     ],
     "categories": [
-      "Requirements"
+      "Career & Soft Skills"
     ]
   },
   {
@@ -381,7 +383,7 @@
       "Christian Lenz"
     ],
     "categories": [
-      "Other"
+      "Career & Soft Skills"
     ]
   },
   {
@@ -435,7 +437,8 @@
       "Christian Bräunlich"
     ],
     "categories": [
-      "AL"
+      "AL",
+      "Architecture"
     ]
   },
   {
@@ -527,7 +530,8 @@
       "Andrzej Zwierzchowski"
     ],
     "categories": [
-      "AL"
+      "AL",
+      "Architecture"
     ]
   },
   {
@@ -697,7 +701,8 @@
       "Tine Starič"
     ],
     "categories": [
-      "AL"
+      "Integration",
+      "API"
     ]
   },
   {
@@ -922,7 +927,7 @@
       "Dmitry Katson"
     ],
     "categories": [
-      "AL"
+      "AI"
     ]
   },
   {
@@ -974,7 +979,7 @@
       "waldo"
     ],
     "categories": [
-      "DevOps"
+      "Career & Soft Skills"
     ]
   },
   {
@@ -1161,7 +1166,8 @@
       "Rasmus Aaen"
     ],
     "categories": [
-      "AL"
+      "VSCode",
+      "AL Extensions"
     ]
   },
   {
@@ -1320,7 +1326,7 @@
       "Steve Endow"
     ],
     "categories": [
-      "AL"
+      "Career & Soft Skills"
     ]
   },
   {
@@ -1413,7 +1419,8 @@
       "Tobias Fenster"
     ],
     "categories": [
-      "AL"
+      "AL",
+      "Architecture"
     ]
   },
   {
@@ -1466,7 +1473,7 @@
       "Danny Hellemons"
     ],
     "categories": [
-      "DevOps"
+      "Migration"
     ]
   },
   {
@@ -1626,7 +1633,7 @@
       "Yuriy Popov"
     ],
     "categories": [
-      "Other"
+      "Career & Soft Skills"
     ]
   }
 ]

@@ -1,7 +1,6 @@
 {
     "AI": [],
     "AL": [
-        "General",
         "Telemetry",
         "Test Automation",
         "Architecture"
@@ -14,13 +13,13 @@
 
     ],
     "Functional": [
-        "General",
         "Requirements",
         "Data Analysis"
     ],
     "Power Platform": [],
-    "VSCode": ["AL Extensions", "Other"],
+    "VSCode": ["AL Extensions", "General Dev Tools"],
     "DevOps": [],
     "Migration": [],
-    "Other": []  
+    "Career & Soft Skills": [],
+    "Other": []
 }
