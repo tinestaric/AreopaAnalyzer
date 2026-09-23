@@ -7,12 +7,12 @@
         {
           "title": "You don't have to make Test Plans anymore...",
           "url": "https://youtube.com/watch?v=e4S2LXKAARs",
-          "views": 504
+          "views": 507
         },
         {
           "title": "43 dev tips in 45 minutes",
           "url": "https://youtube.com/watch?v=XJXOledBObA",
-          "views": 514
+          "views": 516
         },
         {
           "title": "On lightning-fast test automation, SOLIDized code and a revised test plan",
@@ -22,7 +22,7 @@
         {
           "title": "Automated Testing (with) Permissions",
           "url": "https://youtube.com/watch?v=mUeRmDVHZRk",
-          "views": 446
+          "views": 447
         },
         {
           "title": "Why bother about test automation on customer projects? You can’t sell that!",
@@ -42,12 +42,12 @@
         {
           "title": "Test Automation is a team effort",
           "url": "https://youtube.com/watch?v=Ntb8BCL8P7M",
-          "views": 332
+          "views": 334
         },
         {
           "title": "Automated testing of your Business Central API",
           "url": "https://youtube.com/watch?v=xKnYtdiAG0A",
-          "views": 2315
+          "views": 2316
         },
         {
           "title": "How about verifying and debugging your tests",
@@ -83,7 +83,7 @@
         {
           "title": "What is GitOps and why should you care",
           "url": "https://youtube.com/watch?v=qqWj_2uM0ek",
-          "views": 194
+          "views": 197
         },
         {
           "title": "From OpenAPI to AL Auto Generating Strongly Typed REST API Clients for BC with Kiota",
@@ -98,7 +98,7 @@
         {
           "title": "Containerized CI/CD agents for Azure DevOps and GitHub",
           "url": "https://youtube.com/watch?v=0INOdEhXd38",
-          "views": 476
+          "views": 477
         },
         {
           "title": "Applied IaC Deploying Business Central in an Azure Container Instance using Bicep",
@@ -128,7 +128,7 @@
         {
           "title": "Running multiple NAV/BC containers on an Azure VM",
           "url": "https://youtube.com/watch?v=rjZ9DXsi9_w",
-          "views": 666
+          "views": 667
         }
       ]
     },
@@ -139,7 +139,7 @@
         {
           "title": "Lessons learned from using Power Automate approvals with Business Central",
           "url": "https://youtube.com/watch?v=8VnW6KB7NgA",
-          "views": 338
+          "views": 341
         },
         {
           "title": "The Rest Client module in AL",
@@ -149,12 +149,12 @@
         {
           "title": "External Business Events in AL",
           "url": "https://youtube.com/watch?v=Tdx-7Otjle4",
-          "views": 368
+          "views": 370
         },
         {
           "title": "OAuth authentication with Business Central APIs",
           "url": "https://youtube.com/watch?v=yeKRuw9MtSQ",
-          "views": 5131
+          "views": 5133
         },
         {
           "title": "Let’s talk about tools to test APIs!",
@@ -169,7 +169,7 @@
         {
           "title": "Working with APIs",
           "url": "https://youtube.com/watch?v=-BLNMTf7r5k",
-          "views": 3120
+          "views": 3121
         }
       ]
     },
@@ -180,7 +180,7 @@
         {
           "title": "My customer has performance problems - what do I do",
           "url": "https://youtube.com/watch?v=brroEMkXqC4",
-          "views": 455
+          "views": 454
         },
         {
           "title": "Power Platform from the perspective of BC Development",
@@ -195,7 +195,7 @@
         {
           "title": "The less familiar performance tooling",
           "url": "https://youtube.com/watch?v=_V0hepCRrkA",
-          "views": 426
+          "views": 427
         },
         {
           "title": "A day in the life of an iFacto Developer",
@@ -216,7 +216,7 @@
         {
           "title": "You don't have to make Test Plans anymore...",
           "url": "https://youtube.com/watch?v=e4S2LXKAARs",
-          "views": 504
+          "views": 507
         },
         {
           "title": "Power Platform from the perspective of BC Development",
@@ -231,7 +231,7 @@
         {
           "title": "Automating Code Quality - A Guide to Using Custom Code Analysis for AL",
           "url": "https://youtube.com/watch?v=U0W1MhNNwWI",
-          "views": 479
+          "views": 480
         },
         {
           "title": "Unlocking The Secrets Of Secure Endpoints: Connecting BC With Adv. Auth. Techniques",
@@ -356,17 +356,17 @@
         {
           "title": "From Zero to Agent Building agents in Business Central",
           "url": "https://youtube.com/watch?v=nbGw2g3KMXI",
-          "views": 299
+          "views": 316
         },
         {
           "title": "How to export large data from Business Central to MS Fabric",
           "url": "https://youtube.com/watch?v=sXZkrFtN5oc",
-          "views": 3952
+          "views": 3961
         },
         {
           "title": "Sync your Business Central data with Azure Data Lake",
           "url": "https://youtube.com/watch?v=Fjz9LgviV2Q",
-          "views": 6995
+          "views": 7015
         }
       ]
     },
@@ -377,12 +377,12 @@
         {
           "title": "AI Enabled Delivery for Consultants",
           "url": "https://youtube.com/watch?v=IDYhxt-8ImI",
-          "views": 292
+          "views": 294
         },
         {
           "title": "Sustainability functionality in Business Central What's there and why",
           "url": "https://youtube.com/watch?v=mRFSvVQQEek",
-          "views": 1297
+          "views": 1304
         },
         {
           "title": "Microsoft Copilot and AI: Finding a fit to business scenarios",
@@ -403,7 +403,7 @@
         {
           "title": "Navision to Business Central – The Journey",
           "url": "https://youtube.com/watch?v=RHQYSUWpbuY",
-          "views": 362
+          "views": 364
         },
         {
           "title": "Why bother about test automation on customer projects? You can’t sell that!",
@@ -424,7 +424,7 @@
         {
           "title": "Working with files in Dynamics 365 Business Central SaaS",
           "url": "https://youtube.com/watch?v=4X-tSjL0XaA",
-          "views": 6693
+          "views": 6695
         },
         {
           "title": "Azure Functions for Dynamics 365 Business Central developers",
@@ -461,12 +461,12 @@
         {
           "title": "What is GitOps and why should you care",
           "url": "https://youtube.com/watch?v=qqWj_2uM0ek",
-          "views": 194
+          "views": 197
         },
         {
           "title": "Containerized CI/CD agents for Azure DevOps and GitHub",
           "url": "https://youtube.com/watch?v=0INOdEhXd38",
-          "views": 476
+          "views": 477
         }
       ]
     },
@@ -477,7 +477,7 @@
         {
           "title": "If You Can’t Make It Fast, Make It Feel Fast",
           "url": "https://youtube.com/watch?v=D7GxnNiGQ14",
-          "views": 300
+          "views": 301
         },
         {
           "title": "Give the User a chance – Just because it works, doesn’t mean it works",
@@ -493,7 +493,7 @@
         {
           "title": "If You Can’t Make It Fast, Make It Feel Fast",
           "url": "https://youtube.com/watch?v=D7GxnNiGQ14",
-          "views": 300
+          "views": 301
         },
         {
           "title": "Why should I use a custom code analyzer?",
@@ -514,7 +514,7 @@
         {
           "title": "Elastic Leadership applied for Development Teams",
           "url": "https://youtube.com/watch?v=P2U3gLihA60",
-          "views": 269
+          "views": 270
         }
       ]
     },
@@ -525,12 +525,12 @@
         {
           "title": "43 dev tips in 45 minutes",
           "url": "https://youtube.com/watch?v=XJXOledBObA",
-          "views": 514
+          "views": 516
         },
         {
           "title": "Techniques for optimizing Dynamics 365 Business Central",
           "url": "https://youtube.com/watch?v=Pmbuqg4JPl0",
-          "views": 585
+          "views": 588
         }
       ]
     },
@@ -541,7 +541,7 @@
         {
           "title": "Markdown's Magical Mermaid",
           "url": "https://youtube.com/watch?v=vJXsMHti1qU",
-          "views": 350
+          "views": 351
         },
         {
           "title": "VS Code: Not *AL* Extensions",
@@ -610,7 +610,7 @@
         {
           "title": "VS Code AL Extensions - 4",
           "url": "https://youtube.com/watch?v=28JghaJHNJ4",
-          "views": 1305
+          "views": 1312
         }
       ]
     },
@@ -621,7 +621,7 @@
         {
           "title": "Create a Custom BC Connector for Power Automate",
           "url": "https://youtube.com/watch?v=6VUNCVKCwM4",
-          "views": 2397
+          "views": 2398
         },
         {
           "title": "How to sync master data in multiple companies using Power Automate",
@@ -653,7 +653,7 @@
         {
           "title": "Business Central MCP Server, standard and custom",
           "url": "https://youtube.com/watch?v=rm-FstU_I80",
-          "views": 294
+          "views": 324
         }
       ]
     },
@@ -664,7 +664,7 @@
         {
           "title": "From No Tests to Safe Refactors Debug Logging + AI Agents for Legacy AL",
           "url": "https://youtube.com/watch?v=Q-oazDEucLE",
-          "views": 220
+          "views": 221
         }
       ]
     },
@@ -675,7 +675,7 @@
         {
           "title": "Learning AI the Way I Learned NAV",
           "url": "https://youtube.com/watch?v=jWJc_D67Vfw",
-          "views": 327
+          "views": 329
         }
       ]
     },
@@ -686,7 +686,7 @@
         {
           "title": "Super fast tests covering 100% of your code",
           "url": "https://youtube.com/watch?v=EurgqGU1jG0",
-          "views": 413
+          "views": 416
         }
       ]
     },
@@ -697,7 +697,7 @@
         {
           "title": "Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting",
           "url": "https://youtube.com/watch?v=1ft4o9lQzsU",
-          "views": 272
+          "views": 275
         }
       ]
     },
@@ -741,7 +741,7 @@
         {
           "title": "The Cost of Poorly Written AL Code SQL Performance",
           "url": "https://youtube.com/watch?v=pd-feooThYY",
-          "views": 544
+          "views": 546
         }
       ]
     },
@@ -873,7 +873,7 @@
         {
           "title": "Tests are bets",
           "url": "https://youtube.com/watch?v=R9rMmWwZi2o",
-          "views": 363
+          "views": 364
         }
       ]
     },
@@ -906,7 +906,7 @@
         {
           "title": "Real Life Experience With Test Automation - testing install code",
           "url": "https://youtube.com/watch?v=3KHGyklxXIY",
-          "views": 268
+          "views": 269
         }
       ]
     },
@@ -961,7 +961,7 @@
         {
           "title": "AL Go for GitHub",
           "url": "https://youtube.com/watch?v=uq7Uuj1eIeU",
-          "views": 1044
+          "views": 1045
         }
       ]
     },
@@ -983,7 +983,7 @@
         {
           "title": "Source Control and Audit Trail in Business Central",
           "url": "https://youtube.com/watch?v=eDsJzQs9AKQ",
-          "views": 776
+          "views": 777
         }
       ]
     },
@@ -994,7 +994,7 @@
         {
           "title": "VS Code AL Extensions - 4",
           "url": "https://youtube.com/watch?v=28JghaJHNJ4",
-          "views": 1305
+          "views": 1312
         }
       ]
     },
@@ -1005,7 +1005,7 @@
         {
           "title": "VS Code AL Extensions - 4",
           "url": "https://youtube.com/watch?v=28JghaJHNJ4",
-          "views": 1305
+          "views": 1312
         }
       ]
     },
