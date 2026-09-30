@@ -1,7 +1,16 @@
 [
   {
+    "title": "You Are the Art : Notes from Six Years of Becoming a Speaker",
+    "views": 56,
+    "url": "https://youtube.com/watch?v=d8SZ81uxj_k",
+    "description": "I gave my first virtual talk in 2020. Stepped onto a physical stage in 2022. This April, I got an ask on a Friday morning in Odense — another speaker had pulled out, and the conference needed someone to fill a 90-minute Saturday slot. I said yes, and it went well.\n \nSix years of speaking got me to that Yes. \n \nThis session is about what happened in those six years: how I started, what practice helps support this journey, what I figured out along the way, and how I think about preparing a talk now. I'll also cover how I've started using agents in my prep and review this year, which has changed how fast I can shape a new session without changing what makes it mine.\n \nIf you've been telling yourself, you should speak more, come hang out. Steal whatever's useful.\n\nSpeaker: Jeremy Vyska\nModerator: Luc van Vugt\n\n00:03:51 - You are the art.\n-- 00:04:48 - Am I skipping growth\n00:07:28 - The deck is the receipt. You are the art.\n00:08:50 - About Jeremy\n00:10:06 - Act 1 - The Fire\n-- 00:10:06 - Before I ever gave a talk\n00:12:15 - Act 1 - The Forge\n-- 00:13:42 - Three apprenticeships\n00:15:24 - Act 1 - The Yes\n-- 00:14:47 - Days of Knowledge Nordic, Odense - April 2026\n00:16:39 - Act 2- Reps\n-- 00:16:39 - Anchors are fixed. Accordions flex.\n-- 00:17:57 - Presence over polish\n-- 00:20:08 - The kit\n-- 00:23:50 - Prep situations, not scripts\n00:27:29 - Act 3 - Exhibit A\n-- 00:27:29 - This deck is Exhibit A\n-- 00:30:21 - Four gates. Don't skip ahead.\n00:32:51 - Act 3 - Exhibit B\n-- 00:34:47 - Watch the talk change shape\n-- 00:36:24 - The receipt and the art\n-- 00:38:07 - I don't need to be a PowerPoint wizard\n00:40:22 - Act 4 - Mirror\n-- 00:42:53 - What the kit told me after Odense\n-- 00:44:08 - This recording goes through the kit\n00:45:23 - Close - The Verdict\n-- 00:45:23 - A keynote room built for thousends\n-- 00:46:53 - One of the six built something\n-- 00:48:30 - A talk can make art of someone else\n00:50:00 - Close - Steal Whatever's Useful\n-- 00:50:00 - When Monday comes\n00:51:56 - The deck is the receipt. You are the art.\n00:52:22 - Q & A\n\n\nLink to Brendon Sanders keynote: https://www.youtube.com/watch?v=mb3uK-_QkOo",
+    "published_at": "2026-09-29T14:11:34Z",
+    "speakers": [],
+    "categories": []
+  },
+  {
     "title": "Demo or Disaster? How to build better Business Central demos?",
-    "views": 150,
+    "views": 217,
     "url": "https://youtube.com/watch?v=Ug_uM59DRRE",
     "description": "Demo data is the foundation of successful pre-sales scenarios and other kind of demos in Business Central - and at the same time one of the biggest challenges. Anyone who has ever tried to set up realistic demo scenarios for a complex ERP system knows that preparation can take days. RapidStart packages used to be the only option but came with limitations. With the Contoso Coffee project, Microsoft introduced a more modern approach, but this only covers the standard product. Partners are still left with the challenge of presenting their own products convincingly.\n \nIn this session, I’ll shortly share the story of demo data in Business Central – and introduce a new open-source tool that automatically generates a Contoso Coffee–style extension from existing BC data. Most of the work is automated, while the remaining can be fine-tuned together with pre-sales or consulting teams. The result: consistent, realistic demos with much less effort. \n \nWith a live demo, community focus, and practical tips\n\nSpeaker: Simon Fischer\nModerator: Tobias Fenster\n\n00:04:28 - Intro Simon\n00:05:06 - Agenda\n00:05:58 - The pain we want to discuss and the current reality\n00:10:34 - The new world: Contoso demo data history, structure and code\n00:16:17 - The gap for partners and the solution: Demo Data Generator\n00:17:10 - Demo Data Generator\n-- 00:19:35 - Demo\n00:28:02 - The remaining 20% that can't be generated and how that can be filled\n00:39:37 - Key takeaways\n00:41:11 - Resources & links\n00:41:27 - Q & A",
     "published_at": "2026-09-21T09:26:39Z",
@@ -10,7 +19,7 @@
   },
   {
     "title": "Business Central MCP Server, standard and custom",
-    "views": 324,
+    "views": 336,
     "url": "https://youtube.com/watch?v=rm-FstU_I80",
     "description": "Do you want to talk to your Business Central in natural language?\nWith the new Business Central MCP Server, you can chat with your data directly from Copilot Studio or any other Large Language Model, including Claude.\n \nIn this session, you will learn how to:\n* Configure and use the Business Central MCP Server.\n* Create a Copilot Studio agent that can “speak” with your Business Central data.\n* Extend this integration to other LLMs and scenarios using some unofficial MCP server.\n\nSpeaker: Roberto Corella\nModerator: Gert Hector\n\n00:03:02 - Intro Roberto\n00:03:55 - Agenda\n00:04:41 - How many of you know the MCPs?\n00:05:35 - What's the MCP\n00:08:46 - MCP is an open protocol that standardizes how applications provide context to LLM.\n00:10:57 - Why the MCP is a game-changer\n00:11:49 - MCP Server Components\n00:13:32 - MCP Server Components in Copilot Studio\n00:16:31 - General Architecture\n00:18:44 - Why MCP Server for BC\n00:19:36 - Types of MCP's\n00:21:13 - MCP Architecture - Public Preview\n00:21:45 - MCP Server Configuration\n00:23:50 - The default MCP Configuration\n00:27:15 - Dynamic tools read flow explained\n00:27:43 - What about write scenarios?\n00:29:48 - MCP permissions and authentication\n00:31:07 - Creating an agent in Copilot Studio\n00:40:19 - MCP vs other tools\n00:46:16 - support for other MCP hosts\n00:46:40 - Import & Export configurations\n00:47:54 - MCP Proxy - experimental\n00:49:33 - Using other Clients\n00:51:02 - MCP for administrators\n00:53:20 - From the lab\n00:53:56 - Takeaway\n00:54:58 - Q & A",
     "published_at": "2026-09-07T12:36:05Z",
@@ -25,7 +34,7 @@
   },
   {
     "title": "From Zero to Agent Building agents in Business Central",
-    "views": 316,
+    "views": 327,
     "url": "https://youtube.com/watch?v=nbGw2g3KMXI",
     "description": "💡 Build Your Own Business Central Agent - No Code Required 💡\n\nBusiness Central ships with agents for sales orders, payables and expenses. But what about your process? Until recently, building your own meant leaving BC for Copilot Studio or Azure AI Foundry. Not anymore.\n\nBert Verbeek (4PS) takes you from zero to a working agent: what an agent actually is, how to build one in the UI without writing a line of code, and how to take it into AL when it's ready to ship. The live demo runs end to end - an email asks whether items are in stock, the agent checks inventory, hits a shortage, asks for a vendor, creates the purchase order and drafts the reply.\n\nIn this session you'll learn:\n\n✅ What separates an agent from ordinary automation, and the three agents already in BC\n✅ Prerequisites: a sandbox environment, AGENT - ADMIN and AGENT - DIAGNOSTICS permissions, and billing set up (free credits run out)\n✅ Creating an agent in the UI: display name, role, permissions, instructions, model\n✅ A full live demo of a custom Inventory Check agent, including human-in-the-loop review\n✅ How agents really run: tasks, task messages, conversation IDs, and an orchestrator outside BC\n✅ Writing instructions like you'd onboard a junior employee - the skill functional consultants already have\n✅ Limiting the agent with a dedicated role center, page customization and permissions\n✅ Troubleshooting: credit consumption, task steps, and seeing exactly what the agent saw\n✅ Building the agent from AL: codeunits, configuration dialog, capability registration, KPI page\n✅ AL agents vs Copilot Studio - when each one is the right call\n\nIf you write tooltips and error messages, this session will change how you write them: the agent reads both. Custom agents are sandbox and preview only today, which makes right now the best time to prototype.\n\n🎤 Speaker: Bert Verbeek\n🧭 Moderator: Tobias Fenster\n📧 Want to see next presentation live? Subscribe to our newsletter: http://eepurl.com/gHOJWf\n\n**Chapters:**\n\n02:50 - Meet the speaker: Bert Verbeek, 4PS\n03:49 - What an AI agent actually is\n04:40 - The agents already shipping in Business Central\n08:49 - Create your own agent: role, permissions, instructions, model\n10:30 - Live demo: the Inventory Check agent, from email to purchase order\n16:19 - Messages as triggers in agent workflows\n20:47 - Inside the framework: tasks, orchestrator, asynchronous execution\n23:47 - Writing instructions: prompt your agent like a junior employee\n28:51 - Limiting access: role center, page customization, permissions\n32:59 - Troubleshooting: consumption, task steps, what the agent actually sees\n38:06 - Creating an agent from AL code\n42:09 - AL agents vs Copilot Studio, and development considerations\n44:44 - Q & A\n\nNote: if you would like to receive the slide deck send a mail to webinars@areopa.academy.",
     "published_at": "2026-08-04T11:38:21Z",
@@ -38,7 +47,7 @@
   },
   {
     "title": "AI Enabled Delivery for Consultants",
-    "views": 294,
+    "views": 297,
     "url": "https://youtube.com/watch?v=IDYhxt-8ImI",
     "description": "AI is rapidly reshaping the way consultants analyse requirements, design solutions, and deliver projects. In this practical session, we focus on your day-to-day work, and how AI tools can help you work faster, improve quality, and reduce effort across the project lifecycle.\n\nYou'll learn how Microsoft Copilot and associated AI capabilities can streamline requirements gathering, accelerate documentation, support solution design, and assist with testing and analysis. We'll explore real examples of how consultants can use AI to uncover insights, challenge assumptions, and deliver value more quickly.\n\nThe goal of this session is to show you practical techniques you can apply immediately to enhance your productivity, improve customer outcomes, and meet the increasing expectations placed on consultants.\n\nDocuments from webinar\nhttps://github.com/bc-niall/AI-4-BC-Consultants\n\nSpeaker: Niall McGovern\nModerator: Luc van Vugt\n\n\n00:03:27 - Intro Niall\n00:04:29 - What to expect today\n00:05:47 - Why AI matters to your daily consulting work\n00:06:44 - Where AI can help you, in general\n00:07:05 - Where AI fits in the BC project lifecycle\n00:07:43 - Planning & Design\n-- 00:08:03 - Accelerating requirements gathering\n---- 00:09:13 - Primary Microsoft AI Tooling\n---- 00:10:47 - Example prompts\n-- 00:14:52 - Improving analysis & understanding\n---- 00:15:35 - Primary Microsoft AI Tooling\n---- 00:16:28 - Example prompts\n00:18:46 - Implementation\n-- 00:19:01 - Faster & beter solution design\n---- 00:19:43 - Primary Microsoft AI Tooling\n---- 00:20:54 - Example prompts\n-- 00:22:09 - Improving the breadth & speed of testing\n---- 00:22:48 - Primary Microsoft AI Tooling\n---- 00:23:41 - Example prompts\n00:26:30 - Go-Live / Aftercare\n-- 00:26:44 - AI-supported documentation\n---- 00:27:24 - Primary Microsoft AI Tooling\n---- 00:28:13 - Example prompts\n---- 00:29:16 - Make M365 Copilot write more like you\n------ 00:30:00 - M365 Copilot personalization\n------ 00:31:09 - Example: Consultant documentation style card\n00:31:34 - Go-Live / Aftercare\n-- 00:32:03 - Assisting with issue triage and RCA\n---- 00:33:46 - Primary Microsoft AI Tooling\n---- 00:34:21 - Example prompts\n00:35:07 - Relevant AI capabilities in BC\n-- 00:36:24 - Example prompts\n00:37:25 - What is MCP, in plain language?\n-- 00:39:25 - MCP overview\n-- 00:40:23 - When might a consultant encounter MCP?\n-- 00:42:02 - What consultants should ask before using MCP?\n00:43:10 - Closing insights\n-- 00:43:13 - Some scenarios to start with\n-- 00:44:15 - What this means for you, now\n-- 00:46:02 - You decide...\n-- 00:48:12 - Some final advice\n00:50:06 - Q & A",
     "published_at": "2026-06-30T10:19:55Z",
@@ -51,7 +60,7 @@
   },
   {
     "title": "Are We There Yet? The Journey from NAV to Business Central",
-    "views": 173,
+    "views": 176,
     "url": "https://youtube.com/watch?v=no1mmnPfyNY",
     "description": "You’ve survived the journey, but are you there yet?\n \nYou sell Business Central, you program with AL-GO, you’ve even published an app—but does your team feel like a modern BC partner? Or are you still thinking like a NAV shop?\n \nThis session explores what it really means to evolve from a NAV consultancy to a successful Business Central partner. It’s not about code or licensing. It’s about shifting mindsets across the individual, the team, and the sales process. We’ll compare where we came from—pragmatic, project-based, hands-on—to where we need to go in the world of SaaS, vertical offerings, and standardized delivery.\n \nBuilding on my earlier presentations at NAV TechDays and Days Of Knowledge Nordic, this session looks at the mindset of a NAV legacy and questions how to move to the Brave New World without getting left behind.\n\nSpeaker: David Singleton\nModerator: Henrik Helgesen\n\n00:02:48 - Intro\n00:03:27 - My journey\n00:10:11 - Disclaimer\n00:14:12 - NAV vs BC partner\n00:18:36 - Are we there yet?\n00:20:52 - Revenue model\n00:23:02 - What do you sell?\n00:24:14 - Magic sauce\n00:25:17 - Delivery time frame\n00:26:36 - Development model\n00:27:37 - Management\n00:30:16 - Technical debt\n00:31:14 - Service\n00:34:16 - Hidden costs\n00:36:11 - Time value\n00:36:27 - I'll give up my timesheets when you pry ...\n00:37:14 - Did we miss the exit\n00:38:00 - The good dinosaur\n00:38:28 - Can we have both\n00:44:05 - Q & A",
     "published_at": "2026-06-18T07:00:39Z",
@@ -77,7 +86,7 @@
   },
   {
     "title": "Learning AI the Way I Learned NAV",
-    "views": 329,
+    "views": 334,
     "url": "https://youtube.com/watch?v=jWJc_D67Vfw",
     "description": "You've learned hard things before. C/AL with messy documentation. Business logic that made no sense until it did. How to debug someone else's chaos.\nAI is just the next one. Same learning pattern, different tool.\nBut most people are stuck - dabbling without a system or waiting for it to \"make sense\" before they start.\nThis session is for BC consultants who are curious but haven't found their groove yet. I'll share what slowed me down, what actually worked, and why the learning curve isn't where you think it is.\nNo hype. No prompts-and-tricks session. Just a practical look at how to approach AI the way you already know how to learn.\n\nSpeaker: Nabil Ba-Moh\nModerator: Tine Starič\n\n00:04:37 - How the story started\n00:10:25 - What you'll walk away with\n00:11:30 - Point 1: The privacy wall\n00:17:17 - Point 2: The moment it clicked\n00:26:32 - Point 3: Doer vs. Director\n00:31:53 - Demo\n00:38:03 - The Email Hallucination\n00:40:21 - Marathon Over Chats\n00:42:29 - Q & A\n00:46:45 - Wrap up\n00:48:06 - Your Next Step - This Week",
     "published_at": "2026-05-19T09:59:16Z",
@@ -91,7 +100,7 @@
   },
   {
     "title": "Super fast tests covering 100% of your code",
-    "views": 416,
+    "views": 418,
     "url": "https://youtube.com/watch?v=EurgqGU1jG0",
     "description": "In this webinar Finn Pedersen will talk about how to\n- write Environment Interfaces, what they are, and why all projects need them.\n- reach 100% code coverage by tests\n- make tests run in milliseconds\n- test code that would otherwise be impossible to test in automated tests\n- run tests in your build pipeline. No code will ever be put in production without having passed all tests\n                                \nIf you have not yet written an Interface, this session will get you started. All developers should learn this to deliver quality BC extensions and apps.\n                                \nThe talk is based on the development of an App for AppSource and has led to a series of articles on Finn's blog.\n                                \nhttps://www.finnpedersenfrance.com/programming/2025/06/26/environment-interface-part-1.html\nhttps://www.finnpedersenfrance.com/programming/2025/06/26/environment-interface-part-2.html\nhttps://www.finnpedersenfrance.com/programming/2025/06/26/environment-interface-part-3.html\nhttps://www.finnpedersenfrance.com/programming/2025/06/26/temporary-tables-in-tests.html\n\nCode examples on GitHub\nhttps://github.com/finnpedersenfrance/BC-Environment-Interfaces\n\n🎤Speaker: Finn Pedersen\n🧭Moderator: Gert Hector\n📹Video Editor: Mats Thell\n\n📧 Contact? Want updates? Check out our webpage https://areopa.academy\n\n00:00:00 - Introduction\n00:04:01 - About Finn\n00:04:47 - Vjeko\n00:06:07 - Why\n00:07:13 - Agenda\n00:07:36 - Scenario\n00:08:16 - Key Requirements \n00:09:35 - Demo App and Demo Tests and Coverage\n00:14:14 - Environments\n00:16:05 - Environment Interfaces vs Context Interfaces\n-- 00:16:33 - Context Interface\n-- 00:18:29 - Environment Interface\n00:19:48 - Test 100% of our code\n-- 00:19:53 - Covering all path\n00:21:13 - Logic in the App\n-- 00:21:16 - Application State\n-- 00:21:55 - System Environment\n-- 00:22:14 - Environment Interface\n-- 00:22:35 - Environment Implementation\n-- 00:24:45 - Make impossible states impossible\n-- 00:25:27 - Production or Test \n-- 00:25:46 - Logic in the App\n00:26:09 - Logic in the Test App\n-- 00:26:18 - London Style Terminology\n-- 00:27:08 - App Environment\n-- 00:27:17 - Stub Production Environment\n-- 00:28:39 - Testing this logic\n-- 00:30:16 - Production or Test\n00:31:03 - Code on GitHub\n00:31:52 - Test without calling the API\n-- 00:32:07 - API Request Interface\n-- 00:33:07 - API Request Implementation\n-- 00:34:30 - Test Implementation \n00:38:39 - Super Fast\n-- 00:38:47 - Key requirements\n-- 00:38:56 - Scenario\n-- 00:40:35 - EncodeEmail\n-- 00:41:48 - Test in Production\n-- 00:43:31 - Code Hierarchy\n00:45:23 - Q & A",
     "published_at": "2026-05-05T09:15:54Z",
@@ -104,7 +113,7 @@
   },
   {
     "title": "What is GitOps and why should you care",
-    "views": 197,
+    "views": 198,
     "url": "https://youtube.com/watch?v=qqWj_2uM0ek",
     "description": "💡 What is GitOps? Stop Managing Azure Infrastructure by Hand 💡\n\nAre you still clicking through the Azure Portal to create and manage your resources? Even Infrastructure as Code has gaps — manual drift, push-only updates, and limited traceability.\n\nGitOps takes it further: your Git repository becomes the single source of truth, and tools like ArgoCD automatically ensure reality matches your definitions.\n\nIn this hands-on session, you'll learn:\n\n✅ Why ClickOps is risky, and IaC still has blind spots\n✅ Core GitOps principles: declarative, pull-based, self-healing\n✅ The tech stack: Kubernetes + Crossplane + ArgoCD\n✅ Live demo: create resources, modify metadata, revert changes, detect drift — all from Git\n✅ Real-world example: managing 6 AKS clusters across teams with pull requests\n✅ When to use GitOps and how to get started\n\nWhether you're running one AKS cluster or six, this session shows you how to treat infrastructure like software — with PRs, history, and automatic reconciliation.\n\n🎤 Speakers: Tobias Fenster & Markus Lippert\n🧭 Moderator: Tine Starič\n📧 Want to see next presentation live? Subscribe to our newsletter: http://eepurl.com/gHOJWf\n\n02:48 - About Markus and Tobias\n04:40 - ClickOps vs. Infrastructure as Code\n10:26 - What is GitOps\n18:13 - Deep dive and live demo\n27:23 - Real-world GitOps Example\n31:47 - Best practices and lessons learned\n35:42 - Q & A\n\nNote: If you would like to receive the slide deck, send an email to webinars@areopa.academy.",
     "published_at": "2026-04-21T15:05:40Z",
@@ -118,7 +127,7 @@
   },
   {
     "title": "If You Can’t Make It Fast, Make It Feel Fast",
-    "views": 301,
+    "views": 303,
     "url": "https://youtube.com/watch?v=D7GxnNiGQ14",
     "description": "There's a lot of guidance out there on writing high-performance AL code and for good reason. Optimizing for speed should always be the first priority.\nBut sometimes, no matter how well the code is written, an operation simply takes time. Large data volumes, complex processes, or external dependencies can make certain tasks inherently slow.\nThis is where perception of performance becomes just as important as actual performance.\nThis session focuses on how to maintain a responsive and user-friendly experience, even when heavy work is happening in the background. Techniques will be covered that allow long-running operations to be handled without blocking the user interface, helping users stay productive and engaged.\nKey concepts and practical approaches for offloading processing and improving perceived performance will be explained, providing a foundation for building smoother, more responsive Business Central solutions.\n\n🎤Speakers: Henrik Helgesen and Stefan Maron\n🧭Moderator: Bert Verbeek\n📹Video Editor: Mats Thell\n\n📧 Want updates? Subscribe to our newsletter: http://eepurl.com/gHOJWf\n\n00:02:28 - Introduction Henrik and Stefan\n00:05:45 - Objective\n00:07:36 - Agenda\n00:09:03 - The Problem\n00:10:23 - The Magic of Perception\n00:10:55 - Real-World Example\n00:19:05 - Background Processing Toolkit\n-- 00:22:49 - Page Background Tasks\n-- 00:24:25 - Demo - Page Background Task\n-- 00:27:11 - Start Session\n-- 00:28:06 - Demo - Start Session\n-- 00:30:22 - Task Scheduler\n-- 00:31:42 - Demo - Task Scheduler\n-- 00:36:19 - Job Queue\n-- 00:42:49 - Demo - Job Queue\n00:45:04 - Background Sessions Enable Auto-Scaling\n00:47:55 - Conclusion : Make It Feel Fast\n00:50:28 - Q & A\n-- Are there limits how many startsessions can be triggered at once?\n-- How many task schedulers can you run? And if yes do you know how many there are running?\n\nFind the code examples here:\n- https://github.com/StefanMaron/BackgroundSessionDemo\n\nMight you want to have a read of this webinar: https://stefanmaron.com/posts/bc-background-processing-make-it-feel-fast/.",
     "published_at": "2026-02-24T14:26:55Z",
@@ -128,32 +137,6 @@
     ],
     "categories": [
       "AL"
-    ]
-  },
-  {
-    "title": "Chaos to Clarity - Visualizing AL architecture for scalable Business Central solutions",
-    "views": 388,
-    "url": "https://youtube.com/watch?v=reUoIdQZaNM",
-    "description": "🚀 Keep Your AL Projects Manageable with Clear Architecture\n\nAs AL projects grow, complexity grows with them. The solution? A clean, simple architectural approach that saves your team time and avoids confusion.\n\n🧩 Why C4 Instead of Traditional Diagrams?\nTraditional visuals like\n* UML\n* ERDs\n* BPMN\n…often become cluttered and hard to maintain.\nThe C4 model offers a lightweight, easy‑to‑understand way to map your solution—from code dependencies to interconnected Dynamics 365 services.\n\n🤖 Architecture Meets AI\nWith AI coding agents becoming standard tools:\n* Clear architecture → better prompts\n* Better prompts → less rework\n* Less rework → fewer “start again” moments\n\nGood architecture upfront makes pipelines smoother and development more enjoyable.\n\n🎯 What You’ll Gain\n* A simple method to describe AL/BC solutions\n* A shared language for devs and decision‑makers\n* Practical tips for tools and workflows\n* A way to keep solutions scalable and maintainable\n\n👤 Speakers\nSpeaker: Christian Lenz\nModerator: Gert Hector\n\n📬 Want updates? Subscribe to our newsletter: http://eepurl.com/gHOJWf\n\n00:03:00 - Introduction\n00:03:43 - Introduction Christian\n00:05:48 - My Challenge\n00:08:16 - Chaos vs. Clarity\n00:09:15 - Traditional diagrams\n-- 00:10:10 - UML diagrams\n-- 00:10:35 -  ER Diagrams\n-- 00:11:20 -  BPMN\n00:12:22 - Introducing the C4 model\n00:13:48 - What is the C4 model? - Defined set of abstractions and diagram\n00:16:15 - Why C4 works for AL\n00:17:22 - What is the C4 model? - Set of diagrams\n-- 00:17:22 - System Context View\n-- 00:20:37 - Container Diagram\n-- 00:21:09 - Component Diagram\n-- 00:22:49 - Code Diagram\n-- 00:23:58 - Example set of maps\n00:26:44 - What helped me to solve it - modeling the solution (System Context/Container)\n00:31:32 - The Solution (Component/Code)\n00:34:29 - AI & Architecture\n-- 00:34:42 - AI Coding agents need clarity\n00:36:55 - Prompting is coding\n00:37:04 - Tool recommendations\n-- 00:37:06 - draw.io\n-- 00:37:47 - Structurizr\n00:39:22 - VSC and Copilot\n-- 00:41:43 - Structurizr playground\n00:44:19 - Q & A",
-    "published_at": "2026-02-12T16:06:05Z",
-    "speakers": [
-      "Christian Lenz"
-    ],
-    "categories": [
-      "Architecture"
-    ]
-  },
-  {
-    "title": "Excel Report Layouts: From Basics to Refreshable, Real-Time Reporting",
-    "views": 275,
-    "url": "https://youtube.com/watch?v=1ft4o9lQzsU",
-    "description": "💡 Master Excel Report Layouts in Business Central: From Basics to Real-Time Reporting 💡\n\nTired of waiting on developers for custom reports? Excel Report Layouts let you transform raw Business Central data into polished, actionable reports—without writing code.\n\nIn this hands-on session, you'll learn:\n\n✅ Why Excel Layouts are a game-changer for BC reporting\n✅ The complete 4-step process: data contract → design → import → test\n✅ Real-world examples of Excel Reports in production\n✅ How to build refreshable reports with Power Query and BC's API\n✅ Create reports that automatically update with live data\n\nWhether you're a functional consultant, business analyst, or power user, you'll walk away ready to build your own custom reports immediately.\n\n🎤 Speaker: Tonya Bricco-Meske\n🧭 Moderator: Bert Verbeek\n📧 Want to see the next presentation live? Subscribe to our newsletter: http://eepurl.com/gHOJWf\n\n03:10 - Introduction Tonya\n05:15 - Report introduction\n06:21 - Agenda\n06:38 - The Goals of Excel Layouts\n08:49 - Why use Excel Layouts\n11:38 - What gives people feelings of power\n12:51 - Excel Reports in the wild\n17:46 - Step 1 - Get Excel workbook with the \"data contract\"\n24:33 - Step 2 - Layout data as you wish using Excel features\n28:15 - Step 3 - Import layout file into Business Central\n31:20 - Step 4 - Test the layout\n32:41 - Refreshable Excel Reports\n38:56 - Q & A\n45:21 - Recap\n\nNote: if you would like to receive the slide deck send a mail to webinars@areopa.academy.",
-    "published_at": "2026-01-28T10:55:47Z",
-    "speakers": [
-      "Tonya Bricco-Meske"
-    ],
-    "categories": [
-      "BI"
     ]
   },
   {
@@ -172,7 +155,7 @@
   },
   {
     "title": "43 dev tips in 45 minutes",
-    "views": 516,
+    "views": 517,
     "url": "https://youtube.com/watch?v=XJXOledBObA",
     "description": "💡 43 Battle-Tested Tips to Transform Your Business Central Development 💡\n\nAre you a Business Central developer looking to refresh your knowledge and work smarter? Fasten your seatbelts! Milan Milinčević and Luc van Vugt pack 43 powerful tips into this rapid-fire session.\n\nFrom essential VS Code extensions to performance optimizations that make your queries 23x faster, this session covers:\n\n✅ VS Code productivity: extensions, shortcuts & agentic development\n✅ Performance boosters: SetLoadFields, TextBuilder, query objects, lazy evaluation\n✅ Clean code patterns: interfaces, early exit strategy, proper variable scoping\n✅ Testing & debugging: snapshot debugging, telemetry, test permissions\n✅ Real-world design patterns from alguidelines.dev\n\nWhether you're new to BC development or a seasoned pro, these tips will help you write better code, debug faster, and build solutions that scale.\n\n🎤 Speakers: Milan Milinčević & Luc van Vugt\n🧭 Moderator: Tobias Fenster\n📧 Want to see next presentation live? Subscribe to our newsletter: http://eepurl.com/gHOJWf\n📑 Want the slide deck? Email webinars@areopa.academy\n\n05:36 - Tip 1 – VS Code AL extensions\n08:27 - Tip 2 – Shortcuts in VS Code\n09:25 - Tip 3 – Use MSDyn365BC.Code.History\n10:51 - Tip 4 – Agentic development\n12:08 - Tip 5 – Use micro-commits\n13:02 - Tip 6 – Limit event subscriptions\n13:38 - Tip 7 – Managed CI/CD solution\n15:04 - Tip 8 – Implicit commit\n16:07 - Tip 9 – Implement tooltips on table level\n17:08 - Tip 10 – Move to Word layouts\n18:40 - Tip 11 – Organize folders by category, not object type\n19:19 - Tip 12 – Data Administration page for cleanup and analysis\n21:00 - Tip 13 – Page Inspection / Ctrl+Alt+F1\n22:02 - Tip 14 – Snapshot debugging\n23:03 - Tip 15 – Telemetry\n24:11 - Tip 16 – Database performance pages\n25:28 - Tip 17 – SetAutoCalcFields\n26:41 - Tip 18 – Page background tasks\n27:39 - Tip 19 – TextBuilder\n28:21 - Tip 20 – IsEmpty + DeleteAll\n29:15 - Tip 21 – SetLoadFields\n31:10 - Tip 22 – Use query object instead of nested loops\n32:10 - Tip 23 – \"Lazy evaluation\"\n33:18 - Tip 24 – Use DataTransfer for efficient upgrades\n34:28 - Tip 25 – Use alguidelines.dev BC design patterns\n35:42 - Tip 26 – Proper use of global variables\n37:13 - Tip 27 – Interfaces\n38:42 - Tip 28 – SetRange vs. SetFilter\n40:46 - Tip 29 – Preprocessor directives\n41:40 - Tip 30 – Use IntelliSense\n42:22 - Tip 31 – Clear vs. Reset vs. Init – know the difference\n43:12 - Tip 32 – Early exit strategy\n44:22 - Tip 33 – Pass by reference vs. value\n45:21 - Tip 34 – Be consistent with object and file naming\n46:06 - Tip 35 – Write tests while developing\n46:41 - Tip 36 – Create Test Plan\n47:26 - Tip 37 – Breakdown your code in smaller methods\n48:06 - Tip 38 – SecretText\n48:49 - Tip 39 – Access Modifiers\n49:54 - Tip 40 – internalsVisibleTo\n50:52 - Tip 41 – Test with permissions\n51:24 - Tip 42 – Actionable error messages\n51:52 - Tip 43 – Collecting errors\n52:51 - Q & A",
     "published_at": "2025-11-27T21:12:34Z",
@@ -185,22 +168,8 @@
     ]
   },
   {
-    "title": "Extending the backend of Business Central AI Agents with Azure AI Foundry",
-    "views": 352,
-    "url": "https://youtube.com/watch?v=jHezPjhjSwo",
-    "description": "💡 Master Azure AI Foundry for Business Central Backend Extensions 💡\n\nBusiness Central provides built-in AI-driven capabilities for automating business processes—but what happens when you need\ndeeper customization? Real-world scenarios often demand custom logic, advanced AI capabilities, industry-specific\ncompliance rules, and data flows that go beyond native features.\n\nIn this technical deep-dive, Katerina Chernevskaya and Artem Chernevskiy demonstrate how to extend Business Central AI\nAgents using Azure AI Foundry. You'll see live implementations of Prompt Flow with RAG, API endpoint provisioning, and\ncustom evaluation frameworks. Azure AI Foundry gives you the tools to not only generate intelligent responses but also\nmonitor performance, evaluate accuracy, align with business requirements, and manage costs efficiently.\n\n✅ When and why to extend beyond built-in Business Central AI capabilities\n✅ How to build your own Prompt Flow in Azure AI Foundry and deploy it to an endpoint for API integration\n✅ The importance of AI monitoring, evaluation, and cost management\n✅ Practical architectural patterns for backend extensions you can implement immediately\n\nAfter watching, you'll be equipped to design and deploy custom AI agent architectures that meet complex enterprise\nrequirements while maintaining security, compliance, and scalability.\n\n🎤 Speakers: Katerina Chernevskaya & Artem Chernevskiy\n🧭 Moderator: David Singleton\n📧 Want to see next presentation live? Subscribe to our newsletter: http://eepurl.com/gHOJWf\n\n2:28 - Meet the Speakers: Artem & Katerina\n4:25 - Audience Poll: Have You Used AI Agents?\n5:34 - Session Agenda: What You'll Learn Today\n8:01 - Understanding Copilot vs AI Agents\n8:30 - Why Built-in Capabilities Aren't Always Enough\n11:01 - Challenges of Building AI Agents from Scratch\n12:10 - Four Key Considerations for Agent Development\n14:03 - Navigating the Microsoft Framework Landscape\n16:18 - Where to Start: Cost-Effective Architecture\n16:51 - Azure AI Foundry Agents: Live Demo Begins\n25:40 - Testing Your Agent with Real Sales Data\n34:38 - Transition: Kate Takes Over for Advanced Demo\n35:08 - Prompt Flow with RAG: Architecture Deep-Dive\n48:27 - API Endpoint Deployment and Configuration\n51:03 - Evaluating Prompt Flow Performance\n53:10 - Final Demo: Real-World Implementation\n54:16 - Custom User-Evaluation Tool with Power Apps\n56:26 - Summary, Resources & Microsoft Adoption Catalog",
-    "published_at": "2025-11-12T11:07:28Z",
-    "speakers": [
-      "Katerina Chernevskaya",
-      "Artem Chernevskiy"
-    ],
-    "categories": [
-      "Agent Building"
-    ]
-  },
-  {
     "title": "My customer has performance problems - what do I do",
-    "views": 454,
+    "views": 456,
     "url": "https://youtube.com/watch?v=brroEMkXqC4",
     "description": "Got a customer dealing with slow Business Central performance? In this session, I'll walk you through how to spot the issues, figure out what's causing them, and fix them fast.\n                                                \nWhether you're a developer, consultant, or a power user, you'll pick up practical tips and tools to troubleshoot common performance headaches and keep things running smoothly.\n\n🎤 Speaker: waldo\n🧭 Moderator: Tine Starič\n📹 Editing: Mats Thell\n\n📧 Want to see next presentation live? subscribe on our newsletter: http://eepurl.com/gHOJWf\n\n00:02:43 - Today's Topic\n00:04:19 - Introduction waldo\n00:05:02 - What do you do when there's an issue?\n00:06:46 - Gather information \n-- 00:07:19 - Pinpoint the symptom\n-- 00:07:52 - Repro steps\n-- 00:08:49 - The Users Environment\n-- 00:09:09 - Help & Support\n-- 00:10:14 - Where there recent changes?\n-- 00:10:49 - Check Admin Center\n-- 00:11:19 - Quantify the Impact\n-- 00:12:38 - Ask for System Data\n00:13:48 - Learn (and teach) to decently report\n-- 00:15:42 - Page Inspector\n-- 00:17:05 - Page Scripting\n-- 00:17:24 - Database Locks\n-- 00:19:05 - Sessions\n-- 00:19:52 - In-Client Performance Profiler\n-- 00:24:22 - Considerations (Sampling vs. Instrumentation)\n-- 00:27:48 - Debugging\n00:30:03 - Telemetry\n-- 00:31:33 - Types of metrics\n-- 00:32:58 - Demo Azure Data Explorer\n00:38:00 - PPP - Performance Prevention Program\n-- 00:39:52 - BC is a transactional system NOT a reporting system.\n-- 00:41:19 - Keep your process short\n-- 00:41:26 - Avoid \"Inline\" transactions\n-- 00:42:13 - Keep API's simple\n-- 00:43:44 - \"If it's in the product...\"\n-- 00:44:09 - How you set up the application has a big impact on how it's going to preform\n-- 00:44:48 - Don't do these things\n-- 00:46:30 - Job Queues\n00:47:03 - Perception is reality\n-- 00:47:09 - Background Processes\n-- 00:49:05 - Tips for Users...\n00:55:21 - Q & A",
     "published_at": "2025-10-14T16:10:15Z",
@@ -213,7 +182,7 @@
   },
   {
     "title": "7 or so AI killer prompts to change your daily life as Functional Consultant",
-    "views": 307,
+    "views": 308,
     "url": "https://youtube.com/watch?v=rHFvEqg6DBk",
     "description": "💡 7 AI Prompts That Transform BC Functional Consulting Work 💡\n\nMost Business Central functional consultants spend hours writing requirements docs, analyzing gaps, creating FDDs, and building test cases. The work is critical but repetitive. Quality varies. Time costs are massive.\nJose Miguel Azevedo shares 7 proven AI prompts that solve this - with real examples and actual results. No theory. Just working prompts you can use immediately.\n\nWhat you'll learn:\n✅ Turn meeting transcripts into structured, DevOps-ready requirements automatically\n✅ Use AI for gap analysis to verify if features are standard or require customization\n✅ Generate Functional Design Documents (FDDs) that work for customers, developers, and testers\n✅ Create comprehensive test cases without the manual grind\n✅ Generate anonymized test data for data migration validation\n✅ Debug production code using AI - even without technical skills\n✅ Bonus prompts for emails, integration strategies, and workshop planning\n\nJose walks through his personal journey from skeptical to daily AI user. He shows the exact prompts that worked (and one that didn't). He shares the frameworks that made AI useful instead of frustrating.\nThe core message: AI won't replace functional consultants. But functional consultants who use AI will replace those who don't. The gap is already forming.\n\n🎤 Speaker: Jose Miguel Azevedo\n🧭 Moderator: Bert Verbeek\n\n📧 Want to see next presentation live? Subscribe to our newsletter: http://eepurl.com/gHOJWf\n\nChapters:\n00:04:25 - Agenda Overview\n00:05:18 - Speaker Introduction\n00:07:35 - Audience Discovery Poll\n00:08:17 - Session Goals and Expectations\n00:11:51 - The Functional Consultant Role\n00:13:24 - Prompt 1: Requirements Gathering from Transcripts\n00:19:26 - Prompt 2: Gap Analysis - Is It Standard or Customization?\n00:23:21 - Prompt 3: Solution Design - Generating Functional Design Documents\n00:27:57 - Prompt 4: Test Case Generation\n00:29:50 - Prompt 5: Data Migration - Anonymized Test Data\n00:33:30 - Prompt 6: Debugging Production Code Without Being Technical\n00:39:26 - Bonus Prompts: Emails, Strategies, and Workshop Planning\n00:42:58 - Key Takeaways and Practical Advice\n00:52:55 - Q&A Session",
     "published_at": "2025-09-30T11:30:22Z",
@@ -226,7 +195,7 @@
   },
   {
     "title": "The Cost of Poorly Written AL Code SQL Performance",
-    "views": 546,
+    "views": 547,
     "url": "https://youtube.com/watch?v=pd-feooThYY",
     "description": "💡The Cost of Poorly Written AL Code SQL Performance. 💡\n\nIn this Areopa Academy webinar, Stefan Šošić will explore how bad AL coding practices can lead to inefficient SQL queries, impacting the performance of Business Central versions 25 to 27. We will analyze SQL queries that are produced by bad AL code. A deep dive into SQL will show us what you should be aware of by writing your AL code and what the alternative is for it. Discover the hidden costs associated with poorly written code and learn how to avoid common pitfalls that can cause redundant database hits, excessive data reads, and overall SQL server stress. By understanding the relationship between AL code and SQL performance, you'll gain insights into best practices for writing efficient code that minimizes unnecessary database load. Equip yourself with the knowledge to optimize data retrieval, enhance system performance, and ensure your Business Central extensions run smoothly.\n\n🎤 Speaker: Stefan Šošić\n🧭 Moderator: David Singleton\n📹 Editing: Mats Thell\n\n📧 Want to see next presentation live? subscribe on our newsletter: http://eepurl.com/gHOJWf\n\n00:03:01 - The Cost of Poorly Written AL Code SQL Performance\n00:03:54 - Introduction Stefan\n00:04:38 - How are the tests performed\n00:08:35 - Select Latest Version\n00:09:34 - NST Caching\n00:12:07 - IsEmpty then FindSet vs FindSet only\n00:20:05 - SetLoadFields\n00:24:25 - Find('-') vs FindSet ( more than 50 records)\n00:29:05 - CalcFields vs AutoCalcFields\n00:34:21 - Calculate Totals in a Loop vs CalcSum\n00:39:04 - If not Insert then Modify\n00:44:04 - Count = 0 vs IsEmpty\n00:46:36 - Temporary Tables\n00:49:34 - FindFirst and the loop through\n00:52:05 - Change filters inside the loop\n00:55:10 - IsEmpty/Finset before DeleteAll\n00:58:16 - Count = 1 vs Find('-') and Next = 0\n01:02:00 - Official AL Guidelines\n01:02:39 - Q & A\n01:04:41 - Thank you to FORNAV",
     "published_at": "2025-09-16T22:01:02Z",
@@ -239,7 +208,7 @@
   },
   {
     "title": "Power Platform from the perspective of BC Development",
-    "views": 354,
+    "views": 357,
     "url": "https://youtube.com/watch?v=SPslb8X4WKY",
     "description": "Power Platform made its place in the world. It solves many problems, and yet, the BC world still has a hard time adopting it.\nLet's forget for a moment the “Why don't you use AI?” discussions and return to the “Why don't you use Power Platform?” topic.\nYou can hear many arguments for or against it. The price, skills needed, dev ops practices, source control, maintainability... Some are valid, and some are not anymore. Well, here's a session that's going to structure them.\nThis is not a session where we rant on Power Platform. This is a session where we help the PP audience understand why we're not hearing their message, and a session for the BC partners, trying to venture in the world of PP, so they know what they can expect. Join in, to learn Power Platform's place in the world of BC!\n\nSpeakers: waldo & Tine Starič\nModerator: Gert Hector\n\n00:03:22 - General topic introduction\n00:04:24 - \"Why are we (still) not using  Power Platform (as much)?\"\n00:05:05 - who is waldo - who is Tine\n00:06:00 - Some challenges in the world of software development\n00:06:28 -      Repeatability\n00:07:11 -      Maintainability\n00:07:56 -      Customisation\n00:09:01 - Business Central in a nutshell\n00:09:15 -      What is Business Central\n00:10:10 -      Extensibility\n00:11:51 -      Development Methodology\n00:13:19 - Power Platform\n00:13:40 -      Disclaimer\n00:14:10 -      What is the Power Platform\n00:17:48 -      Development Methodology\n00:19:23 -      Extensibility\n00:21:08 -      Citizen Developer\n00:24:54 - When you combine PP with BC\n00:25:28 -      Deployment\n00:27:06 -      Validation\n00:28:15 -      What do we do? - Deployment & Validation\n00:30:40 -      Extensibility\n00:31:28 -      What do we do? - Extensibility\n00:33:16 -      Licensing differences\n00:37:10 -      What do we do? \n00:38:23 -      Development Environment \n00:41:11 -      What do we do? \n00:42:01 -      Dataverse\n00:43:27 -      What do we do? \n00:44:52 -      Some considerations for Dataverse\n00:45:41 - Where the Power Platform really shines\n00:46:15 -      Power Automate\n00:53:49 -      Power Pages\n00:55:25 -      Data collection is key\n00:56:31 - Key takeaways\n00:59:47 - Q&A\n01:07:57 - Outro",
     "published_at": "2025-09-02T09:00:41Z",
@@ -253,7 +222,7 @@
   },
   {
     "title": "From OpenAPI to AL Auto Generating Strongly Typed REST API Clients for BC with Kiota",
-    "views": 268,
+    "views": 269,
     "url": "https://youtube.com/watch?v=Xi9nxXKshcI",
     "description": "💡Manually stitching together HttpClient, parsing JSON, and mapping records is yesterday’s game. 💡\n\nIn this Areopa Academy webinar, Microsoft MVP Tobias Fenster and Simon Fischer show how the open-source Kiota project can turn any OpenAPI specification into a fully typed AL extension — slashing boilerplate, reducing bugs, and making integrations first-class citizens in Microsoft Dynamics 365 Business Central.\n\n🚀 What you’ll learn\n• Kiota 101 – the language-agnostic generator Microsoft uses for Graph, now extended to AL.\n• Under the hood – how the new AL generator plugs into Kiota with minimal core changes.\n• Runtime bundle – a quick tour of the Kiota.Abstractions-al app that handles auth, errors, and JSON in BC.\n• Live demo – generating a client from an OpenAPI definition and calling it from AL in a couple of minutes.\n• Path to production – testing, CI, and contributing to the upstream PR.\nWhether you’re an ISV, partner developer, or architect tired of cut-and-paste code, join us to see how you can focus on business logic, not boilerplate—and how you can help push this OSS effort across the finish line.\n\n🎤 Speakers: Simon Fisher & Tobias Fenster\n🧭 Moderator: Bert Verbeek \n📹 Editing: Mats Thell\n\n🔗 GitHub repository: https://github.com/SimonOfHH/kiota\n📧 Want to see next presentation live? subscribe on our newsletter: http://eepurl.com/gHOJWf\n\n00:03:01 - Introduction Simon & Tobias\n00:04:30 - Agenda\n00:04:58 - The challenge: API no. 3928 \n00:06:30 - A solution: Kiota generates clients\n00:08:12 - Demo time csharp client\n00:10:23 - How did that work?\n00:11:02 - Demo time\n00:14:00 - Kiota client with BC / Al\n00:14:23 - Status Quo BC API Clients\n00:15:51 - In a galaxy not too far away\n00:16:42 - A solution: Kiota generates client\n00:16:55 - Demo time AL client\n00:34:21 - Dive into generating the client\n00:40:48 - Help us / Feedback\n00:43:35 - Q & A\n\nQuestions\nDo you have a sample repository that people can clone to easily get started?\nAuthentication how does he handle it? also difficult next to the json\nDid you already tried it on a real integration?",
     "published_at": "2025-07-22T10:01:02Z",
@@ -267,7 +236,7 @@
   },
   {
     "title": "Markdown's Magical Mermaid",
-    "views": 351,
+    "views": 354,
     "url": "https://youtube.com/watch?v=vJXsMHti1qU",
     "description": "💡 Master Diagrams with Markdown: Unlock the Power of Mermaid! 💡\n\nJoin Jeremy Vyska in this practical and entertaining session as he demystifies Mermaid, the Markdown-powered diagramming language that’s transforming how developers, consultants, and teams visualize ideas and code.\n\n🚀 Learn how to:\n • Instantly diagram business and dev processes\n • Document codebases and troubleshoot logic\n • Collaborate better with clients and partners\n • Supercharge productivity with GitHub Copilot\n\nWhether you’re building apps, explaining workflows, or just tired of Visio, this talk is your gateway to better documentation and faster development.\n\n🔗 Try Mermaid Live: https://mermaid.live\n🎤 Presenter: Jeremy Vyska\n🧭 Moderator: Tine Starič\n\n00:02:41 - Introduction: Jeremy\n00:03:31 - What is Mermaid  \n00:06:00 - Why Mermaid? Quick diagrams & use cases  \n00:07:05 - Easy example: sequence diagram  \n00:08:44 - Diagram types overview  \n00:11:15 - Validating ideas with Mermaid  \n00:13:00 - Helping clients with process flow  \n00:14:05 - Discovering technical scope gaps  \n00:16:15 - Document-driven development  \n00:18:08 - Help Partners: Bridge app concept  \n00:19:00 - Help Developers: Repo onboarding docs  \n00:26:00 - Generate documentation with GitHub Copilot  \n00:32:03 - Reuse diagrams in AI-assisted dev & TDD  \n00:33:20 - Troubleshooting: Visualizing logic & edge cases  \n00:36:00 - Mermaid for debugging logic  \n00:37:00 - Visualizing code performance with Gantt charts  \n00:42:22 - Q & A",
     "published_at": "2025-06-24T14:24:16Z",
@@ -280,7 +249,7 @@
   },
   {
     "title": "Sustainability functionality in Business Central What's there and why",
-    "views": 1304,
+    "views": 1318,
     "url": "https://youtube.com/watch?v=mRFSvVQQEek",
     "description": "Sustainability is an important component of corporate strategy across multiple industries. This session explores the sustainability functionality within Business Central, and is intended mainly for Business Central functional consultants. You do not need to be familiar with sustainability terms, concepts, or regulations.\n\nWe will start by exploring the “why” behind sustainability, focusing on the growing regulatory requirements and the importance of Environmental, Social, and Governance (ESG) reporting. We will then cover the “what” - the current sustainability features available in Business Central, including Greenhouse Gas (GHG) emissions tracking, the Chart of Sustainability Accounts, and how you could approach sustainability reporting.\n\nFinally, we will look ahead to upcoming Business Central features, and to trends that will impact sustainability management in Business Central.\n\nThis session aims to give you the knowledge to help your customers to get the most out of Business Central sustainability functionality.\n\nPresenter: Niall McGovern\nEditing: Mats Thell\n\nWant to see next presentation live? subscribe on our newsletter\nhttp://eepurl.com/gHOJWf\n\nUseful links for more information about Sustainability and Business central\n\nInformation on sustainability reporting standards:\nCorporate sustainability reporting - European Commission - https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en\nUK Sustainability Reporting Standards - GOV.UK - https://www.gov.uk/guidance/uk-sustainability-reporting-standards\n\n \nMicrosoft Learn documentation on sustainability features:\nSustainability management overview – Business Central - https://learn.microsoft.com/en-us/dynamics365/business-central/finance-manage-sustainability\nWhat’s new and planned for sustainability in 2025 wave 1 (BC26) - https://learn.microsoft.com/en-us/dynamics365/release-plan/2025wave1/smb/dynamics365-business-central/planned-features\n\n\nBC release wave launch videos, which include sustainability features:\nWhat's new in 2024 release wave 1 - https://www.youtube.com/playlist?list=PL1FESh9FqyhSjW63Ouft5vbc2NSxXKV2k\nWhat's new in 2024 release wave 2 - https://www.youtube.com/playlist?list=PL1FESh9FqyhRj4fjUlWvghJ3rPFyz2Foz\nWhat’s new in 2025 release wave 1 - https://www.youtube.com/playlist?list=PL1FESh9FqyhQ5mLH-jqyMsSElcCIVg-KB\n\n\n00:01:01 - Agenda\n00:01:56 - Introduction Niall\n00:02:30 - Why? The Importance of Sustainability\n-- 00:02:36 - Why Sustainability Matters\n-- 00:03:37 - ESG Reporting\n-- 00:05:33 - EU Corporate Sustainability Reporting Directive (CSRD)\n-- 00:06:45 - UK Sustainability Reporting Standards (SRS)\n-- 00:08:51 - What are the Green House Gases and Emission Scopes?\n00:10:35 - What's there? Sustainability Functionality in BC\n-- 00:10:46 - Basic level - it's emissions accounting\n-- 00:11:25 - Prerequisite - BC Sustainability app\n-- 00:12:27 - Sustainability Setup\n-- 00:13:57 - Sustainability Account Categories\n-- 00:15:29 - Sustainability Account Subcategories\n-- 00:16:20 - Record Sustainability Data in Journals or Purchase Docs\n-- 00:17:51 - Chart of Sustainability Accounts\n-- 00:19:14 - Standard Reports\n-- 00:20:41 - Ad-hoc Analysis\n-- 00:21:18 - Sustainability APIs\n00:22:48 - We've done the basics, now the next level\n-- 00:23:38 - Sustainability Manager Role Center\n-- 00:23:50 - Sustainability Scorecards & Goals\n-- 00:25:59 - Carbon Credits\n-- 00:28:03 - Internal Carbon Fees\n-- 00:29:56 - Sustainability Certificates\n-- 00:30:58 - Analyse with finance reports\n00:32:24 - What's new?\n-- 00:32:54 - Default sustainability values for accounts, items, etc.\n-- 00:35:22 - Water & waste management\n-- 00:36:17 - What are the GHG's and Emission Scopes?\n-- 00:37:51 - Capture sustainability data with General Journals\n-- 00:38:42 - Capture Scope 3 emissions data across value chain\n-- 00:42:16 - New \"Out of Scope\" emission category\n00:43:21 - What's next for BC Sustainability?\n-- 00:43:49 - Suggest emission in journals with Copilot\n-- 00:45:05 - Improve analysis with new Power BI Sustainability app\n-- 00:46:35 - Use ESG Reporting integration with Business Central\n-- 00:48:07 - Enable taxonomy elements for ESRS and other standards\n-- 00:48:56 - Generate a CSRD preparation report\n00:49:48 - Useful links for more information\n00:51:09 - Q & A",
     "published_at": "2025-05-27T07:58:55Z",
@@ -306,7 +275,7 @@
   },
   {
     "title": "External - Co nowego w Business Central Wave 1 2025 (Business Central Polish Community)",
-    "views": 292,
+    "views": 293,
     "url": "https://youtube.com/watch?v=I-EBFKEQndE",
     "description": "Nagranie z webinaru poświęconego nowościom w Dynamics 365 Business Central Wave 1 2025. W pierwszej części pokazane zostały nowości dla konsultantów. W drugiej dla programistów. Miłego oglądania.\n\nPrezenterzy: Marcin Karpacz, Krzysztof Białowąs\n\n00:00:01 - Wstęp\n00:01:11 - Agenda\n00:01:56 - Marcin Karpacz​\n00:02:46 - Krzysztof Białowąs\n00:03:35 - Wiadomości z Directions NA 2025\n00:12:50 - Co nowego dla konsultantów\n01:05:12 - Co nowego dla programistów\n\n(On request of  Krzysztof Białowąs we are sharing this recording from Business Central Polish Community with pleasure. It's a webinar in Polish about what is new in Business Central Wave 1 2025.)",
     "published_at": "2025-05-10T17:08:43Z",
@@ -320,7 +289,7 @@
   },
   {
     "title": "Scrum, Stoicism, and Systems Thinking Finding Order in Complexity",
-    "views": 305,
+    "views": 309,
     "url": "https://youtube.com/watch?v=hqY9up-In_M",
     "description": "20250428 - Scrum, Stoicism, and Systems Thinking: Finding Order in Complexity\n\nHow do we navigate complexity and find clarity in challenging projects? This session dives into the synergy between Scrum, Stoicism, and Systems Thinking to uncover a framework for overcoming obstacles and driving success in Business Central implementations. Explore how Stoic virtues like wisdom and discipline align with Scrum principles such as adaptability and focus. Learn how Systems Thinking helps manage interconnected processes and dependencies in ERP systems. By blending philosophy, agile practices, and technical expertise, this session offers actionable insights to bring order to even the most complex projects.\n\nPresenter: Ivan Milanov\nModerator: Bert Verbeek\n\n00:03:24 - Introduction Ivan\n00:04:48 - Table of Content\n00:07:37 - About me\n00:10:14 - Why This session at Areopa Webinar?\n00:12:41 - How to focus on what really matters?\n00:15:18 - From Chaos to Clarity\n00:16:32 - The 3S\n00:17:36 - Scum\n       00:19:07 - Agile vs. Scum\n       00:24:16 - Empiricism and learn thinking\n       00:25:24 - Scrum Process\n00:29:34 - Stoicism\n00:34:32 - Systems Thinking\n00:38:08 - The perfect Mix\n00:39:24 - Scrum board\n00:43:10 - Code Review\n00:45:55 - Estimations\n00:48:43 - Retrospective prime directive\n00:50:22 - Memento Mori .. for Sprints\n00:52:32 - Memento Mori .. for Backlogs\n00:54:07 - 80:20 Principle\n00:55:03 - Giving And Receiving Feedback\n00:56:11 - Fix the Root Cause, Not Just the Symptom\n00:57:16 - AI will change the tools - Not the Humans\n00:58:28 - Key takeaways\n00:59:50 - Materials and Inspirations\n01:01:40 - Q & A\n\nIf you have questions for Ivan then you can contact him via\nemail: astramementosol@gmail.com\nLinkeIn: https://www.linkedin.com/in/ivanmilanov/",
     "published_at": "2025-04-29T06:00:35Z",
@@ -333,7 +302,7 @@
   },
   {
     "title": "Test Automation for connected systems",
-    "views": 206,
+    "views": 207,
     "url": "https://youtube.com/watch?v=aN4mriGWXI4",
     "description": "Over the last couple of years Business Central got more and more dependencies to other systems. \nWhen talking about automated tests it is necessary to get predictable results, but how to ensure your results when you cannot control the foreign system.\n\nSpeaker: Patrick Schiefer\nModerator: Gert Hector\nEditing: Mats Thell\n\nGit repository\nhttps://github.com/PatrickSchiefer/DirectionsEMEA2024-Testautomation\n\n\nWant to see next presentation live? subscribe on our newsletter\nhttp://eepurl.com/gHOJWf\n\n\n00:03:04 - Introduction Patrick\n00:03:48 - Challenges & Goals\n00:06:00 - Different types of connections\n00:06:44 - Test strategies\n00:07:19 - System Testing\n00:08:45 - End-2-End testing\n00:09:59 - Unittest\n00:10:51 - Code architecture\n- 00:11:03 - Outgoing API call\n- 00:11:14 - AL code example \n- 00:13:58 - Summary first test\n00:15:24 - Restructure code for testability\n- 00:15:54 - DEMO - mock\n- 00:21:38 - Order example\n- 00:25:21 - Additional information BC26\n- 00:26:34 - Summary\n00:27:33 - Inbound API\n- 00:28:23 - Demo\n- 00:29:27 - Summary\n- 00:29:40 - Restructure code for testability\n- 00:30:41 - Demo\n00:37:07 - Conclusions\n00:38:13 - Q&A",
     "published_at": "2025-04-15T15:06:29Z",
@@ -359,7 +328,7 @@
   },
   {
     "title": "Don't Be a Messy AL Developer",
-    "views": 788,
+    "views": 791,
     "url": "https://youtube.com/watch?v=HSH0qxvfADc",
     "description": "Join this webinar to learn what mistakes to avoid when developing in AL code for Microsoft Dynamics 365 Business Central. I’ll share simple tips, common mistakes to avoid from production database that I have seen over last few years, and tricks to make your work faster and more organised. Perfect for both beginners and experienced developers looking to improve their skills.\n\nPresenter: Krzysztof Bialowas\nModerator: David Singleton\n\n00:03:19 - Don't Be A Messy AL Developer\n00:03:46 - Introduction Krzysztof\n00:04:49 - Intro to Part A and Part B\n00:05:38 - What does it mean to be a messy developer\n- 00:06:09 - Would you say you've worked with (pr maybe been) a messy developer before?\n- 00:06:41 - The reasons we develop messy code  \n- 00:06:55 - The Time/Quality/Cost triangle\n- 00:10:27 - Never judge the developer by the code\n- 00:11:23 - What happens when you develop messy code \n- 00:13:47 - Tools to mitigate messy development +10 sec\n- 00:15:23 - Code Review \n- 00:19:39 - Using custom rule set\n- 00:21:22 - Prepare the rule set as a team\n- 00:23:24 - Code refinement\n- 00:26:12 - Don't implement all the rules at once\n- 00:28:28 - Warning! there is messy code out there\n- 00:29:23 - Warning! Don't do this\n00:29:46 - Tips\n- 00:30:03 - Start right with the correct app.json\n- 00:32:06 - Always use English for development\n- 00:35:12 - It is simple to do it the right way with text labels\n- 00:36:36 - Never hardcode\n- 00:39:27 - Hot fixes and service fixes don't use this as an excuse for messy code\n- 00:42:02 - Break the monolith into procedures\n- 00:43:26 - There are tools to help break down procedures\n- 00:45:16 - Clean up afterwards. Done leave unnecessary code\n- 00:48:30 - Don't use object numbers always use object names database::\n- 00:50:00 - You don't have to reinvent the wheel. Reuse existing patterns\n- 00:52:56 - Waldo has tools to make it simple\n- 00:55:36 - Don't publish the code on App source till it is ready\n00:56:50 - General tips for development\n00:58:09 - No excuses, always test\n00:58:30 - VS Extensions someone else has already done the hard work for you\n01:00:24 - Don't copy code from the internet\n01:01:02 - Don't take shortcuts\n01:01:50 - Call to action",
     "published_at": "2025-03-04T07:58:28Z",
@@ -372,7 +341,7 @@
   },
   {
     "title": "How to be a Prompt Engineer",
-    "views": 600,
+    "views": 602,
     "url": "https://youtube.com/watch?v=q8xpDwjyNLY",
     "description": "Do you want to know what my first experience with generative AI was? Wildly inconsistent results. Half the time, the response wasn’t in JSON so I could parse it, and when it did work, it was slow. The problem? My prompts were bad. So, I started figuring out how to make them better.\n\nWhat structure works best? How to determine the best temperature level? Should I care about function calling? Will my prompts perform well with 100 users?\n\nThe more I figured out how to use generative AI, the more I realized I was becoming a “prompt engineer”. You know, the thing that’s supposed to replace all developers in the future. I’m not sure about that. But in the AI era, we need to know how to work with it.\n\nIf you’d like to skip all the trial-and-error steps, join this session to learn how to take your prompts from a simple request that returns wildly inconsistent results to a complex prompt that makes your new AI features more stable and reliable.\n\nPresenter: Tine Starič\nModerator : Bert Verbeek\n\n00:03:09 - Introduction\n00:06:31 - Introduction Tine\n00:07:57 - Agenda\n00:09:18 - Build prompts with structure and examples​\n00:16:08 - How do you build a good prompt (1)\n00:16:28 - Prompting techniques\n-- 00:16:41 - Few Shot learning\n-- 00:18:53 - Chain of Though\n-- 00:21:19 - Prompt Reinforcement/Anchoring\n00:23:08 - How do you build a good prompt (2)\n-- 00:23:50 - Instructions\n-- 00:24:30 - Steps\n-- 00:25:40 - Format Requirements\n-- 00:25:56 - Examples\n-- 00:26:08 - Notes\n00:26:25 - How do you build a good prompt (3)\n-- 00:26:46 - Shortcut to a good prompt\n00:30:05 - Use model capabilities to your advantage​\n-- 00:30:28 - JSON Mode\n-- 00:32:00 - Tool calling\n-- 00:39:13 - Prompt Guides\n00:40:35 - Testing Prompts\n-- 00:43:21 - Meta prompts\n00:45:36 - Testing prompts (2)\n-- 00:47:15 - AI Test Toolkit\n00:48:37 - How do you build a good prompt (4) - Recap\n00:49:27 - Thank you ... and a tip!\n00:50:00 - Q & A",
     "published_at": "2025-02-17T22:19:50Z",
@@ -399,7 +368,7 @@
   },
   {
     "title": "Grabbing BC artifacts in your pipelines via an Azure Function and how all of this works",
-    "views": 248,
+    "views": 252,
     "url": "https://youtube.com/watch?v=7i1h9XJZUF8",
     "description": "If you have worked with BC containers, you probably know that Microsoft provides the required artifacts through PowerShell cmdlets. But there is a more elegant way: Through the BC artifact URL proxy, a simple HTTP request is enough and to make it even easier for your pipeline runs, there is now also an Azure DevOps extension utilizing the proxy. In this session, the creators Arthur and Tobias will show you how all of that works, how you can incorporate it in your pipeline and how development (with a devcontainer / Github Codespace) and operations (with a containerized Azure Function) are set up.\n\nBC Artifact Proxy Repository\nhttps://github.com/tfenster/bcartifacturl-proxy/\n\nBC Artifact URL-Proxy  DevOps Extension\nhttps://marketplace.visualstudio.com/items?itemName=Arthurvdv.bcartifacturl-proxy\n\nPresenter: Arthur van der Vondervoort & Tobias Fenster\nModerator: Bert Verneek\nEditing: Mats Thell\nCoordinator: Luc van Vugt\n\n\n00:02:28 - Introduction Arthur and Tobias\n00:04:14 - Agenda\n00:04:34 - Why BCartifactUrl-Proxy\n00:08:01 - How is the BCartifactURL-Procy Built?\n00:08:59 - Demo: Quick view of the sources\n00:15:48 - How does development work\n00:16:29 - Demo: How does development work\n00:20:54 - How it runs on azure\n00:21:44 - Demo: Build and configuration in Azure\n00:25:01 - Azure Devops\n00:33:17 - Demo: Azure devops pipelines\n00:35:41 - Azure devops extensions\n00:37:59 - Demo: Quick view of the sources\n00:43:38 - Azure devops extensions - lessons learned\n00:45:27 - Q & A",
     "published_at": "2025-01-28T11:00:15Z",
@@ -413,7 +382,7 @@
   },
   {
     "title": "Business Central data in offline mode with Power Apps",
-    "views": 388,
+    "views": 391,
     "url": "https://youtube.com/watch?v=e3MLMJUFwiA",
     "description": "👋 Ever been caught without internet when you desperately needed your Business Central data? Trust me, I've been there, and it's not fun! 😅\n\nJoin us for this session where Bartosz Rudzinski spills the beans on developing offline-capable Power Apps for Business Central. He'll walk you through the nitty-gritty of implementing offline mode, navigating the quirks of BC Virtual Tables, and share some hard-earned wisdom from his own dev adventures.\n\n---\nPresenter: Bartosz Rudzinski\nModerator: Tine Starič\n---\n\n00:02:51 - Introduction Bartosz \n00:03:30 - Agenda \n00:04:06 - Why Offline mode? \n00:05:22 - Dedicate Offline Mode \n00:07:30 - Custom Offline Mode \n00:08:52 - Virtual Table Refresher \n00:10:42 - Development of offline mode \n-- 00:11:07 - Which data is needed offline \n-- 00:14:08 - How to check connectivity \n-- 00:15:19 - How to save data to the device \n-- 00:21:19 - Keep Track of changes made offline \n-- 00:24:12 - How to Synchronize \n-- 00:28:06 - Testing offline mode \n-- 00:30:26 - Things to remember\n00:31:47 - Demo - Fixed Asset Counting\n00:35:29 - Tips & Tricks\n00:37:30 - Q & A",
     "published_at": "2025-01-21T10:39:06Z",
@@ -453,7 +422,7 @@
   },
   {
     "title": "The Rest Client module in AL",
-    "views": 1146,
+    "views": 1150,
     "url": "https://youtube.com/watch?v=gv_NQAekX8Y",
     "description": "The Rest Client is a relatively new tool in the AL toolbox. Sitting there for about a year, it may not get the attention it deserves. Let's deep dive into the Swiss army knife that makes calling APIs a breeze! In this session, the author of this module will walk you through the details of the Rest Client. Even if you are already using the Rest Client, there may be some hidden features that you didn't know of but want to use as soon as you have learned about it. If you are working with APIs, then you should not miss this one!\n\nPresenter: Arend-Jan Kauffmann\nModerator: David Singleton\n\n00:02:12 - Introduction\n00:02:41 - Introduction Arend-Jan\n00:03:31 - Agenda - Rest Client topics\n00:04:01 - Why it was created\n00:05:59 - Inspired by...\n00:07:14 - What is the Rest Client Module\n00:09:32 - Objects of the Rest Client Module\n00:10:36 - How to use the Rest Client\n00:11:32 - Http Client Handler\n00:18:50 - Interface Http Authentication\n00:20:14 - Supported Authentication types\n00:21:50 - Rest client initialization\n00:24:59 - Using the Rest Client\n00:28:35 - The Http Content object\n00:30:20 - Create the Http Content object\n00:32:02 - Other Http Content methods\n00:33:18 - Reading Http Content\n00:34:13 - Basic command - Get\n00:35:29 - Basic command - Post\n00:36:40 - Http Request Message object\n00:37:51 - Http Response Message\n00:39:09 - Error handling\n00:43:40 - Get and Post as JSON\n00:44:59 - Difference between Get and GetAsJson\n00:47:40 - Known issues\n00:49:21 - Upcoming improvements\n00:54:07 - Q & A",
     "published_at": "2024-10-15T06:14:16Z",
@@ -492,8 +461,22 @@
     ]
   },
   {
+    "title": "On lightning-fast test automation, SOLIDized code and a revised test plan",
+    "views": 392,
+    "url": "https://youtube.com/watch?v=k4ResT3dSgU",
+    "description": "20240916 - On lightning-fast test automation, SOLIDized code and a revised test plan\n\nWelcome to our webinar \"On lightning-fast test automation, SOLIDized code and a revised test plan\" Join our friendly moderator, Henrik Helgesen, along with our knowledgeable presenters, Christoffer Andersen and Luc van Vugt, as they dive into the world of test automation. They’ll share practical tips on improving your code structure using SOLID principles and developing an efficient test plan. This session is packed with real-world examples and hands-on demonstrations to help you enhance your testing strategies.\n\n*Presenters:* Christoffer Andersen & Luc van Vugt\n*Moderator:* Henrik Helgesen\n\n*Key Moments:*\n 05:15 - Goals of the session\n 06:20 - What to test?\n 07:45 - Spaghetti code structure\n 11:03 - Effective data setup techniques\n 15:36 - Componentized code structure\n 22:10 - Pros and cons of componentized code\n 23:35 - SOLID code structure\n 29:45 - Pros and cons of SOLID\n 31:00 - Combining componentized and SOLID principles\n 33:36 - Pros and cons of componentized SOLID\n 34:27 - How to make a SOLID Test Plan\n 37:55 - Final thoughts and GitHub resources\n 40:23 - Q&A session\n\nEnjoy the session, and don't forget to like, comment, and subscribe for more insightful webinars!",
+    "published_at": "2024-09-18T10:06:00Z",
+    "speakers": [
+      "Christoffer Andersen",
+      "Luc van Vugt"
+    ],
+    "categories": [
+      "Test Automation"
+    ]
+  },
+  {
     "title": "Everything you need to know about selling Copilot to your customers today!",
-    "views": 419,
+    "views": 420,
     "url": "https://youtube.com/watch?v=0jMn7EuEkT8",
     "description": "On January 15, 2024, Microsoft finally announced the commercial availability and pricing for Copilot, Copilot Pro, and Copilot for M365. Do you know which SKU is right for your customers? What are the prerequisites? Will it work with their existing Office 365 licenses? How can you - or your customers - extend Copilot functionality? And what does this mean for other SKUs like Teams Premium that also offer AI functionality? If you're planning to sell Copilot to your customers and prospects, this is a must-attend session. Learn the details beyond the marketing talk, then sell with confidence!\n\nPresenter: AJ Ansari\nModerator: Gert Hector\n\n00:01:59 - AJ Introduction  \n00:04:14 - Selling Copilot to your customers / introduction \n00:06:05 - The opportunity for AI 190M\n00:06:59 - Prepare your customer for AI \n00:10:59 - Not one copilot. Many! \n00:11:53 - A Copilot for Every MS Cloud experience  \n00:13:46 - Copilot For vs Copilot IN \n00:15:12 - Copilot for MS 365\n00:18:32 - Copilot Chat\n00:20:40 - Copilot Teams - Recap\n00:21:30 - Outlook\n00:21:55 - Word/Excel \n00:22:31 - Partner opportunity - master the art of prompting \n00:22:53 - Powerpoint\n00:23:06 - One note \n00:23:12 - Talking security\n00:23:18 - Architecture\n00:24:39 - Copyright commitment\n00:25:49 - Data Access - security \n00:27:19 - Best practices\n00:28:15 - Assessing Readiness \n00:29:46 - Exceltool on MS site \n00:31:04 - Onboading wizard\n00:32:07 - Readiness & Adoption\n00:33:32 - Keys to adoption success\n00:34:30 - Craft a user eexperience strategy\n00:35:47 - Extend the Experience\n00:36:13 - Copilot Studio\n00:36:50 - Copilot studio license - 2 options\n00:41:24 - Plugin Types \n00:41:41 - Licensing\n00:41:51 - Pricing\n00:44:06 - Copilot License Types - for who ....\n00:45:47 - Recuirements & Recommendations\n00:46:40 - Q&A and RoundUp",
     "published_at": "2024-09-03T12:08:29Z",
@@ -519,7 +502,7 @@
   },
   {
     "title": "Techniques for optimizing Dynamics 365 Business Central",
-    "views": 588,
+    "views": 593,
     "url": "https://youtube.com/watch?v=Pmbuqg4JPl0",
     "description": "Writing fast and reliable code is a crucial skill for developers working with Dynamics 365 Business Central. However, spotting and resolving potential issues that could impact the quality and performance of the code can be challenging. Fortunately, Microsoft continually introduces various methods to address these issues. In this webinar, I will demonstrate how to utilize these techniques to fine-tune your solution and enhance its performance. Additionally, I will share best practices and tips for writing effective code for Business Central. By participating in this webinar, you will learn how to leverage these tools and techniques to optimize your code and enhance your coding skills.\r\n\r\nPresenter: Milan Milinčević\r\nModerator: Luc van Vugt\r\n\r\n00:03:35 - Introduction\r\n00:04:13 - Introduction Milan\r\n00:05:33 - Agenda\r\n00:06:13 - Built-in Data Types\r\n-- 00:09:08 - demo\r\n00:17:50 - Event recorder\r\n-- 00:19:40 - demo\r\n00:23:03 - Async in BC\r\n-- 00:28:11 - Limits\r\n-- 00:29:48 - demo Page Background task\r\n00:35:49 - Included fields\r\n-- 00:39:34 - demo\r\n00:42:41 - Partial records\r\n-- 00:46:58 - demo\r\n00:49:34 - Calc based methods\r\n00:51:32 - Tri-state locking\r\n00:58:29 - Q & A\r\n\r\nDemo samples on GitHub: https://github.com/mmilince/techniques-for-optimizing-bc",
     "published_at": "2024-06-25T07:16:08Z",
@@ -558,7 +541,7 @@
   },
   {
     "title": "Art of Docs Fast Building with MkDocs, GitHub & ChatGPT",
-    "views": 573,
+    "views": 574,
     "url": "https://youtube.com/watch?v=tMsO0aX91_Q",
     "description": "n the dynamic landscape of today's app market, effective and up-to-date documentation is crucial for app success and user empowerment. Join Dmitry Katson in this informative session as he unveils the process of creating a comprehensive documentation portal for the CentralQ Chat app in just 48 hours. Discover practical strategies and tools to elevate your documentation game:\r\n\r\n- Efficient Documentation Creation: Learn to utilize MkDocs Material for crafting engaging and clear documentation in Markdown, making complex information accessible.\r\n- Content Structuring with YAML: Gain insights on organizing your documentation effectively with YAML to improve user navigation and accessibility.\r\n- GitHub Integration: Explore how to integrate your documentation seamlessly with app code using GitHub Pages, enhancing collaboration and version control.\r\n- Utilizing ChatGPT: Boost your productivity by leveraging ChatGPT for quick and efficient Markdown documentation creation.\r\n\r\nThis webinar is designed specifically for Business Central app developers and technical writers aiming to enhance their app’s documentation and user experience. Enhance your app's visibility on AppSource by mastering exceptional documentation techniques.\r\n\r\nPresenter: Dmitry Katson\r\nModerator: David Singleton\r\n\r\n00:02:21 - Introduction\r\n00:03:40 - Why do we need great documentation\r\n-- 00:05:26 - Documentation for humans and AI\r\n00:07:59 - Exploring docs portal built with MKDocs\r\n00:12:03 - Adding documentation about new app feature\r\n00:16:50 - MkDocs Material prerequisites\r\n00:18:12 - Install Python\r\n00:20:10 - Create new GitHub repo\r\n00:22:08 - Install MkDocs\r\n00:24:57 - Use ChatGPT to create markdown documentation\r\n00:26:35 - Run MkDocs website locally\r\n00:27:16 - Configure your new docs website\r\n00:38:10 - Explore MkDocs documentation portal\r\n00:39:09 - Structuring your docs website\r\n00:41:29 - Configuring CI/CD to publish to GitHub\r\n00:45:28 - Custom domain docs website\r\n00:48:52 - Q & A",
     "published_at": "2024-05-08T13:26:43Z",
@@ -584,7 +567,7 @@
   },
   {
     "title": "Automating Code Quality - A Guide to Using Custom Code Analysis for AL",
-    "views": 480,
+    "views": 482,
     "url": "https://youtube.com/watch?v=U0W1MhNNwWI",
     "description": "Are you tired of spending hours reviewing pull requests, checking for coding conventions and identifying run-time errors? Do you want to improve the maintainability and transparency of your codebase? Look no further! This session is here to introduce you to the power of custom code analysis. We will cover the different tools and techniques available, how they can be integrated into the development workflow, and how they can automate tedious manual checks, improve code quality, and streamline pull request reviews. Attendees will learn how to customize these tools to match their specific conventions and improve their code quality and efficiency. Join me to learn how to take your Dynamics Business Central development to the next level.\r\n\r\nPresenter: Tine Starič\r\nModerator: Luc van Vugt\r\n\r\n00:04:42 - Session introduction\r\n00:06:27 - Introduction Tine\r\n00:07:15 - Agenda\r\n00:08:30 - What is Code Analysis and why is it important?\r\n00:10:37 - Existing solutions\r\n00:15:41 - Creating custom linters in AL\r\n-- 00:19:37 - Demo in Visual Studio\r\n00:37:10 - Integrating with development workflows\r\n00:38:38 - Linting use cases\r\n-- 00:38:58 - Run-time errors\r\n-- 00:44:13 - Maintainability improvements\r\n-- 00:45:46 - Extensibility improvements\r\n-- 00:46:55 - Readability improvements\r\n-- 00:47:48 - Coding conventions\r\n-- 00:48:11 - Nice-to-haves\r\n00:49:16 - Conclusion\r\n00:50:20 - Q & A",
     "published_at": "2024-03-18T17:18:09Z",
@@ -597,7 +580,7 @@
   },
   {
     "title": "Navision to Business Central – The Journey",
-    "views": 364,
+    "views": 365,
     "url": "https://youtube.com/watch?v=RHQYSUWpbuY",
     "description": "The journey from Navision to Business Central began when PC&C added Client/Server, an IDE and a distribution model to PC Plus, which then evolved to become IBM Navigator. We constantly see all the hype about the evolution of the product but what about the business model. \r\n\r\nSo what does it really mean to move from Navision to Business Central. Moving from hourly budgeted projects to subscription based services?\r\n\r\nPresenter: David Singleton\r\nModerator: Luc van Vugt\r\n\r\n00:06:05 - From NAV to BC\r\n00:08:00 - The Brave New World - Agenda\r\n00:09:45 - Where the journey started - Azure Summit Dubai 2014\r\n00:10:51 - NAV partners moving to the Business Central model\r\n-- 00:17:22 - Attendees Questionaire\r\n00:31:51 - Dynamics NAV practice vs. Business Central practice\r\n-- 00:31:57 - NAV\r\n-- 00:32:52 - BC\r\n00:33:59 - Revenue and Cost models are the lock - Monolithic vs. Recurring\r\n00:40:35 - Repeatability is key\r\n00:41:09 - Can we have both (NAV and BC) models?\r\n00:42:50 - Recurring revenue\r\n00:46:02 - NAV vs. Business Central - Does the technology matter?\r\n00:46:36 - Do I switch? How do I switch? When do I switch?\r\n00:48:07 - Dynamics NAV vs. Business Central - The numbers\r\n00:53:34 - Are we there yet?\r\n00:54:19 - Q & A",
     "published_at": "2024-02-19T17:39:33Z",
@@ -649,7 +632,7 @@
   },
   {
     "title": "How to export large data from Business Central to MS Fabric",
-    "views": 3961,
+    "views": 3974,
     "url": "https://youtube.com/watch?v=sXZkrFtN5oc",
     "description": "In this webinar we are doing a deepdive in Microsoft Fabric (what is it and how can you use it).\r\nBut also how you can export data from Business Central to a lakehouse inside Fabric.\r\n\r\nPresenter: Bert Verbeek\r\nModerator: Luc van Vugt\r\n\r\n00:05:54 - Introduction Bert\r\n00:06:28 - Agenda\r\n00:07:33 - The Problem\r\n00:09:14 - What is MS Fabric\r\n00:14:23 - What is bc2adls\r\n00:17:29 - Export to MS Fabric | demo\r\n00:27:38 - Some considerations\r\n00:30:31 - Data movement inside MS Fabric\r\n00:41:13 - Trigger notebook\r\n00:44:32 - Real life case\r\n00:49:54 - Call to action\r\n00:51:38 - Q & A",
     "published_at": "2024-01-09T09:52:46Z",
@@ -662,7 +645,7 @@
   },
   {
     "title": "\"The\" BC Toolkit for developers",
-    "views": 929,
+    "views": 930,
     "url": "https://youtube.com/watch?v=WDd8heDU8es",
     "description": "Are you a developer crafting solutions for Business Central? Dive into the must-have toolkit for BC developers in our session. Beyond VSCode, explore tools to boost productivity, streamline development, and ensure top-notch solutions. Join us to elevate your Business Central game and unlock your full development potential.\r\n\r\nPresenter: waldo\r\nModerator: Luc van Vugt\r\n\r\n00:04:21 - Introduction\r\n00:06:36 - Agenda\r\n00:06:48 - Coding Tools\r\n-- 00:07:38 - msdyn36cbc.code.history\r\n-- 00:12:31 - StaticalPrism\r\n-- 00:16:30 - VSCode\r\n---- 00:16:44 - AL Extension Pack\r\n---- 00:17:45 - Tips & Tricks Resources\r\n---- 00:18:42 - GitHub Copilot\r\n---- 00:20:10 - Demo\r\n-- 00:26:20 - CentralQ.ai\r\n-- 00:29:45 - alguidelines.dev\r\n-- 00:32:39 - Docker - BcContainerHelper\r\n-- 00:35:37 - DevToys\r\n00:38:29 - Performance Tools\r\n-- 00:38:46 - waldo.BCPerfTool\r\n-- 00:43:39 - AL Performance Profiler\r\n00:45:37 - Telemetry\r\n-- 00:45:50 - D365 BC Usage App\r\n-- 00:46:07 - AppInsights &KQL\r\n-- 00:49:17 - BCPT tests in DevOps pipeline\r\n00:55:12 - Translation Tools\r\n-- 00:55:55 - AL Studio Translator\r\n00:58:37 - CI/CD\r\n-- 00:58:58 - AL-Go for GitHub\r\n-- 00:59:25 - Cosmo Alpaca\r\n-- 00:59:45 - ALOps\r\n\r\nLinks shared by waldo:\r\n* Rock ‘n Roll with VSCode - https://www.youtube.com/watch?v=ngEkLrmQZzA\r\n* Being more efficient with VS Code - https://www.youtube.com/watch?v=q7pr6l60B34\r\n* Business Central Development Life Hacks - https://www.youtube.com/watch?v=4QXboO_iw08\r\n* RegEx - basic and advanced scenarios - https://www.youtube.com/watch?v=8qEHfD-QkXk\r\n* https://www.centralq.ai\r\n* https://alguidelines.dev\r\n* https://devtoys.app\r\n* waldo.BCPerfTool (Areopa webinar) - https://www.youtube.com/watch?v=_V0hepCRrkA\r\n* https://al.studio",
     "published_at": "2023-12-05T19:29:24Z",
@@ -752,19 +735,6 @@
     ]
   },
   {
-    "title": "How building a swimming pool taught me so many tips for implementing Dynamics 365",
-    "views": 136,
-    "url": "https://youtube.com/watch?v=TDIrb8Wh7Qo",
-    "description": "I have more than 20 years of experience working in ERP space in different roles. Over the time, my main tasks were: managing projects, designing solutions and collaborating with wider teams.\r\n\r\nPersonally, I decided to build a swimming pool and outsourced the end-to-end project.\r\n\r\nDuring this journey, I was able to experience first-hand the customer side and all the time I found similarities with my customers during an ERP implementation.\r\n\r\nJoin this session to learn some tips to turn your next implementations smoother.\r\n \r\nSpoiler Alert: I was able to dive during last summer's heatwave!\r\n\r\nPresenter: José Miguel Azevedo\r\nModerator: Luc van Vugt\r\n\r\n00:06:17 - Agenda\r\n00:07:36 - Break the Ice challenge\r\n00:09:38 - Introduction José\r\n00:13:52 - Why this topic?\r\n00:16:43 - Real life situations, lessons learned & Tips for your projects\r\n00:41:13 - My lessons learned\r\n00:47:39 - Q & A",
-    "published_at": "2023-08-21T16:35:05Z",
-    "speakers": [
-      "José Miguel Azevedo"
-    ],
-    "categories": [
-      "Functional"
-    ]
-  },
-  {
     "title": "Real Life Experience With Test Automation - testing install code",
     "views": 269,
     "url": "https://youtube.com/watch?v=3KHGyklxXIY",
@@ -832,6 +802,19 @@
     ]
   },
   {
+    "title": "System App in Examples",
+    "views": 447,
+    "url": "https://youtube.com/watch?v=zfzvqBf6oCs",
+    "description": "System App is a hidden gem of Business Central. It contains many valuable features that each developer should know before starting a new development— the Azure Blob Storage integration, SharePoint Integration, Barcodes, Guided Setup, and many many more. Join me in exploring the toolbox that we have in practical examples.\r\n\r\nPresenter: Krzysztof Bialowas\r\nModerator: Luc van Vugt\r\n\r\n00:04:04 - Agenda\r\n00:03:36 - Krzysztof's introduction\r\n00:04:55 - BC Structure\r\n00:07:03 - What can we find in System App?\r\n00:07:32 - Modules in SystemApp\r\n           https://github.com/microsoft/ALAppExtensions/tree/main/Modules/System\r\n-- 00:09:12 - A First, Simple Example: Confirm Management\r\n00:13:11 - Examples\r\n-- 00:13:32 - Azure Storage\r\n-- 00:18:56 - Sharepoint\r\n-- 00:24:31 - Camera and Media Interaction\r\n-- 00:28:26 - Geolocation\r\n-- 00:29:58 - Barcode\r\n-- 00:34:33 - Azure Function\r\n-- 00:37:30 - RegEx\r\n-- 00:39:40 - Retention Policy\r\n-- 00:41:32 - Math\r\n00:44:19 - What else can you find in the repository\r\n           https://github.com/microsoft/ALAppExtensions\r\n00:48:03 - Be active and don't wait\r\n00:49:22 - What can you do to make it better\r\n00:55:11 - Let's fix something\r\n00:58:37 - Q & A",
+    "published_at": "2023-04-03T16:27:31Z",
+    "speakers": [
+      "Krzysztof Bialowas"
+    ],
+    "categories": [
+      "Integration"
+    ]
+  },
+  {
     "title": "RegEx - basic and advanced scenarios",
     "views": 358,
     "url": "https://youtube.com/watch?v=8qEHfD-QkXk",
@@ -872,7 +855,7 @@
   },
   {
     "title": "Containerized CI/CD agents for Azure DevOps and GitHub",
-    "views": 477,
+    "views": 478,
     "url": "https://youtube.com/watch?v=0INOdEhXd38",
     "description": "CI/CD has gained importance in the Business Central ecosystem and in a lot of cases, containers are used for building your extensions. At the same time, the agents or runners where all the automation is happening, are often still regular VMs\r\n\r\nIn this session we will show you how you can containerize the agents as well and even start them on the fly. We will cover both Azure DevOps and GitHub and top it off with real-life demos of open source projects on GitHub and the usage of COSMO Alpaca for Azure DevOps pipelines.\r\n\r\nPresenter: Markus Lippert / Tobias Fenster\r\nModerator: Luc van Vugt\r\n\r\n00:03:28 - Tobias and Markus's introduction\r\n00:03:39 - Agenda\r\n00:05:30 - What are build agents/runners?\r\n00:09:35 - Why self-hosted agents/runners?\r\n00:12:04 - Why containerized?\r\n00:15:53 - Two variations: on-demand vs. pre-created\r\n00:19:17 - Implementation\r\n-- 00:19:17 - Azure DevOps build agent container\r\n-- 00:25:12 - Azure DevOps on-demand agents\r\n-- 00:27:36 - Real Life Example: Cosmo Alpaca\r\n-- 00:33:40 - Github runner container\r\n-- 00:40:00 - Github pre-created runners\r\n-- 00:42:28 - Real Life Example: Github predefined runners for Traefik image\r\n00:48:10 - Wrapup\r\n00:50:51 - Q & A\r\n\r\nThe links from our last slide:\r\nhttps://github.com/cosmoconsult/azdevops-build-agent-imagehttps://github.com/cosmoconsult/github-runner-windowshttps://learn.microsoft.com/en-us/samples/azure/azure-quickstart-templates/docker-portainer-traefik-windows-vm/https://raw.githubusercontent.com/tfenster/templates/master/templates-2.0.json",
     "published_at": "2023-02-06T19:47:01Z",
@@ -885,21 +868,8 @@
     ]
   },
   {
-    "title": "The less familiar performance tooling",
-    "views": 427,
-    "url": "https://youtube.com/watch?v=_V0hepCRrkA",
-    "description": "During BCTechDays, I showed a lot of the demos by using a tool that I created myself, which I called the “waldo.BCPerftool”.  It’s a tool that should make it easier to develop tests to investigate performance, by providing an extensible framework for you to use and explore the different statistics and comparison tools it provides.  \r\nI would like to explain more about this tool, and a few others where it interfaces with.\r\n\r\nPresenter: waldo\r\nModerator: Luc van Vugt\r\n\r\n00:03:15 - waldo's introduction\r\n00:04:11 - Familiar performance tools\r\n00:05:35 - Somewhat less familiar performance tools\r\n00:05:59 - Less familiar performance tools\r\n00:06:59 - waldo.BCPerTool\r\n-- 00:15:00 - Demo - waldo.BCPerTool\r\n-- 00:28:47 - Demo - Flame Graph\r\n-- 00:30:26 - Demo - Pyroscope\r\n00:32:47 - \"How I did do that?\"\r\n-- 00:40:30 - Flame Graph\r\n-- 00:42:26 - Pyroscope\r\n00:51:44 - Flame Graph credits: Torben Leth\r\n00:53:12 - waldo.BCPerTool on Github\r\n00:54:02 - Q & A",
-    "published_at": "2023-01-11T13:14:17Z",
-    "speakers": [
-      "waldo"
-    ],
-    "categories": [
-      "Test Automation"
-    ]
-  },
-  {
     "title": "Why are dataflows so interesting for Power BI and Business Central",
-    "views": 716,
+    "views": 718,
     "url": "https://youtube.com/watch?v=N3g49PMuJCc",
     "description": "As data volume continues to grow, so does the challenge of wrangling that data into well-formed, actionable information. Once you’ve created a dataflow, you can use Power BI Desktop and the Power BI service to create datasets, reports, dashboards, and apps to drive deep insights into your business activities.\r\nIn this session I will demo how you can create reusable dataflows and consume them in Power BI, based using the Business Central dataflow connector. On top of that dataflows can also be used to create the amazing new Excel report layouts.\r\nInterested to see how that works, then join me in this session!\r\nGet yourself upgraded to write testable code by using interfaces.\r\n\r\nModerator: Luc van Vugt\r\nPresenter: Steven Renders\r\n\r\n00:02:50 - Steven's introduction\r\n00:03:52 - Agenda\r\n00:05:40 - Preparing the queries (VS Code API Queries/Pages)\r\n-- 00:10:36 - Demo 1\r\n-- 00:13:26 - Snowflake schema\r\n-- 00:15:05 - Demo 2\r\n00:17:16 - Creating a dataset in Dataflows\r\n-- 00:21:25 - Demo - creating Dataflows\r\n-- 00:32:53 - Demo - sharing Dataflows\r\n-- 00:34:42 - More information\r\n00:35:23 - Consuming a Dataflow in Power BI\r\n-- 00:36:22 - Demo\r\n00:40:09 - Consuming a Dataflow in Excel\r\n-- 00:41:02 - Demo\r\n00:47:32 - Why Dataflows?\r\n00:54:34 - Summary\r\n00:55:10 - Q & A",
     "published_at": "2022-12-20T10:16:53Z",
@@ -976,19 +946,6 @@
     ]
   },
   {
-    "title": "A day in the life of an iFacto Developer",
-    "views": 778,
-    "url": "https://youtube.com/watch?v=8fAQIOhMXO4",
-    "description": "In this session, waldo will address the development cycle that is applied in his company.  From issue tracking, to DevOps, to support tools, both in-house developed tools as just tools from the community or market.  Basically, all things developers need to do custom development, product development and support.\n\nPresenter: waldo\nModerator: Luc van Vugt\n\n00:04:20 - waldo's introduction\n00:06:32 - Vision\n00:08:15 - Design guidelines\n-- 00:09:08 - Generic method pattern\n-- 00:10:52 - Subscriber codeunits\n-- 00:13:59 - ATDD\n-- 00:15:13 - General coding guidelines\n-- 00:16:28 - Cloud first\n-- 00:17:05 - App-architecture\n-- 00:17:36 - Generic method pattern (2)\n-- 00:20:48 - Cloud first (2)\n-- 00:25:40 - Demo design guidelines\n00:30:58 - Hadock\n-- 00:32:21 - Demo\n00:37:13 - DevOps\n00:40:29 - Code review\n-- 00:42:32 - Examples\n00:46:05 - CI\n-- 00:46:05 - Product\n-- 00:49:23 - Customer\n00:51:52 - CD\n00:55:04 - Translations\n00:57:00 - Q & A\n00:59:26 - Unit testing\n01:12:00 - Q & A (2)",
-    "published_at": "2022-06-07T19:50:39Z",
-    "speakers": [
-      "waldo"
-    ],
-    "categories": [
-      "Career & Soft Skills"
-    ]
-  },
-  {
     "title": "Give the User a chance – Just because it works, doesn’t mean it works",
     "views": 191,
     "url": "https://youtube.com/watch?v=NvKltLmv_Zs",
@@ -1016,7 +973,7 @@
   },
   {
     "title": "Sync your Business Central data with Azure Data Lake",
-    "views": 7015,
+    "views": 7024,
     "url": "https://youtube.com/watch?v=Fjz9LgviV2Q",
     "description": "Managing your data inside the Business Central database is very important. You need your database to keep small to improve the performance. But also, you want to analyze your data within PowerBI.\nIn this session you learn how to extract your data that is inside Business Central to an Azure Data Lake using the bc2adls tool. And how you can maintain your data in there.\nNext to that, we will show you some tips and tricks using the tool and extend it together with the newly added Data Archive Tool.\n\nPresenter: Bert Verbeek\nModerator: Jan Hoek\n\n00:03:49 - Agenda\n00:04:13 - Bert's introduction\n00:04:51 - Azure Data Lake\n-- 00:04:51 - Why sync?\n-- 00:07:05 - Azure Data Lake\n-- 00:08:41 - Azure Synapse\n00:09:37 - Scenario\n00:11:59 - Business Central sync demo\n-- 00:21:54 - Setting a time limit on stored data\n00:25:00 - Intermediate Q&A\n00:27:54 - Data Archive\n-- 00:28:57 - Sync from Business Central example\n00:31:54 - Combining the two worlds together (ADL and BC)\n00:42:29 - Helpful info\n00:44:33 - Q & A",
     "published_at": "2022-05-10T07:29:32Z",
@@ -1042,7 +999,7 @@
   },
   {
     "title": "Working with files in Dynamics 365 Business Central SaaS",
-    "views": 6695,
+    "views": 6696,
     "url": "https://youtube.com/watch?v=4X-tSjL0XaA",
     "description": "In an ERP project, working with files is one of the most common scenarios and one of the integration methods that unfortunately we have to face. \r\nUnfortunately, working with files in the cloud environment is very different from the on-premise world. How to effectively manage the integration scenarios with the local file system and with files in general from the cloud environment? What technologies can we use?\r\nIn this webinar we will address the issue and we’ll see a series of typical scenarios and how to solve them effectively using Dynamics 365 Business Central and beyond.  \r\nThe webcast targets not only Dynamics 365 Business Central developers but also cloud solution architects. \r\n\r\nPresenter: Stefano Demiliani\r\nModerator: Luc van Vugt\r\n\r\n00:03:19 - Stefano's introduction\r\n00:04:00 - Agenda\r\n00:04:40 - Basics of File Management with AL\r\n-- 00:04:40 - On-premise vs. SaaS\r\n-- 00:07:14 - File System Interaction\r\n-- 00:10:13 - File Usage on SaaS\r\n-- 00:11:30 - Demo File Management with AL\r\n-- 00:29:03 - Storing Lare Files has a Cost\r\n00:30:43 - OneDrive Integration\r\n00:34:29 - Using Azure Storage\r\n-- 00:34:29 - Azure Blob Storage\r\n---- 00:36:33 - Copy Files to File System\r\n-- 00:38:04 - Azure File Share\r\n---- 00:41:48 - BC and Azure File Share\r\n---- 00:42:28 - Mapping to Local Drive\r\n00:43:38 - Demo OneDrive & Blob Storage\r\n00:51:57 - Interacting with FTP from SaaS\r\n-- 00:55:47 - Sending Files to SFTP\r\n-- 00:57:23 - Monitoring Your Clod Storage\r\n00:58:12 - Q & A",
     "published_at": "2022-03-29T19:29:56Z",
@@ -1094,7 +1051,7 @@
   },
   {
     "title": "OAuth authentication with Business Central APIs",
-    "views": 5133,
+    "views": 5134,
     "url": "https://youtube.com/watch?v=yeKRuw9MtSQ",
     "description": "Starting with the 2022 release wave 1 Basic authentication isn't supported with Business Central APIs. So you better get prepared for OAuth. But it is so complicated... so many options... it's a baffling mystery... This session will demystify OAuth and get you started. Get acquainted with the different components and configuration options that are important for Business Central. Let's have fun with OAuth!\r\n \r\nPresenter: Arend-Jan Kauffmann\r\nModerator: Luc van Vugt\r\n\r\n\r\n00:02:52 - AJ's introduction\r\n00:03:57 - Why do we need this session?\r\n00:05:28 - What it looks like in HTTP request\r\n00:07:57 - Access token\r\n00:10:00 - How to get the access token?\r\n00:12:00 - 4 roles\r\n00:15:23 - Registering the app in Azure Portal\r\n00:16:05 - Configuration options\r\n-- 00:17:04 - Single tentant or multitenant\r\n-- 00:22:27 - Public or confidential app\r\n-- 00:28:37 - Redirect URI\r\n-- 00:30:16 - Scopes and permissions\r\n-- 00:33:20 - Secret\r\n00:33:52 - Demo\r\n00:56:11 - Options to acquire access token\r\n01:02:17 - Q&A",
     "published_at": "2021-12-21T20:11:29Z",
@@ -1119,21 +1076,21 @@
     ]
   },
   {
-    "title": "Automated testing of your Business Central API",
-    "views": 2316,
-    "url": "https://youtube.com/watch?v=xKnYtdiAG0A",
-    "description": "In the 2nd edition of his book “Automated Testing in Microsoft Dynamics 365 Business Central”, Luc van Vugt pays attention to the testing of Business Central APIs. Even before the book is out, he will share a few things about this topic with you in this session. It will mainly be a technical session, but as so often in Luc's sessions about test automation, there is also a functional touch.\r\n\r\nPresenter: Luc van Vugt\r\nModerator: David Singleton\r\n\r\n\r\n00:04:07 - Luc's introduction\r\n00:07:48 - problem statement\r\n00:09:48 - generic test flow\r\n00:13:53 - API test flow - technical challenges\r\n-- 00:15:00 - challenge 1 - controlling the test flow\r\n-- 00:23:03 - challenge 2 - authenticating the client\r\n-- 00:28:31 - challenge 3 - setting up the client interaction\r\n00:34:48 - API test example\r\n00:52:14 - Q&A",
-    "published_at": "2021-11-23T18:31:56Z",
+    "title": "VS Code: Not *AL* Extensions",
+    "views": 399,
+    "url": "https://youtube.com/watch?v=MNdsxzipP90",
+    "description": "There are so many great Extensions for Visual Studio Code that have been covered, but there are some useful utilities for just general development use. This will be a walkthrough of some great Quality of Life Extensions you may not have used, installed, or even heard of.”\r\n \r\nPresenter: Jeremy Vyska\r\nModerator: Luc van Vugt\r\n\r\n\r\n00:04:51 - Jeremy's introduction\r\n00:12:23 - VS Code Icons\r\n00:13:16 - Create GUID\r\n00:13:59 - Bracket Pair Colorizer\r\n00:15:12 - Todo Tree\r\n00:16:39 - Banner Comments\r\n00:18:18 - Pola Code\r\n00:20:27 - ExcelViewer\r\n00:22:05 - Draw IO\r\n00:24:24 - Mark Down All in One\r\n00:28:07 - REST Client\r\n00:31:10 - GitLens & GitHistory\r\n00:36:02 - GitGraph\r\n00:37:58 - GitHuh Repositories\r\n00:41:16 - Code Time\r\n00:44:27 - CodeTour\r\n00:48:55 - Q&A",
+    "published_at": "2021-12-07T18:14:25Z",
     "speakers": [
-      "Luc van Vugt"
+      "Jeremy Vyska"
     ],
     "categories": [
-      "Test Automation"
+      "VSCode"
     ]
   },
   {
     "title": "VS Code AL Extensions - 4",
-    "views": 1312,
+    "views": 1315,
     "url": "https://youtube.com/watch?v=28JghaJHNJ4",
     "description": "The concluding session of our webinar series VS Code AL Extensions.\r\nIn this webinar you will get to learn the guys behind XLIFF Sync, NAB AL Tools extension, and AL XML Documentation, Rob van Bekkum, Johannes Wikman and Christoph Krieg.\r\nYou will learn why they build their extension and give you an overview on what their extension entails. Be invited to join these community heroes.\r\n\r\nPresenter: Rob van Bekkum, Johannes Wikman & Christoph Krieg\r\nModerator: Luc van Vugt\r\n\r\n\r\n00:05:51 - XLIFF Sync\r\n00:23:12 - NAB AL Tools extension\r\n00:44:32 - AL XML Documentation",
     "published_at": "2021-06-22T16:41:03Z",
@@ -1155,6 +1112,35 @@
     "speakers": [
       "James Pearson",
       "Marton Sagi"
+    ],
+    "categories": [
+      "AL Extensions"
+    ]
+  },
+  {
+    "title": "VS Code AL Extensions - 3",
+    "views": 468,
+    "url": "https://youtube.com/watch?v=om_LzWF-uyc",
+    "description": "Session 3 of our webinar series VS Code AL Extensions.\r\nIn this webinar you will get to learn the guys behind AL test Runner, AL Studio and ATDD.TestScriptor, James Pearson, Marton Sagi and Luc van Vugt.\r\nYou will learn why they build their extension and give you an overview on what their extension entails. Be invited to join these community heroes.\r\n\r\nPresenter: James Pearson, Marton Sagi & Luc van Vugt\r\nModerator: Luc van Vugt\r\n\r\n00:06:25 - AL Test Runner\r\n00:18:24 - AL Studio\r\n00:39:14 - ATDD.TestScriptor\r\n00:55:10 - Closing",
+    "published_at": "2021-06-15T16:42:53Z",
+    "speakers": [
+      "James Pearson",
+      "Marton Sagi"
+    ],
+    "categories": [
+      "AL Extensions"
+    ]
+  },
+  {
+    "title": "VS Code AL Extensions - 2",
+    "views": 561,
+    "url": "https://youtube.com/watch?v=GJa9hh-MejE",
+    "description": "The next session of our webinar series VS Code AL Extensions.\r\nIn this webinar you will get to learn the guys behind AL Toolbox, CRS AL Language Extension and AL Variable Helper, Bart Permentier, Waldo and Rasmus Aaen.\r\nYou will learn why they build their extension and give you an overview on what their extension entails. Be invited to join these community heroes.\r\n\r\nPresenters: Bart Permentier, Waldo & Rasmus Aaen\r\nModerator: Luc van Vugt\r\n\r\n00:04:55 - AL Toolbox\r\n00:23:24 - CRS AL Language Extension\r\n00:48:14 - AL Variable Helper",
+    "published_at": "2021-06-01T16:49:38Z",
+    "speakers": [
+      "Bart Permentier",
+      "Waldo",
+      "Rasmus Aaen"
     ],
     "categories": [
       "AL Extensions"
@@ -1243,6 +1229,19 @@
     ]
   },
   {
+    "title": "Virtual Entities – Enable Low Coding Apps To Interact With Business Central",
+    "views": 832,
+    "url": "https://youtube.com/watch?v=Ufnvk0HaiPM",
+    "description": "With the release of Virtual Entities we can bring the Power of Low Coding to the Business Central environments. I would like to explain the opportunity of the low coding world for Business Central Users / Consultants by showing a small example.\r\n\r\nPresenter: Gabor Faludi\r\nModerator: Luc van Vugt\r\n\r\n00:02:37 - Introduction\r\n00:04:27 - Agenda\r\n00:05:25 - Why bother?\r\n00:08:00 - Typical scenarios\r\n00:10:32 - BC virutal tables for DataVerse\r\n00:11:43 - Setup\r\n++ 00:14:07 - Demo\r\n00:15:37 - You have to have VSCode in any pith - Let's add a custom API\r\n++ 00:15:45 - Demo\r\n00:25:25 - Complaint Managment\r\n++ 00:26:48 - Demo \r\n++ 00:48:57 - Integrate with Sharepoint\r\n++ 00:53:44 - Integrate with approval (Flows)\r\n00:56:44 - Let's add a little more to this - Power Portalsare",
+    "published_at": "2021-02-23T18:01:57Z",
+    "speakers": [
+      "Gabor Faludi"
+    ],
+    "categories": [
+      "Dataverse"
+    ]
+  },
+  {
     "title": "Power BI and Business Central Deep Dive, Tips and Tricks",
     "views": 626,
     "url": "https://youtube.com/watch?v=eVVSUa5l4kE",
@@ -1284,7 +1283,7 @@
   },
   {
     "title": "Create a Custom BC Connector for Power Automate",
-    "views": 2398,
+    "views": 2401,
     "url": "https://youtube.com/watch?v=6VUNCVKCwM4",
     "description": "See how to create a custom connector to use BC data in a PowerApp and Power Automate. Each step will be shown and explained with a dedicated solution being created for a defined scenario.\r\n\r\nIn this webinar Joshua will continue where he left us after his previous webinar (https://www.youtube.com/watch?v=kXRYKHZdpj4&t=1079s)\r\n\r\nPresenter: Josh Anglesea\r\nModerator: Luc van Vugt\r\n\r\n00:04:25 - Introduction\r\n00:05:35 - BC connector\r\n00:06:27 - Power App example Contacts\r\n00:07:46 - Custom connectors\r\n00:07:54 - BC API Page\r\n00:09:51 - New custom connector\r\n00:11:52 - New action 'GetContacts'\r\n00:16:43 - New action 'PatchContacts'\r\n00:22:50 - Test custom connector\r\n00:27:22 - Utilize connector",
     "published_at": "2020-12-15T17:26:10Z",
@@ -1416,7 +1415,20 @@
   },
   {
     "title": "Interfaces in AL",
-    "views": 854,
+    "views": 855,
+    "url": "https://youtube.com/watch?v=h9sE_u0r5Eo",
+    "description": "With Business Central 2020 release wave 1 we get a new language feature in AL: Interfaces. In this webinar you will get a bit of background why that is a very important addition to the toolset of Business Central developers and architects and see a practical demo of how to use interfaces\r\n\r\nPresenter: Tobias Fenster\r\nModerator: Luc van Vugt",
+    "published_at": "2020-05-26T16:58:50Z",
+    "speakers": [
+      "Tobias Fenster"
+    ],
+    "categories": [
+      "Architecture"
+    ]
+  },
+  {
+    "title": "Interfaces in AL",
+    "views": 855,
     "url": "https://youtube.com/watch?v=h9sE_u0r5Eo",
     "description": "With Business Central 2020 release wave 1 we get a new language feature in AL: Interfaces. In this webinar you will get a bit of background why that is a very important addition to the toolset of Business Central developers and architects and see a practical demo of how to use interfaces\r\n\r\nPresenter: Tobias Fenster\r\nModerator: Luc van Vugt",
     "published_at": "2020-05-26T16:58:50Z",
@@ -1468,6 +1480,19 @@
     ]
   },
   {
+    "title": "Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft",
+    "views": 188,
+    "url": "https://youtube.com/watch?v=aZbxderFq6s",
+    "description": "Join Jon to learn how Microsoft has changed the way we think of upgrades, and learn what to expect in the journey to get on the latest version of Business Central\n• Understand best practices in upgrading customizations \n• Get points on formulating a strategy for staying current\n\nPresenters: Jon Long, ArcherPoint\nModerator: Luc van Vugt",
+    "published_at": "2020-04-15T06:57:36Z",
+    "speakers": [
+      "Jon Long"
+    ],
+    "categories": [
+      "Migration"
+    ]
+  },
+  {
     "title": "Our road to SaaS @ Schouw Informatisering",
     "views": 178,
     "url": "https://youtube.com/watch?v=OIuOmGcZoy4",
@@ -1475,20 +1500,6 @@
     "published_at": "2020-03-31T18:51:22Z",
     "speakers": [
       "Danny Hellemons"
-    ],
-    "categories": [
-      "Migration"
-    ]
-  },
-  {
-    "title": "Our road to SaaS @ Clever Dynamics",
-    "views": 197,
-    "url": "https://youtube.com/watch?v=x5KXZslAjdw",
-    "description": "In this session Clever Dynamics Ltd. Managing Director and Product Manager James Crowter and James Pearson will take us back on their road to Business Central. How moving to SaaS changed their whole way of running their business and will share their learnings with us.\r\n\r\nPresenters: James Crowter & James Pearson\r\nModerator: David Singleton",
-    "published_at": "2020-03-11T09:08:56Z",
-    "speakers": [
-      "James Crowter",
-      "James Pearson"
     ],
     "categories": [
       "Migration"
@@ -1522,6 +1533,19 @@
     ]
   },
   {
+    "title": "Upgrade to BC - How do you do that",
+    "views": 685,
+    "url": "https://youtube.com/watch?v=CwacefCj3rc",
+    "description": "How do you get a NAV installation upgraded to Business Central? There are quite a few colors and flavors that you have to take into account. What if you only have C/AL code? What if you stay on prem? Or do you want to go to the cloud? And yes, there was always lack of clear tooling from MS. So what about actually? With these, and more, questions, Luc van Vugt went to investigate himself. During these sessions he presents his findings and is also looking forward to involvement from the audience.\r\n\r\nSpeaker & Moderator: Luc van Vugt\r\n\r\nPS: apology for the not optimal sound quality",
+    "published_at": "2020-01-29T10:04:06Z",
+    "speakers": [
+      "Luc van Vugt"
+    ],
+    "categories": [
+      "Migration"
+    ]
+  },
+  {
     "title": "Dynamically scaling BC containers on Docker Swarm using Azure SQL",
     "views": 394,
     "url": "https://youtube.com/watch?v=daALMP6KPCI",
@@ -1537,7 +1561,7 @@
   },
   {
     "title": "Working with APIs",
-    "views": 3121,
+    "views": 3122,
     "url": "https://youtube.com/watch?v=-BLNMTf7r5k",
     "description": "Business Central comes with a lot of API's out of the box. Do you know how to use them? And what about creating your own API's? During this session we will explore the possibilities and show how to take control over API's. And of course we will dig deeper and look at features of API's that are not so well-known. Be prepared for a fully packed session with a lot of information!\r\n\r\nSpeaker: Arend-Jan Kauffmann / aj@kauffmann.nl\r\nModerator: James Pearson",
     "published_at": "2019-11-27T18:59:54Z",
@@ -1623,21 +1647,6 @@
     "categories": [
       "Functional",
       "Test Automation"
-    ]
-  },
-  {
-    "title": "How I learned NAV in a few months",
-    "views": 597,
-    "url": "https://youtube.com/watch?v=g2XuFq9nTPo",
-    "description": "The changes in the Dynamics 365 NAV/BC technology and distribution channel made Global Mediator (GM) rethink how to bring new developers into the channel. In this webinar, they will share their experience.\r\nGM COO Nicolai Krarup will start by describing why the company decided to invest in new talent. Followed by GM Delivery Director Evgeny Buriak, who will describe the process developed to get talent up to speed. Finally GM developer Yuriy Popov will share his personal experience, having been through this whole process, supported by practical examples.\r\nPresenters: Nicolai Krarup, Evgeny Buriak, Yuriy Popov\r\nModerator: Luc van Vugt",
-    "published_at": "2019-07-07T15:32:01Z",
-    "speakers": [
-      "Nicolai Krarup",
-      "Evgeny Buriak",
-      "Yuriy Popov"
-    ],
-    "categories": [
-      "Career & Soft Skills"
     ]
   }
 ]
