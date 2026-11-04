@@ -1,42 +1,6 @@
 {
   "speakers": [
     {
-      "name": "Tobias Fenster",
-      "appearances": 6,
-      "videos": [
-        {
-          "title": "Calculating Azure Cost by Using Pricing API, a Command Line Tool and Excel",
-          "url": "https://youtube.com/watch?v=_2vyg8PhxVY",
-          "views": 4352
-        },
-        {
-          "title": "Calculating Azure Cost by Using Pricing API, a Command Line Tool and Excel",
-          "url": "https://youtube.com/watch?v=_2vyg8PhxVY",
-          "views": 4352
-        },
-        {
-          "title": "Automating and extending Azure DevOps",
-          "url": "https://youtube.com/watch?v=B5MGP2coXQI",
-          "views": 2845
-        },
-        {
-          "title": "Interfaces in AL",
-          "url": "https://youtube.com/watch?v=h9sE_u0r5Eo",
-          "views": 861
-        },
-        {
-          "title": "Dynamically scaling BC containers on Docker Swarm using Azure SQL",
-          "url": "https://youtube.com/watch?v=daALMP6KPCI",
-          "views": 394
-        },
-        {
-          "title": "Running multiple NAV/BC containers on an Azure VM",
-          "url": "https://youtube.com/watch?v=rjZ9DXsi9_w",
-          "views": 667
-        }
-      ]
-    },
-    {
       "name": "Luc van Vugt",
       "appearances": 5,
       "videos": [
@@ -68,13 +32,44 @@
       ]
     },
     {
+      "name": "Tobias Fenster",
+      "appearances": 5,
+      "videos": [
+        {
+          "title": "Calculating Azure Cost by Using Pricing API, a Command Line Tool and Excel",
+          "url": "https://youtube.com/watch?v=_2vyg8PhxVY",
+          "views": 4353
+        },
+        {
+          "title": "Automating and extending Azure DevOps",
+          "url": "https://youtube.com/watch?v=B5MGP2coXQI",
+          "views": 2845
+        },
+        {
+          "title": "Interfaces in AL",
+          "url": "https://youtube.com/watch?v=h9sE_u0r5Eo",
+          "views": 861
+        },
+        {
+          "title": "Dynamically scaling BC containers on Docker Swarm using Azure SQL",
+          "url": "https://youtube.com/watch?v=daALMP6KPCI",
+          "views": 394
+        },
+        {
+          "title": "Running multiple NAV/BC containers on an Azure VM",
+          "url": "https://youtube.com/watch?v=rjZ9DXsi9_w",
+          "views": 667
+        }
+      ]
+    },
+    {
       "name": "Arend-Jan Kauffmann",
       "appearances": 4,
       "videos": [
         {
           "title": "OAuth authentication with Business Central APIs",
           "url": "https://youtube.com/watch?v=yeKRuw9MtSQ",
-          "views": 5141
+          "views": 5142
         },
         {
           "title": "Let’s talk about tools to test APIs!",
@@ -89,49 +84,7 @@
         {
           "title": "Working with APIs",
           "url": "https://youtube.com/watch?v=-BLNMTf7r5k",
-          "views": 3126
-        }
-      ]
-    },
-    {
-      "name": "waldo",
-      "appearances": 3,
-      "videos": [
-        {
-          "title": "Power Platform from the perspective of BC Development",
-          "url": "https://youtube.com/watch?v=SPslb8X4WKY",
-          "views": 360
-        },
-        {
-          "title": "Power Platform from the perspective of BC Development",
-          "url": "https://youtube.com/watch?v=SPslb8X4WKY",
-          "views": 360
-        },
-        {
-          "title": "What's new in Business Central 2020 Wave 1 YouTube",
-          "url": "https://youtube.com/watch?v=VDhgV67EG4U",
-          "views": 1450
-        }
-      ]
-    },
-    {
-      "name": "Tine Starič",
-      "appearances": 3,
-      "videos": [
-        {
-          "title": "Power Platform from the perspective of BC Development",
-          "url": "https://youtube.com/watch?v=SPslb8X4WKY",
-          "views": 360
-        },
-        {
-          "title": "Power Platform from the perspective of BC Development",
-          "url": "https://youtube.com/watch?v=SPslb8X4WKY",
-          "views": 360
-        },
-        {
-          "title": "How to be a Prompt Engineer",
-          "url": "https://youtube.com/watch?v=q8xpDwjyNLY",
-          "views": 603
+          "views": 3127
         }
       ]
     },
@@ -142,7 +95,7 @@
         {
           "title": "Art of Docs Fast Building with MkDocs, GitHub & ChatGPT",
           "url": "https://youtube.com/watch?v=tMsO0aX91_Q",
-          "views": 577
+          "views": 578
         },
         {
           "title": "Developing Generative AI for Extensions with the Copilot Tool",
@@ -157,55 +110,50 @@
       ]
     },
     {
-      "name": "Jon Long",
-      "appearances": 3,
-      "videos": [
-        {
-          "title": "Preparing your BC upgrade – A panel discussion",
-          "url": "https://youtube.com/watch?v=kzZclu7vqF4",
-          "views": 777
-        },
-        {
-          "title": "Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft",
-          "url": "https://youtube.com/watch?v=aZbxderFq6s",
-          "views": 188
-        },
-        {
-          "title": "Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft",
-          "url": "https://youtube.com/watch?v=aZbxderFq6s",
-          "views": 188
-        }
-      ]
-    },
-    {
-      "name": "Bert Verbeek",
-      "appearances": 2,
-      "videos": [
-        {
-          "title": "From Zero to Agent Building agents in Business Central",
-          "url": "https://youtube.com/watch?v=nbGw2g3KMXI",
-          "views": 355
-        },
-        {
-          "title": "From Zero to Agent Building agents in Business Central",
-          "url": "https://youtube.com/watch?v=nbGw2g3KMXI",
-          "views": 355
-        }
-      ]
-    },
-    {
       "name": "Niall McGovern",
       "appearances": 2,
       "videos": [
         {
           "title": "AI Enabled Delivery for Consultants",
           "url": "https://youtube.com/watch?v=IDYhxt-8ImI",
-          "views": 308
+          "views": 309
         },
         {
           "title": "Microsoft Copilot and AI: Finding a fit to business scenarios",
           "url": "https://youtube.com/watch?v=soLPYfN62dE",
-          "views": 362
+          "views": 363
+        }
+      ]
+    },
+    {
+      "name": "waldo",
+      "appearances": 2,
+      "videos": [
+        {
+          "title": "Power Platform from the perspective of BC Development",
+          "url": "https://youtube.com/watch?v=SPslb8X4WKY",
+          "views": 360
+        },
+        {
+          "title": "What's new in Business Central 2020 Wave 1 YouTube",
+          "url": "https://youtube.com/watch?v=VDhgV67EG4U",
+          "views": 1450
+        }
+      ]
+    },
+    {
+      "name": "Tine Starič",
+      "appearances": 2,
+      "videos": [
+        {
+          "title": "Power Platform from the perspective of BC Development",
+          "url": "https://youtube.com/watch?v=SPslb8X4WKY",
+          "views": 360
+        },
+        {
+          "title": "How to be a Prompt Engineer",
+          "url": "https://youtube.com/watch?v=q8xpDwjyNLY",
+          "views": 603
         }
       ]
     },
@@ -232,7 +180,7 @@
         {
           "title": "Test Automation for connected systems",
           "url": "https://youtube.com/watch?v=aN4mriGWXI4",
-          "views": 210
+          "views": 214
         },
         {
           "title": "Object-Oriented Approaches and Design Patterns in Microsoft AL",
@@ -253,7 +201,7 @@
         {
           "title": "Azure Functions for Dynamics 365 Business Central developers",
           "url": "https://youtube.com/watch?v=NoQqHOHj4wc",
-          "views": 3486
+          "views": 3487
         }
       ]
     },
@@ -290,18 +238,18 @@
       ]
     },
     {
-      "name": "Krzysztof Bialowas",
+      "name": "Jon Long",
       "appearances": 2,
       "videos": [
         {
-          "title": "Telemetry for Business Central - what are the benefits?",
-          "url": "https://youtube.com/watch?v=XMwMqEY5Ebs",
-          "views": 984
+          "title": "Preparing your BC upgrade – A panel discussion",
+          "url": "https://youtube.com/watch?v=kzZclu7vqF4",
+          "views": 777
         },
         {
-          "title": "Telemetry for Business Central - what are the benefits?",
-          "url": "https://youtube.com/watch?v=XMwMqEY5Ebs",
-          "views": 984
+          "title": "Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft",
+          "url": "https://youtube.com/watch?v=aZbxderFq6s",
+          "views": 188
         }
       ]
     },
@@ -312,7 +260,18 @@
         {
           "title": "Business Central MCP Server, standard and custom",
           "url": "https://youtube.com/watch?v=rm-FstU_I80",
-          "views": 387
+          "views": 395
+        }
+      ]
+    },
+    {
+      "name": "Bert Verbeek",
+      "appearances": 1,
+      "videos": [
+        {
+          "title": "From Zero to Agent Building agents in Business Central",
+          "url": "https://youtube.com/watch?v=nbGw2g3KMXI",
+          "views": 359
         }
       ]
     },
@@ -378,7 +337,7 @@
         {
           "title": "Telemetry with Azure Data Explorer",
           "url": "https://youtube.com/watch?v=y2j9OuBKC6k",
-          "views": 564
+          "views": 565
         }
       ]
     },
@@ -389,7 +348,7 @@
         {
           "title": "Top 10 ways to automate manual BC processes and wow your clients",
           "url": "https://youtube.com/watch?v=GiqsZxvQYjI",
-          "views": 257
+          "views": 258
         }
       ]
     },
@@ -455,7 +414,18 @@
         {
           "title": "Working with XML in AL",
           "url": "https://youtube.com/watch?v=3w018zjbUwQ",
-          "views": 5561
+          "views": 5567
+        }
+      ]
+    },
+    {
+      "name": "Krzysztof Bialowas",
+      "appearances": 1,
+      "videos": [
+        {
+          "title": "Telemetry for Business Central - what are the benefits?",
+          "url": "https://youtube.com/watch?v=XMwMqEY5Ebs",
+          "views": 984
         }
       ]
     },
@@ -576,7 +546,7 @@
         {
           "title": "Power BI and Business Central Deep Dive, Tips and Tricks",
           "url": "https://youtube.com/watch?v=eVVSUa5l4kE",
-          "views": 626
+          "views": 627
         }
       ]
     },
@@ -587,7 +557,7 @@
         {
           "title": "Power BI and Business Central Deep Dive, Tips and Tricks",
           "url": "https://youtube.com/watch?v=eVVSUa5l4kE",
-          "views": 626
+          "views": 627
         }
       ]
     },
@@ -598,7 +568,7 @@
         {
           "title": "How to sync master data in multiple companies using Power Automate",
           "url": "https://youtube.com/watch?v=kXRYKHZdpj4",
-          "views": 1133
+          "views": 1134
         }
       ]
     },

@@ -15,8 +15,7 @@ markmap:
 ### Agent Building
 #### 1. [Business Central MCP Server, standard and custom](https://youtube.com/watch?v=rm-FstU_I80)
 #### 2. [From Zero to Agent Building agents in Business Central](https://youtube.com/watch?v=nbGw2g3KMXI)
-#### 3. [From Zero to Agent Building agents in Business Central](https://youtube.com/watch?v=nbGw2g3KMXI)
-#### 4. [Developing Generative AI for Extensions with the Copilot Tool](https://youtube.com/watch?v=Xa8pjUqwfeo)
+#### 3. [Developing Generative AI for Extensions with the Copilot Tool](https://youtube.com/watch?v=Xa8pjUqwfeo)
 ### Business Use
 #### 1. [Business Central MCP Server, standard and custom](https://youtube.com/watch?v=rm-FstU_I80)
 #### 2. [AI Enabled Delivery for Consultants](https://youtube.com/watch?v=IDYhxt-8ImI)
@@ -29,7 +28,6 @@ markmap:
 ### Telemetry
 #### 1. [Telemetry with Azure Data Explorer](https://youtube.com/watch?v=y2j9OuBKC6k)
 #### 2. [Telemetry for Business Central - what are the benefits?](https://youtube.com/watch?v=XMwMqEY5Ebs)
-#### 3. [Telemetry for Business Central - what are the benefits?](https://youtube.com/watch?v=XMwMqEY5Ebs)
 ### Test Automation
 #### 1. [Test Automation for connected systems](https://youtube.com/watch?v=aN4mriGWXI4)
 #### 2. [On lightning-fast test automation, SOLIDized code and a revised test plan](https://youtube.com/watch?v=k4ResT3dSgU)
@@ -50,10 +48,9 @@ markmap:
 ### Azure
 #### 1. [Creating high performance low-code workflows for BC what's new in Azure Log](https://youtube.com/watch?v=5AXEw5G2wS4)
 #### 2. [Calculating Azure Cost by Using Pricing API, a Command Line Tool and Excel](https://youtube.com/watch?v=_2vyg8PhxVY)
-#### 3. [Calculating Azure Cost by Using Pricing API, a Command Line Tool and Excel](https://youtube.com/watch?v=_2vyg8PhxVY)
-#### 4. [Dynamically scaling BC containers on Docker Swarm using Azure SQL](https://youtube.com/watch?v=daALMP6KPCI)
-#### 5. [Azure Functions for Dynamics 365 Business Central developers](https://youtube.com/watch?v=NoQqHOHj4wc)
-#### 6. [Running multiple NAV/BC containers on an Azure VM](https://youtube.com/watch?v=rjZ9DXsi9_w)
+#### 3. [Dynamically scaling BC containers on Docker Swarm using Azure SQL](https://youtube.com/watch?v=daALMP6KPCI)
+#### 4. [Azure Functions for Dynamics 365 Business Central developers](https://youtube.com/watch?v=NoQqHOHj4wc)
+#### 5. [Running multiple NAV/BC containers on an Azure VM](https://youtube.com/watch?v=rjZ9DXsi9_w)
 ## Functional
 ### 1. [45 tips in 45 minutes](https://youtube.com/watch?v=1qgo6vGLuk4)
 ### Requirements
@@ -62,9 +59,8 @@ markmap:
 ### 1. [Power BI and Business Central Deep Dive, Tips and Tricks](https://youtube.com/watch?v=eVVSUa5l4kE)
 ## Power Platform
 ### 1. [Power Platform from the perspective of BC Development](https://youtube.com/watch?v=SPslb8X4WKY)
-### 2. [Power Platform from the perspective of BC Development](https://youtube.com/watch?v=SPslb8X4WKY)
-### 3. [Top 10 ways to automate manual BC processes and wow your clients](https://youtube.com/watch?v=GiqsZxvQYjI)
-### 4. [How to sync master data in multiple companies using Power Automate](https://youtube.com/watch?v=kXRYKHZdpj4)
+### 2. [Top 10 ways to automate manual BC processes and wow your clients](https://youtube.com/watch?v=GiqsZxvQYjI)
+### 3. [How to sync master data in multiple companies using Power Automate](https://youtube.com/watch?v=kXRYKHZdpj4)
 ## VSCode
 ### 1. [VS Code: Not *AL* Extensions](https://youtube.com/watch?v=MNdsxzipP90)
 ### AL Extensions
@@ -82,8 +78,7 @@ markmap:
 ## Migration
 ### 1. [Preparing your BC upgrade – A panel discussion](https://youtube.com/watch?v=kzZclu7vqF4)
 ### 2. [Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft](https://youtube.com/watch?v=aZbxderFq6s)
-### 3. [Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft](https://youtube.com/watch?v=aZbxderFq6s)
-### 4. [Upgrade to BC - How do you do that](https://youtube.com/watch?v=CwacefCj3rc)
+### 3. [Upgrade to BC - How do you do that](https://youtube.com/watch?v=CwacefCj3rc)
 ## Career & Soft Skills
 ### 1. [Learning AI the Way I Learned NAV](https://youtube.com/watch?v=jWJc_D67Vfw)
 ### 2. [Scrum, Stoicism, and Systems Thinking Finding Order in Complexity](https://youtube.com/watch?v=hqY9up-In_M)
