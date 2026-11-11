@@ -2,8 +2,13 @@
   "speakers": [
     {
       "name": "Luc van Vugt",
-      "appearances": 5,
+      "appearances": 7,
       "videos": [
+        {
+          "title": "On lightning-fast test automation, SOLIDized code and a revised test plan",
+          "url": "https://youtube.com/watch?v=k4ResT3dSgU",
+          "views": 392
+        },
         {
           "title": "On lightning-fast test automation, SOLIDized code and a revised test plan",
           "url": "https://youtube.com/watch?v=k4ResT3dSgU",
@@ -17,12 +22,17 @@
         {
           "title": "Why bother about test automation on customer projects? You can’t sell that!",
           "url": "https://youtube.com/watch?v=FYHGRg2Hyc8",
-          "views": 303
+          "views": 304
         },
         {
           "title": "Preparing your BC upgrade – A panel discussion",
           "url": "https://youtube.com/watch?v=kzZclu7vqF4",
           "views": 777
+        },
+        {
+          "title": "Upgrade to BC - How do you do that",
+          "url": "https://youtube.com/watch?v=CwacefCj3rc",
+          "views": 686
         },
         {
           "title": "Upgrade to BC - How do you do that",
@@ -48,17 +58,17 @@
         {
           "title": "Interfaces in AL",
           "url": "https://youtube.com/watch?v=h9sE_u0r5Eo",
-          "views": 861
+          "views": 863
+        },
+        {
+          "title": "Interfaces in AL",
+          "url": "https://youtube.com/watch?v=h9sE_u0r5Eo",
+          "views": 863
         },
         {
           "title": "Dynamically scaling BC containers on Docker Swarm using Azure SQL",
           "url": "https://youtube.com/watch?v=daALMP6KPCI",
-          "views": 394
-        },
-        {
-          "title": "Running multiple NAV/BC containers on an Azure VM",
-          "url": "https://youtube.com/watch?v=rjZ9DXsi9_w",
-          "views": 667
+          "views": 396
         }
       ]
     },
@@ -84,7 +94,28 @@
         {
           "title": "Working with APIs",
           "url": "https://youtube.com/watch?v=-BLNMTf7r5k",
-          "views": 3127
+          "views": 3128
+        }
+      ]
+    },
+    {
+      "name": "Jeremy Vyska",
+      "appearances": 3,
+      "videos": [
+        {
+          "title": "Markdown's Magical Mermaid",
+          "url": "https://youtube.com/watch?v=vJXsMHti1qU",
+          "views": 357
+        },
+        {
+          "title": "VS Code: Not *AL* Extensions",
+          "url": "https://youtube.com/watch?v=MNdsxzipP90",
+          "views": 399
+        },
+        {
+          "title": "VS Code: Not *AL* Extensions",
+          "url": "https://youtube.com/watch?v=MNdsxzipP90",
+          "views": 399
         }
       ]
     },
@@ -110,13 +141,34 @@
       ]
     },
     {
+      "name": "Jon Long",
+      "appearances": 3,
+      "videos": [
+        {
+          "title": "Preparing your BC upgrade – A panel discussion",
+          "url": "https://youtube.com/watch?v=kzZclu7vqF4",
+          "views": 777
+        },
+        {
+          "title": "Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft",
+          "url": "https://youtube.com/watch?v=aZbxderFq6s",
+          "views": 188
+        },
+        {
+          "title": "Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft",
+          "url": "https://youtube.com/watch?v=aZbxderFq6s",
+          "views": 188
+        }
+      ]
+    },
+    {
       "name": "Niall McGovern",
       "appearances": 2,
       "videos": [
         {
           "title": "AI Enabled Delivery for Consultants",
           "url": "https://youtube.com/watch?v=IDYhxt-8ImI",
-          "views": 309
+          "views": 311
         },
         {
           "title": "Microsoft Copilot and AI: Finding a fit to business scenarios",
@@ -158,29 +210,13 @@
       ]
     },
     {
-      "name": "Jeremy Vyska",
-      "appearances": 2,
-      "videos": [
-        {
-          "title": "Markdown's Magical Mermaid",
-          "url": "https://youtube.com/watch?v=vJXsMHti1qU",
-          "views": 357
-        },
-        {
-          "title": "VS Code: Not *AL* Extensions",
-          "url": "https://youtube.com/watch?v=MNdsxzipP90",
-          "views": 399
-        }
-      ]
-    },
-    {
       "name": "Patrick Schiefer",
       "appearances": 2,
       "videos": [
         {
           "title": "Test Automation for connected systems",
           "url": "https://youtube.com/watch?v=aN4mriGWXI4",
-          "views": 214
+          "views": 215
         },
         {
           "title": "Object-Oriented Approaches and Design Patterns in Microsoft AL",
@@ -190,18 +226,18 @@
       ]
     },
     {
-      "name": "Stefano Demiliani",
+      "name": "Christoffer Andersen",
       "appearances": 2,
       "videos": [
         {
-          "title": "Creating high performance low-code workflows for BC what's new in Azure Log",
-          "url": "https://youtube.com/watch?v=5AXEw5G2wS4",
-          "views": 307
+          "title": "On lightning-fast test automation, SOLIDized code and a revised test plan",
+          "url": "https://youtube.com/watch?v=k4ResT3dSgU",
+          "views": 392
         },
         {
-          "title": "Azure Functions for Dynamics 365 Business Central developers",
-          "url": "https://youtube.com/watch?v=NoQqHOHj4wc",
-          "views": 3487
+          "title": "On lightning-fast test automation, SOLIDized code and a revised test plan",
+          "url": "https://youtube.com/watch?v=k4ResT3dSgU",
+          "views": 392
         }
       ]
     },
@@ -238,18 +274,66 @@
       ]
     },
     {
-      "name": "Jon Long",
+      "name": "Bart Permentier",
       "appearances": 2,
       "videos": [
         {
-          "title": "Preparing your BC upgrade – A panel discussion",
-          "url": "https://youtube.com/watch?v=kzZclu7vqF4",
-          "views": 777
+          "title": "VS Code AL Extensions - 2",
+          "url": "https://youtube.com/watch?v=GJa9hh-MejE",
+          "views": 562
         },
         {
-          "title": "Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft",
-          "url": "https://youtube.com/watch?v=aZbxderFq6s",
-          "views": 188
+          "title": "VS Code AL Extensions - 2",
+          "url": "https://youtube.com/watch?v=GJa9hh-MejE",
+          "views": 562
+        }
+      ]
+    },
+    {
+      "name": "Waldo",
+      "appearances": 2,
+      "videos": [
+        {
+          "title": "VS Code AL Extensions - 2",
+          "url": "https://youtube.com/watch?v=GJa9hh-MejE",
+          "views": 562
+        },
+        {
+          "title": "VS Code AL Extensions - 2",
+          "url": "https://youtube.com/watch?v=GJa9hh-MejE",
+          "views": 562
+        }
+      ]
+    },
+    {
+      "name": "Rasmus Aaen",
+      "appearances": 2,
+      "videos": [
+        {
+          "title": "VS Code AL Extensions - 2",
+          "url": "https://youtube.com/watch?v=GJa9hh-MejE",
+          "views": 562
+        },
+        {
+          "title": "VS Code AL Extensions - 2",
+          "url": "https://youtube.com/watch?v=GJa9hh-MejE",
+          "views": 562
+        }
+      ]
+    },
+    {
+      "name": "Gabor Faludi",
+      "appearances": 2,
+      "videos": [
+        {
+          "title": "Virtual Entities – Enable Low Coding Apps To Interact With Business Central",
+          "url": "https://youtube.com/watch?v=Ufnvk0HaiPM",
+          "views": 832
+        },
+        {
+          "title": "Virtual Entities – Enable Low Coding Apps To Interact With Business Central",
+          "url": "https://youtube.com/watch?v=Ufnvk0HaiPM",
+          "views": 832
         }
       ]
     },
@@ -260,7 +344,7 @@
         {
           "title": "Business Central MCP Server, standard and custom",
           "url": "https://youtube.com/watch?v=rm-FstU_I80",
-          "views": 395
+          "views": 409
         }
       ]
     },
@@ -271,7 +355,7 @@
         {
           "title": "From Zero to Agent Building agents in Business Central",
           "url": "https://youtube.com/watch?v=nbGw2g3KMXI",
-          "views": 359
+          "views": 363
         }
       ]
     },
@@ -282,7 +366,7 @@
         {
           "title": "Learning AI the Way I Learned NAV",
           "url": "https://youtube.com/watch?v=jWJc_D67Vfw",
-          "views": 342
+          "views": 345
         }
       ]
     },
@@ -304,7 +388,7 @@
         {
           "title": "Scrum, Stoicism, and Systems Thinking Finding Order in Complexity",
           "url": "https://youtube.com/watch?v=hqY9up-In_M",
-          "views": 311
+          "views": 312
         }
       ]
     },
@@ -320,17 +404,6 @@
       ]
     },
     {
-      "name": "Christoffer Andersen",
-      "appearances": 1,
-      "videos": [
-        {
-          "title": "On lightning-fast test automation, SOLIDized code and a revised test plan",
-          "url": "https://youtube.com/watch?v=k4ResT3dSgU",
-          "views": 392
-        }
-      ]
-    },
-    {
       "name": "Duilio Tacconi",
       "appearances": 1,
       "videos": [
@@ -338,6 +411,17 @@
           "title": "Telemetry with Azure Data Explorer",
           "url": "https://youtube.com/watch?v=y2j9OuBKC6k",
           "views": 565
+        }
+      ]
+    },
+    {
+      "name": "Stefano Demiliani",
+      "appearances": 1,
+      "videos": [
+        {
+          "title": "Creating high performance low-code workflows for BC what's new in Azure Log",
+          "url": "https://youtube.com/watch?v=5AXEw5G2wS4",
+          "views": 307
         }
       ]
     },
@@ -353,35 +437,13 @@
       ]
     },
     {
-      "name": "Kamil Sacek",
-      "appearances": 1,
-      "videos": [
-        {
-          "title": "Application versions, dependencies and how to handle them",
-          "url": "https://youtube.com/watch?v=u-XCDwS4Vw0",
-          "views": 325
-        }
-      ]
-    },
-    {
       "name": "David Singleton",
       "appearances": 1,
       "videos": [
         {
           "title": "Why bother about test automation on customer projects? You can’t sell that!",
           "url": "https://youtube.com/watch?v=FYHGRg2Hyc8",
-          "views": 303
-        }
-      ]
-    },
-    {
-      "name": "Vjekoslav Babic",
-      "appearances": 1,
-      "videos": [
-        {
-          "title": "Efficient testing with test doubles",
-          "url": "https://youtube.com/watch?v=Y7Zu21lpW_c",
-          "views": 673
+          "views": 304
         }
       ]
     },
@@ -403,7 +465,7 @@
         {
           "title": "AL Go for GitHub",
           "url": "https://youtube.com/watch?v=uq7Uuj1eIeU",
-          "views": 1046
+          "views": 1047
         }
       ]
     },
@@ -452,61 +514,6 @@
       ]
     },
     {
-      "name": "James Pearson",
-      "appearances": 1,
-      "videos": [
-        {
-          "title": "VS Code AL Extensions - 3",
-          "url": "https://youtube.com/watch?v=om_LzWF-uyc",
-          "views": 468
-        }
-      ]
-    },
-    {
-      "name": "Marton Sagi",
-      "appearances": 1,
-      "videos": [
-        {
-          "title": "VS Code AL Extensions - 3",
-          "url": "https://youtube.com/watch?v=om_LzWF-uyc",
-          "views": 468
-        }
-      ]
-    },
-    {
-      "name": "Bart Permentier",
-      "appearances": 1,
-      "videos": [
-        {
-          "title": "VS Code AL Extensions - 2",
-          "url": "https://youtube.com/watch?v=GJa9hh-MejE",
-          "views": 562
-        }
-      ]
-    },
-    {
-      "name": "Waldo",
-      "appearances": 1,
-      "videos": [
-        {
-          "title": "VS Code AL Extensions - 2",
-          "url": "https://youtube.com/watch?v=GJa9hh-MejE",
-          "views": 562
-        }
-      ]
-    },
-    {
-      "name": "Rasmus Aaen",
-      "appearances": 1,
-      "videos": [
-        {
-          "title": "VS Code AL Extensions - 2",
-          "url": "https://youtube.com/watch?v=GJa9hh-MejE",
-          "views": 562
-        }
-      ]
-    },
-    {
       "name": "Waldemar Brakowski",
       "appearances": 1,
       "videos": [
@@ -525,17 +532,6 @@
           "title": "VS Code AL Extensions - 1",
           "url": "https://youtube.com/watch?v=f_ikghBRGMA",
           "views": 1213
-        }
-      ]
-    },
-    {
-      "name": "Gabor Faludi",
-      "appearances": 1,
-      "videos": [
-        {
-          "title": "Virtual Entities – Enable Low Coding Apps To Interact With Business Central",
-          "url": "https://youtube.com/watch?v=Ufnvk0HaiPM",
-          "views": 832
         }
       ]
     },
@@ -584,5 +580,5 @@
       ]
     }
   ],
-  "total_speakers": 43
+  "total_speakers": 39
 }
