@@ -15,7 +15,6 @@ markmap:
 #### 1. [Business Central MCP Server, standard and custom](https://youtube.com/watch?v=rm-FstU_I80)
 #### 2. [From Zero to Agent Building agents in Business Central](https://youtube.com/watch?v=nbGw2g3KMXI)
 #### 3. [Developing Generative AI for Extensions with the Copilot Tool](https://youtube.com/watch?v=Xa8pjUqwfeo)
-#### 4. [Developing Generative AI for Extensions with the Copilot Tool](https://youtube.com/watch?v=Xa8pjUqwfeo)
 ### Business Use
 #### 1. [Business Central MCP Server, standard and custom](https://youtube.com/watch?v=rm-FstU_I80)
 #### 2. [AI Enabled Delivery for Consultants](https://youtube.com/watch?v=IDYhxt-8ImI)
@@ -28,7 +27,6 @@ markmap:
 ### Telemetry
 #### 1. [Telemetry with Azure Data Explorer](https://youtube.com/watch?v=y2j9OuBKC6k)
 #### 2. [Telemetry for Business Central - what are the benefits?](https://youtube.com/watch?v=XMwMqEY5Ebs)
-#### 3. [Telemetry for Business Central - what are the benefits?](https://youtube.com/watch?v=XMwMqEY5Ebs)
 ### Test Automation
 #### 1. [Test Automation for connected systems](https://youtube.com/watch?v=aN4mriGWXI4)
 #### 2. [On lightning-fast test automation, SOLIDized code and a revised test plan](https://youtube.com/watch?v=k4ResT3dSgU)
@@ -36,7 +34,6 @@ markmap:
 #### 4. [Why bother about test automation on customer projects? You can’t sell that!](https://youtube.com/watch?v=FYHGRg2Hyc8)
 ### Architecture
 #### 1. [Interfaces in AL](https://youtube.com/watch?v=h9sE_u0r5Eo)
-#### 2. [Interfaces in AL](https://youtube.com/watch?v=h9sE_u0r5Eo)
 ## Integration
 ### 1. [Business Central MCP Server, standard and custom](https://youtube.com/watch?v=rm-FstU_I80)
 ### API
@@ -51,7 +48,6 @@ markmap:
 #### 3. [Dynamically scaling BC containers on Docker Swarm using Azure SQL](https://youtube.com/watch?v=daALMP6KPCI)
 ## Functional
 ### 1. [45 tips in 45 minutes](https://youtube.com/watch?v=1qgo6vGLuk4)
-### 2. [45 tips in 45 minutes](https://youtube.com/watch?v=1qgo6vGLuk4)
 ### Requirements
 ## BI
 ### 1. [Power BI and Business Central Deep Dive, Tips and Tricks](https://youtube.com/watch?v=eVVSUa5l4kE)
@@ -67,10 +63,9 @@ markmap:
 ## DevOps
 ### 1. [AL Go for GitHub](https://youtube.com/watch?v=uq7Uuj1eIeU)
 ### 2. [DevOps and Docker in real life](https://youtube.com/watch?v=lGIZBIbz_7Y)
-### 3. [DevOps and Docker in real life](https://youtube.com/watch?v=lGIZBIbz_7Y)
-### 4. [Automating and extending Azure DevOps](https://youtube.com/watch?v=B5MGP2coXQI)
-### 5. [Dynamically scaling BC containers on Docker Swarm using Azure SQL](https://youtube.com/watch?v=daALMP6KPCI)
-### 6. [What does it mean to 'build' an app for Business Central](https://youtube.com/watch?v=VwCfWjimn78)
+### 3. [Automating and extending Azure DevOps](https://youtube.com/watch?v=B5MGP2coXQI)
+### 4. [Dynamically scaling BC containers on Docker Swarm using Azure SQL](https://youtube.com/watch?v=daALMP6KPCI)
+### 5. [What does it mean to 'build' an app for Business Central](https://youtube.com/watch?v=VwCfWjimn78)
 ## Migration
 ### 1. [Preparing your BC upgrade – A panel discussion](https://youtube.com/watch?v=kzZclu7vqF4)
 ### 2. [Get Current/Stay Current - Aligning Your Dynamics Upgrade Strategy to Microsoft](https://youtube.com/watch?v=aZbxderFq6s)

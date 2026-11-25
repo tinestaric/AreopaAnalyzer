@@ -7,7 +7,7 @@
         {
           "title": "On lightning-fast test automation, SOLIDized code and a revised test plan",
           "url": "https://youtube.com/watch?v=k4ResT3dSgU",
-          "views": 393
+          "views": 395
         },
         {
           "title": "Automated Testing (with) Permissions",
@@ -32,8 +32,34 @@
       ]
     },
     {
+      "name": "Arend-Jan Kauffmann",
+      "appearances": 4,
+      "videos": [
+        {
+          "title": "OAuth authentication with Business Central APIs",
+          "url": "https://youtube.com/watch?v=yeKRuw9MtSQ",
+          "views": 5146
+        },
+        {
+          "title": "Let’s talk about tools to test APIs!",
+          "url": "https://youtube.com/watch?v=g6GxYnz5qsU",
+          "views": 493
+        },
+        {
+          "title": "What's new in Business Central 2020 Wave 1 YouTube",
+          "url": "https://youtube.com/watch?v=VDhgV67EG4U",
+          "views": 1450
+        },
+        {
+          "title": "Working with APIs",
+          "url": "https://youtube.com/watch?v=-BLNMTf7r5k",
+          "views": 3132
+        }
+      ]
+    },
+    {
       "name": "Tobias Fenster",
-      "appearances": 5,
+      "appearances": 4,
       "videos": [
         {
           "title": "Calculating Azure Cost by Using Pricing API, a Command Line Tool and Excel",
@@ -51,11 +77,6 @@
           "views": 864
         },
         {
-          "title": "Interfaces in AL",
-          "url": "https://youtube.com/watch?v=h9sE_u0r5Eo",
-          "views": 864
-        },
-        {
           "title": "Dynamically scaling BC containers on Docker Swarm using Azure SQL",
           "url": "https://youtube.com/watch?v=daALMP6KPCI",
           "views": 396
@@ -64,17 +85,12 @@
     },
     {
       "name": "Dmitry Katson",
-      "appearances": 4,
+      "appearances": 3,
       "videos": [
         {
           "title": "Art of Docs Fast Building with MkDocs, GitHub & ChatGPT",
           "url": "https://youtube.com/watch?v=tMsO0aX91_Q",
-          "views": 579
-        },
-        {
-          "title": "Developing Generative AI for Extensions with the Copilot Tool",
-          "url": "https://youtube.com/watch?v=Xa8pjUqwfeo",
-          "views": 1059
+          "views": 581
         },
         {
           "title": "Developing Generative AI for Extensions with the Copilot Tool",
@@ -89,60 +105,13 @@
       ]
     },
     {
-      "name": "Arend-Jan Kauffmann",
-      "appearances": 4,
-      "videos": [
-        {
-          "title": "OAuth authentication with Business Central APIs",
-          "url": "https://youtube.com/watch?v=yeKRuw9MtSQ",
-          "views": 5142
-        },
-        {
-          "title": "Let’s talk about tools to test APIs!",
-          "url": "https://youtube.com/watch?v=g6GxYnz5qsU",
-          "views": 493
-        },
-        {
-          "title": "What's new in Business Central 2020 Wave 1 YouTube",
-          "url": "https://youtube.com/watch?v=VDhgV67EG4U",
-          "views": 1450
-        },
-        {
-          "title": "Working with APIs",
-          "url": "https://youtube.com/watch?v=-BLNMTf7r5k",
-          "views": 3129
-        }
-      ]
-    },
-    {
-      "name": "Christoph Krieg",
-      "appearances": 3,
-      "videos": [
-        {
-          "title": "DevOps and Docker in real life",
-          "url": "https://youtube.com/watch?v=lGIZBIbz_7Y",
-          "views": 747
-        },
-        {
-          "title": "DevOps and Docker in real life",
-          "url": "https://youtube.com/watch?v=lGIZBIbz_7Y",
-          "views": 747
-        },
-        {
-          "title": "VS Code AL Extensions - 4",
-          "url": "https://youtube.com/watch?v=28JghaJHNJ4",
-          "views": 1319
-        }
-      ]
-    },
-    {
       "name": "Niall McGovern",
       "appearances": 2,
       "videos": [
         {
           "title": "AI Enabled Delivery for Consultants",
           "url": "https://youtube.com/watch?v=IDYhxt-8ImI",
-          "views": 311
+          "views": 314
         },
         {
           "title": "Microsoft Copilot and AI: Finding a fit to business scenarios",
@@ -190,7 +159,7 @@
         {
           "title": "Markdown's Magical Mermaid",
           "url": "https://youtube.com/watch?v=vJXsMHti1qU",
-          "views": 362
+          "views": 363
         },
         {
           "title": "VS Code: Not *AL* Extensions",
@@ -200,34 +169,18 @@
       ]
     },
     {
-      "name": "Søren Friis Alexandersen",
+      "name": "Christoph Krieg",
       "appearances": 2,
       "videos": [
         {
-          "title": "45 tips in 45 minutes",
-          "url": "https://youtube.com/watch?v=1qgo6vGLuk4",
-          "views": 1959
+          "title": "DevOps and Docker in real life",
+          "url": "https://youtube.com/watch?v=lGIZBIbz_7Y",
+          "views": 747
         },
         {
-          "title": "45 tips in 45 minutes",
-          "url": "https://youtube.com/watch?v=1qgo6vGLuk4",
-          "views": 1959
-        }
-      ]
-    },
-    {
-      "name": "Krzysztof Bialowas",
-      "appearances": 2,
-      "videos": [
-        {
-          "title": "Telemetry for Business Central - what are the benefits?",
-          "url": "https://youtube.com/watch?v=XMwMqEY5Ebs",
-          "views": 984
-        },
-        {
-          "title": "Telemetry for Business Central - what are the benefits?",
-          "url": "https://youtube.com/watch?v=XMwMqEY5Ebs",
-          "views": 984
+          "title": "VS Code AL Extensions - 4",
+          "url": "https://youtube.com/watch?v=28JghaJHNJ4",
+          "views": 1322
         }
       ]
     },
@@ -254,7 +207,7 @@
         {
           "title": "Business Central MCP Server, standard and custom",
           "url": "https://youtube.com/watch?v=rm-FstU_I80",
-          "views": 412
+          "views": 413
         }
       ]
     },
@@ -265,7 +218,7 @@
         {
           "title": "From Zero to Agent Building agents in Business Central",
           "url": "https://youtube.com/watch?v=nbGw2g3KMXI",
-          "views": 365
+          "views": 374
         }
       ]
     },
@@ -276,7 +229,7 @@
         {
           "title": "7 or so AI killer prompts to change your daily life as Functional Consultant",
           "url": "https://youtube.com/watch?v=rHFvEqg6DBk",
-          "views": 308
+          "views": 309
         }
       ]
     },
@@ -303,13 +256,24 @@
       ]
     },
     {
+      "name": "Søren Friis Alexandersen",
+      "appearances": 1,
+      "videos": [
+        {
+          "title": "45 tips in 45 minutes",
+          "url": "https://youtube.com/watch?v=1qgo6vGLuk4",
+          "views": 1960
+        }
+      ]
+    },
+    {
       "name": "Christoffer Andersen",
       "appearances": 1,
       "videos": [
         {
           "title": "On lightning-fast test automation, SOLIDized code and a revised test plan",
           "url": "https://youtube.com/watch?v=k4ResT3dSgU",
-          "views": 393
+          "views": 395
         }
       ]
     },
@@ -375,7 +339,7 @@
         {
           "title": "AL Go for GitHub",
           "url": "https://youtube.com/watch?v=uq7Uuj1eIeU",
-          "views": 1047
+          "views": 1048
         }
       ]
     },
@@ -391,13 +355,24 @@
       ]
     },
     {
+      "name": "Krzysztof Bialowas",
+      "appearances": 1,
+      "videos": [
+        {
+          "title": "Telemetry for Business Central - what are the benefits?",
+          "url": "https://youtube.com/watch?v=XMwMqEY5Ebs",
+          "views": 984
+        }
+      ]
+    },
+    {
       "name": "Rob van Bekkum",
       "appearances": 1,
       "videos": [
         {
           "title": "VS Code AL Extensions - 4",
           "url": "https://youtube.com/watch?v=28JghaJHNJ4",
-          "views": 1319
+          "views": 1322
         }
       ]
     },
@@ -408,7 +383,7 @@
         {
           "title": "VS Code AL Extensions - 4",
           "url": "https://youtube.com/watch?v=28JghaJHNJ4",
-          "views": 1319
+          "views": 1322
         }
       ]
     },
